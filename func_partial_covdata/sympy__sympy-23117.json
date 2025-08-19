@@ -1,0 +1,318 @@
+{
+    "NDimArray._parse_index": {
+        "func_name": "_parse_index",
+        "class": "NDimArray",
+        "executed_lines": [
+            147,
+            148,
+            150,
+            152,
+            155,
+            158,
+            160,
+            161,
+            162,
+            163,
+            164,
+            165,
+            167
+        ],
+        "missing_lines": [
+            149,
+            153,
+            156
+        ],
+        "all_lines": [
+            147,
+            148,
+            149,
+            150,
+            152,
+            153,
+            155,
+            156,
+            158,
+            160,
+            161,
+            162,
+            163,
+            164,
+            165,
+            167
+        ]
+    },
+    "NDimArray._check_symbolic_index": {
+        "func_name": "_check_symbolic_index",
+        "class": "NDimArray",
+        "executed_lines": [
+            179,
+            180,
+            186
+        ],
+        "missing_lines": [
+            181,
+            182,
+            183,
+            184,
+            185
+        ],
+        "all_lines": [
+            179,
+            180,
+            181,
+            182,
+            183,
+            184,
+            185,
+            186
+        ]
+    },
+    "NDimArray._setter_iterable_check": {
+        "func_name": "_setter_iterable_check",
+        "class": "NDimArray",
+        "executed_lines": [
+            189,
+            190
+        ],
+        "missing_lines": [
+            191
+        ],
+        "all_lines": [
+            189,
+            190,
+            191
+        ]
+    },
+    "NDimArray._scan_iterable_shape.f": {
+        "func_name": "f",
+        "class": "NDimArray",
+        "executed_lines": [
+            196,
+            197,
+            199,
+            200,
+            202,
+            203,
+            204,
+            206,
+            207,
+            208
+        ],
+        "missing_lines": [
+            205
+        ],
+        "all_lines": [
+            196,
+            197,
+            199,
+            200,
+            202,
+            203,
+            204,
+            205,
+            206,
+            207,
+            208
+        ]
+    },
+    "NDimArray._handle_ndarray_creation_inputs": {
+        "func_name": "_handle_ndarray_creation_inputs",
+        "class": "NDimArray",
+        "executed_lines": [
+            214,
+            215,
+            217,
+            218,
+            222,
+            226,
+            230,
+            231,
+            241,
+            251,
+            254,
+            257
+        ],
+        "missing_lines": [
+            219,
+            220,
+            223,
+            227,
+            234,
+            235,
+            238,
+            239,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            252,
+            255
+        ],
+        "all_lines": [
+            214,
+            215,
+            217,
+            218,
+            219,
+            220,
+            222,
+            223,
+            226,
+            227,
+            230,
+            231,
+            234,
+            235,
+            238,
+            239,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            251,
+            252,
+            254,
+            255,
+            257
+        ]
+    },
+    "NDimArray.applyfunc": {
+        "func_name": "applyfunc",
+        "class": "NDimArray",
+        "executed_lines": [
+            344,
+            345,
+            347,
+            350
+        ],
+        "missing_lines": [
+            348
+        ],
+        "all_lines": [
+            344,
+            345,
+            347,
+            348,
+            350
+        ]
+    },
+    "NDimArray.__sub__": {
+        "func_name": "__sub__",
+        "class": "NDimArray",
+        "executed_lines": [
+            405,
+            407,
+            408
+        ],
+        "missing_lines": [
+            410,
+            411,
+            412,
+            414
+        ],
+        "all_lines": [
+            405,
+            407,
+            408,
+            410,
+            411,
+            412,
+            414
+        ]
+    },
+    "NDimArray.__iter__.iterator": {
+        "func_name": "iterator",
+        "class": "NDimArray",
+        "executed_lines": [
+            480,
+            481,
+            482
+        ],
+        "missing_lines": [
+            484
+        ],
+        "all_lines": [
+            480,
+            481,
+            482,
+            484
+        ]
+    },
+    "NDimArray.__eq__": {
+        "func_name": "__eq__",
+        "class": "NDimArray",
+        "executed_lines": [
+            509,
+            510,
+            513,
+            516,
+            519
+        ],
+        "missing_lines": [
+            511,
+            514,
+            517
+        ],
+        "all_lines": [
+            509,
+            510,
+            511,
+            513,
+            514,
+            516,
+            517,
+            519
+        ]
+    },
+    "NDimArray._check_special_bounds": {
+        "func_name": "_check_special_bounds",
+        "class": "NDimArray",
+        "executed_lines": [
+            568,
+            570
+        ],
+        "missing_lines": [
+            569,
+            571
+        ],
+        "all_lines": [
+            568,
+            569,
+            570,
+            571
+        ]
+    },
+    "NDimArray._check_index_for_getitem": {
+        "func_name": "_check_index_for_getitem",
+        "class": "NDimArray",
+        "executed_lines": [
+            574,
+            575,
+            577,
+            581,
+            584
+        ],
+        "missing_lines": [
+            578,
+            582
+        ],
+        "all_lines": [
+            574,
+            575,
+            577,
+            578,
+            581,
+            582,
+            584
+        ]
+    }
+}

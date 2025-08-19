@@ -1,0 +1,258 @@
+{
+    "LocaleRegexDescriptor.__get__": {
+        "func_name": "__get__",
+        "class": "LocaleRegexDescriptor",
+        "executed_lines": [
+            105,
+            110,
+            111,
+            112,
+            113
+        ],
+        "missing_lines": [
+            106,
+            114,
+            115,
+            116,
+            117
+        ],
+        "all_lines": [
+            105,
+            106,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117
+        ]
+    },
+    "CheckURLMixin._check_pattern_startswith_slash": {
+        "func_name": "_check_pattern_startswith_slash",
+        "class": "CheckURLMixin",
+        "executed_lines": [
+            134,
+            135,
+            139,
+            150
+        ],
+        "missing_lines": [
+            138,
+            140,
+            148
+        ],
+        "all_lines": [
+            134,
+            135,
+            138,
+            139,
+            140,
+            148,
+            150
+        ]
+    },
+    "RegexPattern._check_include_trailing_dollar": {
+        "func_name": "_check_include_trailing_dollar",
+        "class": "RegexPattern",
+        "executed_lines": [
+            183,
+            184,
+            192
+        ],
+        "missing_lines": [
+            185
+        ],
+        "all_lines": [
+            183,
+            184,
+            185,
+            192
+        ]
+    },
+    "RegexPattern._compile": {
+        "func_name": "_compile",
+        "class": "RegexPattern",
+        "executed_lines": [
+            196,
+            197
+        ],
+        "missing_lines": [
+            198,
+            199
+        ],
+        "all_lines": [
+            196,
+            197,
+            198,
+            199
+        ]
+    },
+    "_route_to_regex": {
+        "func_name": "_route_to_regex",
+        "class": "",
+        "executed_lines": [
+            219,
+            220,
+            221,
+            223,
+            224,
+            225,
+            226,
+            253,
+            254,
+            255
+        ],
+        "missing_lines": [
+            227,
+            228,
+            232,
+            233,
+            234,
+            235,
+            236,
+            240,
+            241,
+            243,
+            244,
+            245,
+            246,
+            247,
+            251,
+            252
+        ],
+        "all_lines": [
+            219,
+            220,
+            221,
+            223,
+            224,
+            225,
+            226,
+            227,
+            228,
+            232,
+            233,
+            234,
+            235,
+            236,
+            240,
+            241,
+            243,
+            244,
+            245,
+            246,
+            247,
+            251,
+            252,
+            253,
+            254,
+            255
+        ]
+    },
+    "URLResolver.check": {
+        "func_name": "check",
+        "class": "URLResolver",
+        "executed_lines": [
+            418,
+            419,
+            421,
+            422
+        ],
+        "missing_lines": [
+            420
+        ],
+        "all_lines": [
+            418,
+            419,
+            420,
+            421,
+            422
+        ]
+    },
+    "URLResolver._check_custom_error_handlers": {
+        "func_name": "_check_custom_error_handlers",
+        "class": "URLResolver",
+        "executed_lines": [
+            425,
+            428,
+            429,
+            430,
+            438,
+            439,
+            440,
+            441,
+            452
+        ],
+        "missing_lines": [
+            431,
+            432,
+            433,
+            436,
+            437,
+            442,
+            443,
+            451
+        ],
+        "all_lines": [
+            425,
+            428,
+            429,
+            430,
+            431,
+            432,
+            433,
+            436,
+            437,
+            438,
+            439,
+            440,
+            441,
+            442,
+            443,
+            451,
+            452
+        ]
+    },
+    "URLResolver.urlconf_module": {
+        "func_name": "urlconf_module",
+        "class": "URLResolver",
+        "executed_lines": [
+            597,
+            598
+        ],
+        "missing_lines": [
+            600
+        ],
+        "all_lines": [
+            597,
+            598,
+            600
+        ]
+    },
+    "URLResolver.url_patterns": {
+        "func_name": "url_patterns",
+        "class": "URLResolver",
+        "executed_lines": [
+            605,
+            606,
+            607,
+            615
+        ],
+        "missing_lines": [
+            608,
+            609,
+            614
+        ],
+        "all_lines": [
+            605,
+            606,
+            607,
+            608,
+            609,
+            614,
+            615
+        ]
+    }
+}

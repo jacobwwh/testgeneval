@@ -1,0 +1,116 @@
+{
+    "_remove_blacklisted_style_params": {
+        "func_name": "_remove_blacklisted_style_params",
+        "class": "",
+        "executed_lines": [
+            75,
+            76,
+            77,
+            78,
+            83,
+            84
+        ],
+        "missing_lines": [
+            79
+        ],
+        "all_lines": [
+            75,
+            76,
+            77,
+            78,
+            79,
+            83,
+            84
+        ]
+    },
+    "use": {
+        "func_name": "use",
+        "class": "",
+        "executed_lines": [
+            131,
+            133,
+            135,
+            137,
+            139,
+            147,
+            148,
+            149,
+            150,
+            153,
+            154,
+            155,
+            156,
+            158,
+            159,
+            160
+        ],
+        "missing_lines": [
+            161,
+            162
+        ],
+        "all_lines": [
+            131,
+            133,
+            135,
+            137,
+            139,
+            147,
+            148,
+            149,
+            150,
+            153,
+            154,
+            155,
+            156,
+            158,
+            159,
+            160,
+            161,
+            162
+        ]
+    },
+    "context": {
+        "func_name": "context",
+        "class": "",
+        "executed_lines": [
+            195,
+            196,
+            198,
+            199
+        ],
+        "missing_lines": [
+            197
+        ],
+        "all_lines": [
+            195,
+            196,
+            197,
+            198,
+            199
+        ]
+    },
+    "read_style_directory": {
+        "func_name": "read_style_directory",
+        "class": "",
+        "executed_lines": [
+            227,
+            228,
+            229,
+            230,
+            232,
+            234
+        ],
+        "missing_lines": [
+            233
+        ],
+        "all_lines": [
+            227,
+            228,
+            229,
+            230,
+            232,
+            233,
+            234
+        ]
+    }
+}

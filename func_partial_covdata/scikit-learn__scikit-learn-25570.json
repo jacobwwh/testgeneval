@@ -1,0 +1,20 @@
+{
+    "ColumnTransformer._transformers": {
+        "func_name": "_transformers",
+        "class": "ColumnTransformer",
+        "executed_lines": [
+            266,
+            267
+        ],
+        "missing_lines": [
+            271,
+            272
+        ],
+        "all_lines": [
+            266,
+            267,
+            271,
+            272
+        ]
+    }
+}

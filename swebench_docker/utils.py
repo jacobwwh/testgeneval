@@ -23,6 +23,7 @@ def get_eval_refs(data_path_or_name):
     if isinstance(data, dict):
         all_data = list()
         all_data.extend(data["test"])
+        all_data.extend(data["dev"])
         data = all_data
 
     return {d[KEY_ID]: d for d in data}

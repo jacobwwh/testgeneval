@@ -1,0 +1,136 @@
+{
+    "AbstractPythonCodePrinter._module_format": {
+        "func_name": "_module_format",
+        "class": "AbstractPythonCodePrinter",
+        "executed_lines": [
+            112,
+            113,
+            114,
+            116,
+            117
+        ],
+        "missing_lines": [
+            119
+        ],
+        "all_lines": [
+            112,
+            113,
+            114,
+            116,
+            117,
+            119
+        ]
+    },
+    "AbstractPythonCodePrinter._print_Piecewise": {
+        "func_name": "_print_Piecewise",
+        "class": "AbstractPythonCodePrinter",
+        "executed_lines": [
+            230,
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            249,
+            250
+        ],
+        "missing_lines": [
+            246,
+            247
+        ],
+        "all_lines": [
+            230,
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            249,
+            250
+        ]
+    },
+    "AbstractPythonCodePrinter._print_Relational": {
+        "func_name": "_print_Relational",
+        "class": "AbstractPythonCodePrinter",
+        "executed_lines": [
+            254,
+            262,
+            263,
+            264,
+            265
+        ],
+        "missing_lines": [
+            266
+        ],
+        "all_lines": [
+            254,
+            262,
+            263,
+            264,
+            265,
+            266
+        ]
+    },
+    "NumPyPrinter._print_Relational": {
+        "func_name": "_print_Relational",
+        "class": "NumPyPrinter",
+        "executed_lines": [
+            541,
+            549,
+            550,
+            551,
+            552
+        ],
+        "missing_lines": [
+            554
+        ],
+        "all_lines": [
+            541,
+            549,
+            550,
+            551,
+            552,
+            554
+        ]
+    },
+    "NumPyPrinter._print_Identity": {
+        "func_name": "_print_Identity",
+        "class": "NumPyPrinter",
+        "executed_lines": [
+            612,
+            613,
+            614
+        ],
+        "missing_lines": [
+            616
+        ],
+        "all_lines": [
+            612,
+            613,
+            614,
+            616
+        ]
+    }
+}

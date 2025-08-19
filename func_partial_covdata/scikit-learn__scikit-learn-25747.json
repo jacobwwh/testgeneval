@@ -1,0 +1,62 @@
+{
+    "_wrap_method_output.wrapped": {
+        "func_name": "wrapped",
+        "class": "_wrap_method_output",
+        "executed_lines": [
+            140,
+            141,
+            148
+        ],
+        "missing_lines": [
+            143
+        ],
+        "all_lines": [
+            140,
+            141,
+            143,
+            148
+        ]
+    },
+    "_SetOutputMixin.__init_subclass__": {
+        "func_name": "__init_subclass__",
+        "class": "_SetOutputMixin",
+        "executed_lines": [
+            177,
+            181,
+            184,
+            186,
+            187,
+            188,
+            191,
+            195,
+            197,
+            198,
+            200,
+            203,
+            204,
+            205,
+            206
+        ],
+        "missing_lines": [
+            199
+        ],
+        "all_lines": [
+            177,
+            181,
+            184,
+            186,
+            187,
+            188,
+            191,
+            195,
+            197,
+            198,
+            199,
+            200,
+            203,
+            204,
+            205,
+            206
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "DeferredAttribute.__get__": {
+        "func_name": "__get__",
+        "class": "DeferredAttribute",
+        "executed_lines": [
+            113,
+            114
+        ],
+        "missing_lines": [
+            115,
+            116,
+            117,
+            120,
+            121,
+            122,
+            124,
+            125
+        ],
+        "all_lines": [
+            113,
+            114,
+            115,
+            116,
+            117,
+            120,
+            121,
+            122,
+            124,
+            125
+        ]
+    }
+}

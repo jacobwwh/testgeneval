@@ -1,0 +1,90 @@
+{
+    "Point._check_point": {
+        "func_name": "_check_point",
+        "class": "Point",
+        "executed_lines": [
+            67
+        ],
+        "missing_lines": [
+            68
+        ],
+        "all_lines": [
+            67,
+            68
+        ]
+    },
+    "Point._pdict_list": {
+        "func_name": "_pdict_list",
+        "class": "Point",
+        "executed_lines": [
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113
+        ],
+        "missing_lines": [
+            114
+        ],
+        "all_lines": [
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114
+        ]
+    },
+    "Point.locatenew": {
+        "func_name": "locatenew",
+        "class": "Point",
+        "executed_lines": [
+            272,
+            274,
+            275,
+            276,
+            277,
+            278,
+            279,
+            280
+        ],
+        "missing_lines": [
+            273
+        ],
+        "all_lines": [
+            272,
+            273,
+            274,
+            275,
+            276,
+            277,
+            278,
+            279,
+            280
+        ]
+    }
+}

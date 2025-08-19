@@ -1,0 +1,3852 @@
+{
+    "sympy__sympy-18532": {
+        "Basic.compare": {
+            "func_name": "compare",
+            "class": "Basic",
+            "start_line": 193,
+            "end_line": 215
+        },
+        "Basic.sort_key.inner_key": {
+            "func_name": "inner_key",
+            "class": "Basic",
+            "start_line": 289,
+            "end_line": 292
+        },
+        "Basic.__eq__": {
+            "func_name": "__eq__",
+            "class": "Basic",
+            "start_line": 319,
+            "end_line": 342
+        },
+        "Basic.canonical_variables": {
+            "func_name": "canonical_variables",
+            "class": "Basic",
+            "start_line": 592,
+            "end_line": 608
+        },
+        "Basic._recursive_call": {
+            "func_name": "_recursive_call",
+            "class": "Basic",
+            "start_line": 630,
+            "end_line": 646
+        },
+        "Basic.is_comparable": {
+            "func_name": "is_comparable",
+            "class": "Basic",
+            "start_line": 679,
+            "end_line": 697
+        },
+        "Basic.subs": {
+            "func_name": "subs",
+            "class": "Basic",
+            "start_line": 890,
+            "end_line": 974
+        },
+        "Basic._subs.fallback": {
+            "func_name": "fallback",
+            "class": "Basic",
+            "start_line": 1052,
+            "end_line": 1078
+        },
+        "Basic._xreplace": {
+            "func_name": "_xreplace",
+            "class": "Basic",
+            "start_line": 1168,
+            "end_line": 1184
+        },
+        "Basic._has": {
+            "func_name": "_has",
+            "class": "Basic",
+            "start_line": 1237,
+            "end_line": 1252
+        },
+        "Basic.replace": {
+            "func_name": "replace",
+            "class": "Basic",
+            "start_line": 1420,
+            "end_line": 1531
+        },
+        "Basic.replace.rec_replace": {
+            "func_name": "rec_replace",
+            "class": "Basic",
+            "start_line": 1487,
+            "end_line": 1506
+        },
+        "Basic.matches": {
+            "func_name": "matches",
+            "class": "Basic",
+            "start_line": 1572,
+            "end_line": 1589
+        },
+        "Basic._eval_rewrite": {
+            "func_name": "_eval_rewrite",
+            "class": "Basic",
+            "start_line": 1671,
+            "end_line": 1689
+        },
+        "Basic.rewrite": {
+            "func_name": "rewrite",
+            "class": "Basic",
+            "start_line": 1765,
+            "end_line": 1791
+        },
+        "Basic._exec_constructor_postprocessors": {
+            "func_name": "_exec_constructor_postprocessors",
+            "class": "Basic",
+            "start_line": 1805,
+            "end_line": 1822
+        },
+        "_aresame": {
+            "func_name": "_aresame",
+            "class": "",
+            "start_line": 1895,
+            "end_line": 1907
+        },
+        "preorder_traversal._preorder_traversal": {
+            "func_name": "_preorder_traversal",
+            "class": "preorder_traversal",
+            "start_line": 2006,
+            "end_line": 2028
+        },
+        "_make_find_query": {
+            "func_name": "_make_find_query",
+            "class": "",
+            "start_line": 2060,
+            "end_line": 2068
+        }
+    },
+    "sympy__sympy-15011": {
+        "_import": {
+            "func_name": "_import",
+            "class": "",
+            "start_line": 112,
+            "end_line": 158
+        },
+        "lambdify": {
+            "func_name": "lambdify",
+            "class": "",
+            "start_line": 354,
+            "end_line": 487
+        },
+        "_module_present": {
+            "func_name": "_module_present",
+            "class": "",
+            "start_line": 490,
+            "end_line": 495
+        },
+        "_get_namespace": {
+            "func_name": "_get_namespace",
+            "class": "",
+            "start_line": 502,
+            "end_line": 510
+        },
+        "_EvaluatorPrinter.__init__": {
+            "func_name": "__init__",
+            "class": "_EvaluatorPrinter",
+            "start_line": 629,
+            "end_line": 652
+        },
+        "_EvaluatorPrinter.doprint": {
+            "func_name": "doprint",
+            "class": "_EvaluatorPrinter",
+            "start_line": 656,
+            "end_line": 688
+        },
+        "_EvaluatorPrinter._preprocess": {
+            "func_name": "_preprocess",
+            "class": "_EvaluatorPrinter",
+            "start_line": 709,
+            "end_line": 750
+        },
+        "_EvaluatorPrinter._subexpr": {
+            "func_name": "_subexpr",
+            "class": "_EvaluatorPrinter",
+            "start_line": 753,
+            "end_line": 769
+        },
+        "": {
+            "func_name": "",
+            "class": "",
+            "start_line": 1,
+            "end_line": 888
+        }
+    },
+    "pallets__flask-5063": {
+        "find_app_by_string": {
+            "func_name": "find_app_by_string",
+            "class": "",
+            "start_line": 115,
+            "end_line": 181
+        },
+        "_set_app": {
+            "func_name": "_set_app",
+            "class": "",
+            "start_line": 394,
+            "end_line": 399
+        },
+        "_set_debug": {
+            "func_name": "_set_debug",
+            "class": "",
+            "start_line": 424,
+            "end_line": 435
+        },
+        "_env_file_callback": {
+            "func_name": "_env_file_callback",
+            "class": "",
+            "start_line": 449,
+            "end_line": 466
+        },
+        "FlaskGroup._load_plugin_commands": {
+            "func_name": "_load_plugin_commands",
+            "class": "FlaskGroup",
+            "start_line": 548,
+            "end_line": 562
+        },
+        "_validate_key": {
+            "func_name": "_validate_key",
+            "class": "",
+            "start_line": 779,
+            "end_line": 809
+        },
+        "": {
+            "func_name": "",
+            "class": "",
+            "start_line": 1,
+            "end_line": 1067
+        }
+    },
+    "pydata__xarray-4248": {
+        "last_item": {
+            "func_name": "last_item",
+            "class": "",
+            "start_line": 90,
+            "end_line": 95
+        },
+        "inline_variable_array_repr": {
+            "func_name": "inline_variable_array_repr",
+            "class": "",
+            "start_line": 258,
+            "end_line": 270
+        },
+        "summarize_variable": {
+            "func_name": "summarize_variable",
+            "class": "",
+            "start_line": 277,
+            "end_line": 293
+        },
+        "summarize_coord": {
+            "func_name": "summarize_coord",
+            "class": "",
+            "start_line": 315,
+            "end_line": 326
+        },
+        "summarize_attr": {
+            "func_name": "summarize_attr",
+            "class": "",
+            "start_line": 332,
+            "end_line": 338
+        },
+        "_get_col_items": {
+            "func_name": "_get_col_items",
+            "class": "",
+            "start_line": 348,
+            "end_line": 358
+        },
+        "unindexed_dims_repr": {
+            "func_name": "unindexed_dims_repr",
+            "class": "",
+            "start_line": 409,
+            "end_line": 414
+        },
+        "short_data_repr": {
+            "func_name": "short_data_repr",
+            "class": "",
+            "start_line": 457,
+            "end_line": 468
+        },
+        "array_repr": {
+            "func_name": "array_repr",
+            "class": "",
+            "start_line": 473,
+            "end_line": 494
+        },
+        "diff_dim_summary": {
+            "func_name": "diff_dim_summary",
+            "class": "",
+            "start_line": 521,
+            "end_line": 526
+        },
+        "_diff_mapping_repr": {
+            "func_name": "_diff_mapping_repr",
+            "class": "",
+            "start_line": 530,
+            "end_line": 596
+        },
+        "_compat_to_str": {
+            "func_name": "_compat_to_str",
+            "class": "",
+            "start_line": 615,
+            "end_line": 623
+        },
+        "diff_array_repr": {
+            "func_name": "diff_array_repr",
+            "class": "",
+            "start_line": 628,
+            "end_line": 657
+        }
+    },
+    "sympy__sympy-23191": {
+        "PrettyPrinter.__init__": {
+            "func_name": "__init__",
+            "class": "PrettyPrinter",
+            "start_line": 48,
+            "end_line": 53
+        },
+        "PrettyPrinter._print_Atom": {
+            "func_name": "_print_Atom",
+            "class": "PrettyPrinter",
+            "start_line": 154,
+            "end_line": 158
+        },
+        "PrettyPrinter._print_Integral": {
+            "func_name": "_print_Integral",
+            "class": "PrettyPrinter",
+            "start_line": 430,
+            "end_line": 502
+        },
+        "PrettyPrinter._print_BasisDependent": {
+            "func_name": "_print_BasisDependent",
+            "class": "PrettyPrinter",
+            "start_line": 1096,
+            "end_line": 1195
+        },
+        "PrettyPrinter._helper_print_function": {
+            "func_name": "_helper_print_function",
+            "class": "PrettyPrinter",
+            "start_line": 1581,
+            "end_line": 1613
+        },
+        "PrettyPrinter._print_Add": {
+            "func_name": "_print_Add",
+            "class": "PrettyPrinter",
+            "start_line": 1876,
+            "end_line": 1945
+        },
+        "PrettyPrinter._print_Add.pretty_negative": {
+            "func_name": "pretty_negative",
+            "class": "PrettyPrinter",
+            "start_line": 1882,
+            "end_line": 1898
+        },
+        "PrettyPrinter._print_Mul": {
+            "func_name": "_print_Mul",
+            "class": "PrettyPrinter",
+            "start_line": 1948,
+            "end_line": 2005
+        },
+        "PrettyPrinter._print_Pow": {
+            "func_name": "_print_Pow",
+            "class": "PrettyPrinter",
+            "start_line": 2053,
+            "end_line": 2068
+        },
+        "PrettyPrinter.__print_numer_denom": {
+            "func_name": "__print_numer_denom",
+            "class": "PrettyPrinter",
+            "start_line": 2074,
+            "end_line": 2089
+        },
+        "PrettyPrinter._print_Rational": {
+            "func_name": "_print_Rational",
+            "class": "PrettyPrinter",
+            "start_line": 2092,
+            "end_line": 2097
+        },
+        "PrettyPrinter._print_seq": {
+            "func_name": "_print_seq",
+            "class": "PrettyPrinter",
+            "start_line": 2327,
+            "end_line": 2364
+        },
+        "PrettyPrinter._print_tuple": {
+            "func_name": "_print_tuple",
+            "class": "PrettyPrinter",
+            "start_line": 2385,
+            "end_line": 2389
+        }
+    },
+    "pydata__xarray-5131": {
+        "_inverse_permutation_indices": {
+            "func_name": "_inverse_permutation_indices",
+            "class": "",
+            "start_line": 137,
+            "end_line": 147
+        },
+        "GroupBy.__init__": {
+            "func_name": "__init__",
+            "class": "GroupBy",
+            "start_line": 301,
+            "end_line": 405
+        },
+        "GroupBy._infer_concat_args": {
+            "func_name": "_infer_concat_args",
+            "class": "GroupBy",
+            "start_line": 466,
+            "end_line": 475
+        },
+        "GroupBy._maybe_unstack": {
+            "func_name": "_maybe_unstack",
+            "class": "GroupBy",
+            "start_line": 526,
+            "end_line": 532
+        }
+    },
+    "matplotlib__matplotlib-24265": {
+        "_remove_blacklisted_style_params": {
+            "func_name": "_remove_blacklisted_style_params",
+            "class": "",
+            "start_line": 75,
+            "end_line": 84
+        },
+        "use": {
+            "func_name": "use",
+            "class": "",
+            "start_line": 131,
+            "end_line": 162
+        },
+        "context": {
+            "func_name": "context",
+            "class": "",
+            "start_line": 195,
+            "end_line": 199
+        },
+        "read_style_directory": {
+            "func_name": "read_style_directory",
+            "class": "",
+            "start_line": 227,
+            "end_line": 234
+        }
+    },
+    "pytest-dev__pytest-5221": {
+        "pytest_cmdline_main": {
+            "func_name": "pytest_cmdline_main",
+            "class": "",
+            "start_line": 125,
+            "end_line": 130
+        },
+        "pytest_generate_tests": {
+            "func_name": "pytest_generate_tests",
+            "class": "",
+            "start_line": 136,
+            "end_line": 142
+        },
+        "pytest_pyfunc_call": {
+            "func_name": "pytest_pyfunc_call",
+            "class": "",
+            "start_line": 167,
+            "end_line": 180
+        },
+        "pytest_pycollect_makeitem": {
+            "func_name": "pytest_pycollect_makeitem",
+            "class": "",
+            "start_line": 208,
+            "end_line": 240
+        },
+        "PyobjMixin.getmodpath": {
+            "func_name": "getmodpath",
+            "class": "PyobjMixin",
+            "start_line": 281,
+            "end_line": 297
+        },
+        "PyobjMixin.reportinfo": {
+            "func_name": "reportinfo",
+            "class": "PyobjMixin",
+            "start_line": 301,
+            "end_line": 313
+        },
+        "PyCollector.istestfunction": {
+            "func_name": "istestfunction",
+            "class": "PyCollector",
+            "start_line": 333,
+            "end_line": 342
+        },
+        "PyCollector._matches_prefix_or_glob_option": {
+            "func_name": "_matches_prefix_or_glob_option",
+            "class": "PyCollector",
+            "start_line": 352,
+            "end_line": 362
+        },
+        "PyCollector.collect": {
+            "func_name": "collect",
+            "class": "PyCollector",
+            "start_line": 365,
+            "end_line": 387
+        },
+        "PyCollector._genfunctions": {
+            "func_name": "_genfunctions",
+            "class": "PyCollector",
+            "start_line": 394,
+            "end_line": 430
+        },
+        "Module._inject_setup_function_fixture": {
+            "func_name": "_inject_setup_function_fixture",
+            "class": "Module",
+            "start_line": 488,
+            "end_line": 506
+        },
+        "Module._importtestmodule": {
+            "func_name": "_importtestmodule",
+            "class": "Module",
+            "start_line": 510,
+            "end_line": 556
+        },
+        "Package._recurse": {
+            "func_name": "_recurse",
+            "class": "Package",
+            "start_line": 587,
+            "end_line": 597
+        },
+        "Package._collectfile": {
+            "func_name": "_collectfile",
+            "class": "Package",
+            "start_line": 614,
+            "end_line": 637
+        },
+        "Package.collect": {
+            "func_name": "collect",
+            "class": "Package",
+            "start_line": 643,
+            "end_line": 671
+        },
+        "Class.collect": {
+            "func_name": "collect",
+            "class": "Class",
+            "start_line": 721,
+            "end_line": 743
+        },
+        "Class._inject_setup_class_fixture": {
+            "func_name": "_inject_setup_class_fixture",
+            "class": "Class",
+            "start_line": 752,
+            "end_line": 767
+        },
+        "FunctionMixin._prunetraceback": {
+            "func_name": "_prunetraceback",
+            "class": "FunctionMixin",
+            "start_line": 824,
+            "end_line": 842
+        },
+        "CallSpec2._checkargnotcontained": {
+            "func_name": "_checkargnotcontained",
+            "class": "CallSpec2",
+            "start_line": 889,
+            "end_line": 890
+        },
+        "CallSpec2.getparam": {
+            "func_name": "getparam",
+            "class": "CallSpec2",
+            "start_line": 893,
+            "end_line": 898
+        },
+        "Metafunc._resolve_arg_ids": {
+            "func_name": "_resolve_arg_ids",
+            "class": "Metafunc",
+            "start_line": 1054,
+            "end_line": 1073
+        },
+        "Metafunc._resolve_arg_value_types": {
+            "func_name": "_resolve_arg_value_types",
+            "class": "Metafunc",
+            "start_line": 1086,
+            "end_line": 1102
+        },
+        "Metafunc._validate_if_using_arg_names": {
+            "func_name": "_validate_if_using_arg_names",
+            "class": "Metafunc",
+            "start_line": 1112,
+            "end_line": 1128
+        },
+        "_find_parametrized_scope": {
+            "func_name": "_find_parametrized_scope",
+            "class": "",
+            "start_line": 1144,
+            "end_line": 1164
+        },
+        "_ascii_escaped_by_config": {
+            "func_name": "_ascii_escaped_by_config",
+            "class": "",
+            "start_line": 1168,
+            "end_line": 1174
+        },
+        "_idval": {
+            "func_name": "_idval",
+            "class": "",
+            "start_line": 1178,
+            "end_line": 1207
+        },
+        "_idvalset": {
+            "func_name": "_idvalset",
+            "class": "",
+            "start_line": 1211,
+            "end_line": 1220
+        },
+        "idmaker": {
+            "func_name": "idmaker",
+            "class": "",
+            "start_line": 1224,
+            "end_line": 1236
+        },
+        "_showfixtures_main": {
+            "func_name": "_showfixtures_main",
+            "class": "",
+            "start_line": 1304,
+            "end_line": 1357
+        },
+        "Function.__init__": {
+            "func_name": "__init__",
+            "class": "Function",
+            "start_line": 1396,
+            "end_line": 1442
+        }
+    },
+    "scikit-learn__scikit-learn-25570": {
+        "ColumnTransformer._transformers": {
+            "func_name": "_transformers",
+            "class": "ColumnTransformer",
+            "start_line": 266,
+            "end_line": 272
+        }
+    },
+    "pytest-dev__pytest-8906": {
+        "pytest_cmdline_main": {
+            "func_name": "pytest_cmdline_main",
+            "class": "",
+            "start_line": 130,
+            "end_line": 136
+        },
+        "pytest_pyfunc_call": {
+            "func_name": "pytest_pyfunc_call",
+            "class": "",
+            "start_line": 180,
+            "end_line": 188
+        },
+        "pytest_collect_file": {
+            "func_name": "pytest_collect_file",
+            "class": "",
+            "start_line": 192,
+            "end_line": 201
+        },
+        "pytest_pycollect_makeitem": {
+            "func_name": "pytest_pycollect_makeitem",
+            "class": "",
+            "start_line": 220,
+            "end_line": 249
+        },
+        "PyobjMixin.getmodpath": {
+            "func_name": "getmodpath",
+            "class": "PyobjMixin",
+            "start_line": 303,
+            "end_line": 318
+        },
+        "PyobjMixin.reportinfo": {
+            "func_name": "reportinfo",
+            "class": "PyobjMixin",
+            "start_line": 322,
+            "end_line": 339
+        },
+        "PyCollector.istestfunction": {
+            "func_name": "istestfunction",
+            "class": "PyCollector",
+            "start_line": 379,
+            "end_line": 385
+        },
+        "PyCollector._matches_prefix_or_glob_option": {
+            "func_name": "_matches_prefix_or_glob_option",
+            "class": "PyCollector",
+            "start_line": 393,
+            "end_line": 403
+        },
+        "PyCollector.collect": {
+            "func_name": "collect",
+            "class": "PyCollector",
+            "start_line": 406,
+            "end_line": 441
+        },
+        "PyCollector._genfunctions": {
+            "func_name": "_genfunctions",
+            "class": "PyCollector",
+            "start_line": 444,
+            "end_line": 483
+        },
+        "Module._importtestmodule": {
+            "func_name": "_importtestmodule",
+            "class": "Module",
+            "start_line": 574,
+            "end_line": 617
+        },
+        "Package._recurse": {
+            "func_name": "_recurse",
+            "class": "Package",
+            "start_line": 671,
+            "end_line": 680
+        },
+        "Package._collectfile": {
+            "func_name": "_collectfile",
+            "class": "Package",
+            "start_line": 685,
+            "end_line": 704
+        },
+        "Package.collect": {
+            "func_name": "collect",
+            "class": "Package",
+            "start_line": 707,
+            "end_line": 735
+        },
+        "_call_with_optional_argument": {
+            "func_name": "_call_with_optional_argument",
+            "class": "",
+            "start_line": 741,
+            "end_line": 747
+        },
+        "Class.collect": {
+            "func_name": "collect",
+            "class": "Class",
+            "start_line": 768,
+            "end_line": 794
+        },
+        "Class._inject_setup_class_fixture": {
+            "func_name": "_inject_setup_class_fixture",
+            "class": "Class",
+            "start_line": 803,
+            "end_line": 823
+        },
+        "Class._inject_setup_method_fixture": {
+            "func_name": "_inject_setup_method_fixture",
+            "class": "Class",
+            "start_line": 832,
+            "end_line": 853
+        },
+        "hasinit": {
+            "func_name": "hasinit",
+            "class": "",
+            "start_line": 878,
+            "end_line": 881
+        },
+        "hasnew": {
+            "func_name": "hasnew",
+            "class": "",
+            "start_line": 885,
+            "end_line": 888
+        },
+        "CallSpec2.setmulti2": {
+            "func_name": "setmulti2",
+            "class": "CallSpec2",
+            "start_line": 933,
+            "end_line": 946
+        },
+        "Metafunc.parametrize": {
+            "func_name": "parametrize",
+            "class": "Metafunc",
+            "start_line": 1058,
+            "end_line": 1117
+        },
+        "Metafunc._resolve_arg_ids": {
+            "func_name": "_resolve_arg_ids",
+            "class": "Metafunc",
+            "start_line": 1141,
+            "end_line": 1150
+        },
+        "Metafunc._resolve_arg_value_types": {
+            "func_name": "_resolve_arg_value_types",
+            "class": "Metafunc",
+            "start_line": 1205,
+            "end_line": 1227
+        },
+        "Metafunc._validate_if_using_arg_names": {
+            "func_name": "_validate_if_using_arg_names",
+            "class": "Metafunc",
+            "start_line": 1240,
+            "end_line": 1256
+        },
+        "_find_parametrized_scope": {
+            "func_name": "_find_parametrized_scope",
+            "class": "",
+            "start_line": 1276,
+            "end_line": 1294
+        },
+        "_ascii_escaped_by_config": {
+            "func_name": "_ascii_escaped_by_config",
+            "class": "",
+            "start_line": 1298,
+            "end_line": 1307
+        },
+        "_idval": {
+            "func_name": "_idval",
+            "class": "",
+            "start_line": 1318,
+            "end_line": 1350
+        },
+        "_idvalset": {
+            "func_name": "_idvalset",
+            "class": "",
+            "start_line": 1362,
+            "end_line": 1372
+        },
+        "idmaker": {
+            "func_name": "idmaker",
+            "class": "",
+            "start_line": 1383,
+            "end_line": 1406
+        },
+        "Function.__init__": {
+            "func_name": "__init__",
+            "class": "Function",
+            "start_line": 1576,
+            "end_line": 1624
+        }
+    },
+    "sympy__sympy-16792": {
+        "Routine.__init__": {
+            "func_name": "__init__",
+            "class": "Routine",
+            "start_line": 163,
+            "end_line": 204
+        },
+        "get_default_datatype": {
+            "func_name": "get_default_datatype",
+            "class": "",
+            "start_line": 263,
+            "end_line": 283
+        },
+        "Variable.__init__": {
+            "func_name": "__init__",
+            "class": "Variable",
+            "start_line": 310,
+            "end_line": 331
+        },
+        "Variable.get_datatype": {
+            "func_name": "get_datatype",
+            "class": "Variable",
+            "start_line": 357,
+            "end_line": 360
+        },
+        "Result.__init__": {
+            "func_name": "__init__",
+            "class": "Result",
+            "start_line": 505,
+            "end_line": 526
+        },
+        "CodeGen._get_symbol": {
+            "func_name": "_get_symbol",
+            "class": "CodeGen",
+            "start_line": 559,
+            "end_line": 565
+        },
+        "CodeGen.routine": {
+            "func_name": "routine",
+            "class": "CodeGen",
+            "start_line": 592,
+            "end_line": 751
+        },
+        "CodeGen.write": {
+            "func_name": "write",
+            "class": "CodeGen",
+            "start_line": 782,
+            "end_line": 794
+        },
+        "CCodeGen._declare_locals": {
+            "func_name": "_declare_locals",
+            "class": "CCodeGen",
+            "start_line": 950,
+            "end_line": 985
+        },
+        "CCodeGen._call_printer": {
+            "func_name": "_call_printer",
+            "class": "CCodeGen",
+            "start_line": 988,
+            "end_line": 1026
+        },
+        "CCodeGen.dump_h": {
+            "func_name": "dump_h",
+            "class": "CCodeGen",
+            "start_line": 1063,
+            "end_line": 1083
+        },
+        "FCodeGen._declare_arguments": {
+            "func_name": "_declare_arguments",
+            "class": "FCodeGen",
+            "start_line": 1154,
+            "end_line": 1184
+        },
+        "FCodeGen._call_printer": {
+            "func_name": "_call_printer",
+            "class": "FCodeGen",
+            "start_line": 1225,
+            "end_line": 1250
+        },
+        "get_code_generator": {
+            "func_name": "get_code_generator",
+            "class": "",
+            "start_line": 1976,
+            "end_line": 1989
+        },
+        "codegen": {
+            "func_name": "codegen",
+            "class": "",
+            "start_line": 2127,
+            "end_line": 2149
+        }
+    },
+    "matplotlib__matplotlib-23913": {
+        "Legend.__init__": {
+            "func_name": "__init__",
+            "class": "Legend",
+            "start_line": 381,
+            "end_line": 581
+        },
+        "Legend._findoffset": {
+            "func_name": "_findoffset",
+            "class": "Legend",
+            "start_line": 615,
+            "end_line": 627
+        },
+        "Legend.draw": {
+            "func_name": "draw",
+            "class": "Legend",
+            "start_line": 632,
+            "end_line": 658
+        },
+        "Legend._init_legend_box": {
+            "func_name": "_init_legend_box",
+            "class": "Legend",
+            "start_line": 737,
+            "end_line": 827
+        },
+        "Legend._auto_legend_data": {
+            "func_name": "_auto_legend_data",
+            "class": "Legend",
+            "start_line": 842,
+            "end_line": 860
+        },
+        "Legend.set_bbox_to_anchor": {
+            "func_name": "set_bbox_to_anchor",
+            "class": "Legend",
+            "start_line": 991,
+            "end_line": 1012
+        },
+        "_parse_legend_args": {
+            "func_name": "_parse_legend_args",
+            "class": "",
+            "start_line": 1217,
+            "end_line": 1267
+        }
+    },
+    "django__django-15252": {
+        "MigrationExecutor.migration_plan": {
+            "func_name": "migration_plan",
+            "class": "MigrationExecutor",
+            "start_line": 26,
+            "end_line": 71
+        },
+        "MigrationExecutor._create_project_state": {
+            "func_name": "_create_project_state",
+            "class": "MigrationExecutor",
+            "start_line": 78,
+            "end_line": 89
+        },
+        "MigrationExecutor.migrate": {
+            "func_name": "migrate",
+            "class": "MigrationExecutor",
+            "start_line": 100,
+            "end_line": 138
+        },
+        "MigrationExecutor._migrate_all_forwards": {
+            "func_name": "_migrate_all_forwards",
+            "class": "MigrationExecutor",
+            "start_line": 145,
+            "end_line": 163
+        },
+        "MigrationExecutor.apply_migration": {
+            "func_name": "apply_migration",
+            "class": "MigrationExecutor",
+            "start_line": 228,
+            "end_line": 249
+        },
+        "MigrationExecutor.record_migration": {
+            "func_name": "record_migration",
+            "class": "MigrationExecutor",
+            "start_line": 253,
+            "end_line": 257
+        },
+        "MigrationExecutor.check_replacements": {
+            "func_name": "check_replacements",
+            "class": "MigrationExecutor",
+            "start_line": 287,
+            "end_line": 291
+        }
+    },
+    "django__django-17051": {
+        "ModelIterable.__iter__": {
+            "func_name": "__iter__",
+            "class": "ModelIterable",
+            "start_line": 85,
+            "end_line": 143
+        },
+        "ValuesListIterable.__iter__": {
+            "func_name": "__iter__",
+            "class": "ValuesListIterable",
+            "start_line": 220,
+            "end_line": 245
+        },
+        "QuerySet.count": {
+            "func_name": "count",
+            "class": "QuerySet",
+            "start_line": 597,
+            "end_line": 600
+        },
+        "QuerySet.get": {
+            "func_name": "get",
+            "class": "QuerySet",
+            "start_line": 610,
+            "end_line": 632
+        },
+        "QuerySet._prepare_for_bulk_create": {
+            "func_name": "_prepare_for_bulk_create",
+            "class": "QuerySet",
+            "start_line": 657,
+            "end_line": 670
+        },
+        "QuerySet._check_bulk_create_options": {
+            "func_name": "_check_bulk_create_options",
+            "class": "QuerySet",
+            "start_line": 675,
+            "end_line": 724
+        },
+        "QuerySet.bulk_create": {
+            "func_name": "bulk_create",
+            "class": "QuerySet",
+            "start_line": 754,
+            "end_line": 824
+        },
+        "QuerySet.delete": {
+            "func_name": "delete",
+            "class": "QuerySet",
+            "start_line": 1135,
+            "end_line": 1161
+        },
+        "QuerySet._raw_delete": {
+            "func_name": "_raw_delete",
+            "class": "QuerySet",
+            "start_line": 1177,
+            "end_line": 1183
+        },
+        "QuerySet._update": {
+            "func_name": "_update",
+            "class": "QuerySet",
+            "start_line": 1240,
+            "end_line": 1247
+        },
+        "QuerySet.exists": {
+            "func_name": "exists",
+            "class": "QuerySet",
+            "start_line": 1256,
+            "end_line": 1258
+        },
+        "QuerySet._values": {
+            "func_name": "_values",
+            "class": "QuerySet",
+            "start_line": 1320,
+            "end_line": 1325
+        },
+        "QuerySet.values_list": {
+            "func_name": "values_list",
+            "class": "QuerySet",
+            "start_line": 1334,
+            "end_line": 1369
+        },
+        "QuerySet._filter_or_exclude": {
+            "func_name": "_filter_or_exclude",
+            "class": "QuerySet",
+            "start_line": 1458,
+            "end_line": 1466
+        },
+        "QuerySet.order_by": {
+            "func_name": "order_by",
+            "class": "QuerySet",
+            "start_line": 1666,
+            "end_line": 1671
+        },
+        "QuerySet.ordered": {
+            "func_name": "ordered",
+            "class": "QuerySet",
+            "start_line": 1765,
+            "end_line": 1778
+        },
+        "QuerySet._insert": {
+            "func_name": "_insert",
+            "class": "QuerySet",
+            "start_line": 1806,
+            "end_line": 1816
+        },
+        "QuerySet._chain": {
+            "func_name": "_chain",
+            "class": "QuerySet",
+            "start_line": 1870,
+            "end_line": 1874
+        },
+        "QuerySet._fetch_all": {
+            "func_name": "_fetch_all",
+            "class": "QuerySet",
+            "start_line": 1896,
+            "end_line": 1899
+        },
+        "QuerySet._not_support_combined_queries": {
+            "func_name": "_not_support_combined_queries",
+            "class": "QuerySet",
+            "start_line": 1975,
+            "end_line": 1976
+        },
+        "get_related_populators": {
+            "func_name": "get_related_populators",
+            "class": "",
+            "start_line": 2642,
+            "end_line": 2647
+        }
+    },
+    "sympy__sympy-20154": {
+        "partitions": {
+            "func_name": "partitions",
+            "class": "",
+            "start_line": 1754,
+            "end_line": 1832
+        },
+        "minlex": {
+            "func_name": "minlex",
+            "class": "",
+            "start_line": 2433,
+            "end_line": 2476
+        },
+        "kbins": {
+            "func_name": "kbins",
+            "class": "",
+            "start_line": 2599,
+            "end_line": 2638
+        }
+    },
+    "sympy__sympy-20049": {
+        "Point._check_point": {
+            "func_name": "_check_point",
+            "class": "Point",
+            "start_line": 67,
+            "end_line": 68
+        },
+        "Point._pdict_list": {
+            "func_name": "_pdict_list",
+            "class": "Point",
+            "start_line": 97,
+            "end_line": 114
+        },
+        "Point.locatenew": {
+            "func_name": "locatenew",
+            "class": "Point",
+            "start_line": 272,
+            "end_line": 280
+        }
+    },
+    "sympy__sympy-21612": {
+        "StrPrinter._print_Add": {
+            "func_name": "_print_Add",
+            "class": "StrPrinter",
+            "start_line": 50,
+            "end_line": 68
+        },
+        "StrPrinter._print_RandomDomain": {
+            "func_name": "_print_RandomDomain",
+            "class": "StrPrinter",
+            "start_line": 133,
+            "end_line": 139
+        },
+        "StrPrinter._print_Mul": {
+            "func_name": "_print_Mul",
+            "class": "StrPrinter",
+            "start_line": 251,
+            "end_line": 363
+        },
+        "StrPrinter._print_Mul.apow": {
+            "func_name": "apow",
+            "class": "StrPrinter",
+            "start_line": 318,
+            "end_line": 327
+        },
+        "StrPrinter._print_Permutation": {
+            "func_name": "_print_Permutation",
+            "class": "StrPrinter",
+            "start_line": 410,
+            "end_line": 445
+        },
+        "StrPrinter._print_Pow": {
+            "func_name": "_print_Pow",
+            "class": "StrPrinter",
+            "start_line": 628,
+            "end_line": 649
+        },
+        "StrPrinter._print_Rational": {
+            "func_name": "_print_Rational",
+            "class": "StrPrinter",
+            "start_line": 695,
+            "end_line": 700
+        },
+        "StrPrinter._print_Float": {
+            "func_name": "_print_Float",
+            "class": "StrPrinter",
+            "start_line": 721,
+            "end_line": 742
+        },
+        "StrPrinter._print_Sum._xab_tostr": {
+            "func_name": "_xab_tostr",
+            "class": "StrPrinter",
+            "start_line": 806,
+            "end_line": 809
+        }
+    },
+    "pytest-dev__pytest-7168": {
+        "AlwaysDispatchingPrettyPrinter._format": {
+            "func_name": "_format",
+            "class": "AlwaysDispatchingPrettyPrinter",
+            "start_line": 89,
+            "end_line": 97
+        }
+    },
+    "matplotlib__matplotlib-25433": {
+        "_AxesStack.bubble": {
+            "func_name": "bubble",
+            "class": "_AxesStack",
+            "start_line": 95,
+            "end_line": 97
+        },
+        "SubplotParams.update": {
+            "func_name": "update",
+            "class": "SubplotParams",
+            "start_line": 149,
+            "end_line": 166
+        },
+        "FigureBase._get_draw_artists": {
+            "func_name": "_get_draw_artists",
+            "class": "FigureBase",
+            "start_line": 206,
+            "end_line": 227
+        },
+        "FigureBase.add_subplot": {
+            "func_name": "add_subplot",
+            "class": "FigureBase",
+            "start_line": 730,
+            "end_line": 756
+        },
+        "FigureBase.subplots": {
+            "func_name": "subplots",
+            "class": "FigureBase",
+            "start_line": 890,
+            "end_line": 905
+        },
+        "FigureBase.delaxes": {
+            "func_name": "delaxes",
+            "class": "FigureBase",
+            "start_line": 912,
+            "end_line": 943
+        },
+        "FigureBase.delaxes._break_share_link": {
+            "func_name": "_break_share_link",
+            "class": "FigureBase",
+            "start_line": 922,
+            "end_line": 928
+        },
+        "FigureBase.clear": {
+            "func_name": "clear",
+            "class": "FigureBase",
+            "start_line": 955,
+            "end_line": 978
+        },
+        "FigureBase.colorbar": {
+            "func_name": "colorbar",
+            "class": "FigureBase",
+            "start_line": 1258,
+            "end_line": 1289
+        },
+        "FigureBase._process_projection_requirements": {
+            "func_name": "_process_projection_requirements",
+            "class": "FigureBase",
+            "start_line": 1664,
+            "end_line": 1688
+        },
+        "Figure.__init__": {
+            "func_name": "__init__",
+            "class": "Figure",
+            "start_line": 2459,
+            "end_line": 2551
+        },
+        "Figure._check_layout_engines_compat": {
+            "func_name": "_check_layout_engines_compat",
+            "class": "Figure",
+            "start_line": 2564,
+            "end_line": 2574
+        },
+        "Figure.set_layout_engine": {
+            "func_name": "set_layout_engine",
+            "class": "Figure",
+            "start_line": 2606,
+            "end_line": 2638
+        },
+        "Figure.show": {
+            "func_name": "show",
+            "class": "Figure",
+            "start_line": 2690,
+            "end_line": 2698
+        },
+        "Figure.set_size_inches": {
+            "func_name": "set_size_inches",
+            "class": "Figure",
+            "start_line": 3010,
+            "end_line": 3020
+        },
+        "Figure.clear": {
+            "func_name": "clear",
+            "class": "Figure",
+            "start_line": 3102,
+            "end_line": 3107
+        },
+        "Figure.draw": {
+            "func_name": "draw",
+            "class": "Figure",
+            "start_line": 3115,
+            "end_line": 3139
+        }
+    },
+    "astropy__astropy-14365": {
+        "_line_type": {
+            "func_name": "_line_type",
+            "class": "",
+            "start_line": 62,
+            "end_line": 85
+        },
+        "_get_type_from_list_of_lines": {
+            "func_name": "_get_type_from_list_of_lines",
+            "class": "",
+            "start_line": 122,
+            "end_line": 132
+        },
+        "_get_lines_from_file": {
+            "func_name": "_get_lines_from_file",
+            "class": "",
+            "start_line": 136,
+            "end_line": 146
+        },
+        "_interpret_err_lines": {
+            "func_name": "_interpret_err_lines",
+            "class": "",
+            "start_line": 193,
+            "end_line": 234
+        },
+        "_get_tables_from_qdp_file": {
+            "func_name": "_get_tables_from_qdp_file",
+            "class": "",
+            "start_line": 258,
+            "end_line": 342
+        },
+        "_understand_err_col": {
+            "func_name": "_understand_err_col",
+            "class": "",
+            "start_line": 365,
+            "end_line": 382
+        }
+    },
+    "matplotlib__matplotlib-22835": {
+        "allow_rasterization.draw_wrapper": {
+            "func_name": "draw_wrapper",
+            "class": "allow_rasterization",
+            "start_line": 35,
+            "end_line": 61
+        },
+        "_finalize_rasterization.draw_wrapper": {
+            "func_name": "draw_wrapper",
+            "class": "_finalize_rasterization",
+            "start_line": 74,
+            "end_line": 78
+        },
+        "Artist.remove": {
+            "func_name": "remove",
+            "class": "Artist",
+            "start_line": 211,
+            "end_line": 229
+        },
+        "Artist.axes": {
+            "func_name": "axes",
+            "class": "Artist",
+            "start_line": 272,
+            "end_line": 279
+        },
+        "Artist.stale": {
+            "func_name": "stale",
+            "class": "Artist",
+            "start_line": 291,
+            "end_line": 300
+        },
+        "Artist.get_transform": {
+            "func_name": "get_transform",
+            "class": "Artist",
+            "start_line": 423,
+            "end_line": 428
+        },
+        "Artist.get_snap": {
+            "func_name": "get_snap",
+            "class": "Artist",
+            "start_line": 606,
+            "end_line": 609
+        },
+        "Artist.set_figure": {
+            "func_name": "set_figure",
+            "class": "Artist",
+            "start_line": 714,
+            "end_line": 727
+        },
+        "Artist.set_clip_path": {
+            "func_name": "set_clip_path",
+            "class": "Artist",
+            "start_line": 766,
+            "end_line": 801
+        },
+        "Artist.get_transformed_clip_path_and_affine": {
+            "func_name": "get_transformed_clip_path_and_affine",
+            "class": "Artist",
+            "start_line": 871,
+            "end_line": 873
+        },
+        "Artist._set_alpha_for_array": {
+            "func_name": "_set_alpha_for_array",
+            "class": "Artist",
+            "start_line": 994,
+            "end_line": 1005
+        },
+        "Artist._update_props": {
+            "func_name": "_update_props",
+            "class": "Artist",
+            "start_line": 1146,
+            "end_line": 1162
+        },
+        "Artist.format_cursor_data": {
+            "func_name": "format_cursor_data",
+            "class": "Artist",
+            "start_line": 1296,
+            "end_line": 1332
+        },
+        "ArtistInspector.__init__": {
+            "func_name": "__init__",
+            "class": "ArtistInspector",
+            "start_line": 1392,
+            "end_line": 1403
+        },
+        "ArtistInspector.get_valid_values": {
+            "func_name": "get_valid_values",
+            "class": "ArtistInspector",
+            "start_line": 1442,
+            "end_line": 1467
+        },
+        "ArtistInspector.pprint_setters": {
+            "func_name": "pprint_setters",
+            "class": "ArtistInspector",
+            "start_line": 1558,
+            "end_line": 1571
+        },
+        "setp": {
+            "func_name": "setp",
+            "class": "",
+            "start_line": 1763,
+            "end_line": 1785
+        }
+    },
+    "sympy__sympy-24213": {
+        "UnitSystem.get_unit_system": {
+            "func_name": "get_unit_system",
+            "class": "UnitSystem",
+            "start_line": 92,
+            "end_line": 103
+        },
+        "UnitSystem._collect_factor_and_dimension": {
+            "func_name": "_collect_factor_and_dimension",
+            "class": "UnitSystem",
+            "start_line": 156,
+            "end_line": 199
+        }
+    },
+    "scikit-learn__scikit-learn-25500": {
+        "isotonic_regression": {
+            "func_name": "isotonic_regression",
+            "class": "",
+            "start_line": 120,
+            "end_line": 134
+        }
+    },
+    "django__django-15790": {
+        "check_string_if_invalid_is_string": {
+            "func_name": "check_string_if_invalid_is_string",
+            "class": "",
+            "start_line": 38,
+            "end_line": 47
+        },
+        "check_for_template_tags_with_the_same_name": {
+            "func_name": "check_for_template_tags_with_the_same_name",
+            "class": "",
+            "start_line": 52,
+            "end_line": 75
+        }
+    },
+    "astropy__astropy-12907": {
+        "_separable": {
+            "func_name": "_separable",
+            "class": "",
+            "start_line": 304,
+            "end_line": 311
+        }
+    },
+    "sympy__sympy-19007": {
+        "BlockMatrix.__new__": {
+            "func_name": "__new__",
+            "class": "BlockMatrix",
+            "start_line": 79,
+            "end_line": 128
+        },
+        "BlockMatrix._eval_trace": {
+            "func_name": "_eval_trace",
+            "class": "BlockMatrix",
+            "start_line": 187,
+            "end_line": 190
+        },
+        "BlockMatrix._eval_determinant": {
+            "func_name": "_eval_determinant",
+            "class": "BlockMatrix",
+            "start_line": 194,
+            "end_line": 201
+        },
+        "BlockMatrix._entry": {
+            "func_name": "_entry",
+            "class": "BlockMatrix",
+            "start_line": 237,
+            "end_line": 255
+        },
+        "BlockMatrix.equals": {
+            "func_name": "equals",
+            "class": "BlockMatrix",
+            "start_line": 274,
+            "end_line": 278
+        },
+        "block_collapse": {
+            "func_name": "block_collapse",
+            "class": "",
+            "start_line": 377,
+            "end_line": 405
+        },
+        "bc_matadd": {
+            "func_name": "bc_matadd",
+            "class": "",
+            "start_line": 413,
+            "end_line": 425
+        },
+        "bc_block_plus_ident": {
+            "func_name": "bc_block_plus_ident",
+            "class": "",
+            "start_line": 428,
+            "end_line": 439
+        },
+        "bc_dist": {
+            "func_name": "bc_dist",
+            "class": "",
+            "start_line": 443,
+            "end_line": 458
+        },
+        "bc_matmul": {
+            "func_name": "bc_matmul",
+            "class": "",
+            "start_line": 462,
+            "end_line": 484
+        },
+        "bc_inverse": {
+            "func_name": "bc_inverse",
+            "class": "",
+            "start_line": 492,
+            "end_line": 498
+        },
+        "blockinverse_1x1": {
+            "func_name": "blockinverse_1x1",
+            "class": "",
+            "start_line": 501,
+            "end_line": 504
+        },
+        "blockinverse_2x2": {
+            "func_name": "blockinverse_2x2",
+            "class": "",
+            "start_line": 507,
+            "end_line": 515
+        },
+        "deblock": {
+            "func_name": "deblock",
+            "class": "",
+            "start_line": 519,
+            "end_line": 535
+        }
+    },
+    "django__django-15902": {
+        "formset_factory": {
+            "func_name": "formset_factory",
+            "class": "",
+            "start_line": 546,
+            "end_line": 570
+        }
+    },
+    "django__django-15695": {
+        "_check_for_duplicates": {
+            "func_name": "_check_for_duplicates",
+            "class": "",
+            "start_line": 12,
+            "end_line": 18
+        }
+    },
+    "pytest-dev__pytest-5692": {
+        "merge_family": {
+            "func_name": "merge_family",
+            "class": "",
+            "start_line": 63,
+            "end_line": 69
+        },
+        "_NodeReporter.write_captured_output": {
+            "func_name": "write_captured_output",
+            "class": "_NodeReporter",
+            "start_line": 162,
+            "end_line": 212
+        },
+        "_NodeReporter.append_failure": {
+            "func_name": "append_failure",
+            "class": "_NodeReporter",
+            "start_line": 219,
+            "end_line": 231
+        },
+        "LogXML.__init__": {
+            "func_name": "__init__",
+            "class": "LogXML",
+            "start_line": 479,
+            "end_line": 498
+        },
+        "LogXML.pytest_collectreport": {
+            "func_name": "pytest_collectreport",
+            "class": "LogXML",
+            "start_line": 630,
+            "end_line": 635
+        }
+    },
+    "pytest-dev__pytest-7490": {
+        "pytest_runtest_makereport": {
+            "func_name": "pytest_runtest_makereport",
+            "class": "",
+            "start_line": 263,
+            "end_line": 307
+        }
+    },
+    "sympy__sympy-24102": {
+        "_parse_Function": {
+            "func_name": "_parse_Function",
+            "class": "",
+            "start_line": 86,
+            "end_line": 101
+        },
+        "MathematicaParser.__init__": {
+            "func_name": "__init__",
+            "class": "MathematicaParser",
+            "start_line": 252,
+            "end_line": 273
+        },
+        "MathematicaParser._compile_dictionary": {
+            "func_name": "_compile_dictionary",
+            "class": "MathematicaParser",
+            "start_line": 278,
+            "end_line": 337
+        },
+        "MathematicaParser._get_args": {
+            "func_name": "_get_args",
+            "class": "MathematicaParser",
+            "start_line": 448,
+            "end_line": 480
+        },
+        "MathematicaParser._check_input": {
+            "func_name": "_check_input",
+            "class": "MathematicaParser",
+            "start_line": 495,
+            "end_line": 502
+        },
+        "MathematicaParser._is_valid_star1": {
+            "func_name": "_is_valid_star1",
+            "class": "MathematicaParser",
+            "start_line": 679,
+            "end_line": 681
+        },
+        "MathematicaParser._is_valid_star2": {
+            "func_name": "_is_valid_star2",
+            "class": "MathematicaParser",
+            "start_line": 684,
+            "end_line": 686
+        },
+        "MathematicaParser._from_tokens_to_fullformlist": {
+            "func_name": "_from_tokens_to_fullformlist",
+            "class": "MathematicaParser",
+            "start_line": 689,
+            "end_line": 740
+        },
+        "MathematicaParser._util_add_missing_asterisks": {
+            "func_name": "_util_add_missing_asterisks",
+            "class": "MathematicaParser",
+            "start_line": 778,
+            "end_line": 796
+        },
+        "MathematicaParser._parse_after_braces": {
+            "func_name": "_parse_after_braces",
+            "class": "MathematicaParser",
+            "start_line": 800,
+            "end_line": 915
+        },
+        "MathematicaParser._from_fullform_to_fullformlist": {
+            "func_name": "_from_fullform_to_fullformlist",
+            "class": "MathematicaParser",
+            "start_line": 932,
+            "end_line": 953
+        },
+        "MathematicaParser._from_fullformlist_to_fullformsympy.converter": {
+            "func_name": "converter",
+            "class": "MathematicaParser",
+            "start_line": 959,
+            "end_line": 969
+        }
+    },
+    "django__django-14016": {
+        "DeferredAttribute.__get__": {
+            "func_name": "__get__",
+            "class": "DeferredAttribute",
+            "start_line": 113,
+            "end_line": 125
+        }
+    },
+    "mwaskom__seaborn-3010": {
+        "PolyFit._fit_predict": {
+            "func_name": "_fit_predict",
+            "class": "PolyFit",
+            "start_line": 24,
+            "end_line": 34
+        }
+    },
+    "sympy__sympy-18621": {
+        "BlockMatrix.__new__": {
+            "func_name": "__new__",
+            "class": "BlockMatrix",
+            "start_line": 79,
+            "end_line": 128
+        },
+        "BlockMatrix._eval_trace": {
+            "func_name": "_eval_trace",
+            "class": "BlockMatrix",
+            "start_line": 187,
+            "end_line": 190
+        },
+        "BlockMatrix._eval_determinant": {
+            "func_name": "_eval_determinant",
+            "class": "BlockMatrix",
+            "start_line": 194,
+            "end_line": 201
+        },
+        "BlockMatrix.equals": {
+            "func_name": "equals",
+            "class": "BlockMatrix",
+            "start_line": 266,
+            "end_line": 270
+        },
+        "block_collapse": {
+            "func_name": "block_collapse",
+            "class": "",
+            "start_line": 369,
+            "end_line": 397
+        },
+        "bc_matadd": {
+            "func_name": "bc_matadd",
+            "class": "",
+            "start_line": 405,
+            "end_line": 417
+        },
+        "bc_block_plus_ident": {
+            "func_name": "bc_block_plus_ident",
+            "class": "",
+            "start_line": 420,
+            "end_line": 431
+        },
+        "bc_dist": {
+            "func_name": "bc_dist",
+            "class": "",
+            "start_line": 435,
+            "end_line": 450
+        },
+        "bc_matmul": {
+            "func_name": "bc_matmul",
+            "class": "",
+            "start_line": 454,
+            "end_line": 476
+        },
+        "bc_inverse": {
+            "func_name": "bc_inverse",
+            "class": "",
+            "start_line": 484,
+            "end_line": 490
+        },
+        "blockinverse_1x1": {
+            "func_name": "blockinverse_1x1",
+            "class": "",
+            "start_line": 493,
+            "end_line": 496
+        },
+        "blockinverse_2x2": {
+            "func_name": "blockinverse_2x2",
+            "class": "",
+            "start_line": 499,
+            "end_line": 507
+        },
+        "deblock": {
+            "func_name": "deblock",
+            "class": "",
+            "start_line": 511,
+            "end_line": 527
+        }
+    },
+    "matplotlib__matplotlib-25442": {
+        "_bbox_artist": {
+            "func_name": "_bbox_artist",
+            "class": "",
+            "start_line": 72,
+            "end_line": 73
+        },
+        "OffsetBox.contains": {
+            "func_name": "contains",
+            "class": "OffsetBox",
+            "start_line": 271,
+            "end_line": 278
+        },
+        "OffsetBox.get_window_extent": {
+            "func_name": "get_window_extent",
+            "class": "OffsetBox",
+            "start_line": 398,
+            "end_line": 405
+        },
+        "VPacker._get_bbox_and_child_offsets": {
+            "func_name": "_get_bbox_and_child_offsets",
+            "class": "VPacker",
+            "start_line": 476,
+            "end_line": 495
+        },
+        "HPacker._get_bbox_and_child_offsets": {
+            "func_name": "_get_bbox_and_child_offsets",
+            "class": "HPacker",
+            "start_line": 508,
+            "end_line": 524
+        },
+        "PaddedBox.update_frame": {
+            "func_name": "update_frame",
+            "class": "PaddedBox",
+            "start_line": 585,
+            "end_line": 588
+        },
+        "DrawingArea.add_artist": {
+            "func_name": "add_artist",
+            "class": "DrawingArea",
+            "start_line": 675,
+            "end_line": 682
+        },
+        "TextArea.get_bbox": {
+            "func_name": "get_bbox",
+            "class": "TextArea",
+            "start_line": 796,
+            "end_line": 816
+        },
+        "AnchoredOffsetbox.__init__": {
+            "func_name": "__init__",
+            "class": "AnchoredOffsetbox",
+            "start_line": 969,
+            "end_line": 988
+        },
+        "AnchoredOffsetbox.get_bbox_to_anchor": {
+            "func_name": "get_bbox_to_anchor",
+            "class": "AnchoredOffsetbox",
+            "start_line": 1020,
+            "end_line": 1027
+        },
+        "AnchoredOffsetbox.set_bbox_to_anchor": {
+            "func_name": "set_bbox_to_anchor",
+            "class": "AnchoredOffsetbox",
+            "start_line": 1038,
+            "end_line": 1052
+        },
+        "AnchoredOffsetbox.draw": {
+            "func_name": "draw",
+            "class": "AnchoredOffsetbox",
+            "start_line": 1072,
+            "end_line": 1084
+        },
+        "AnchoredText.__init__": {
+            "func_name": "__init__",
+            "class": "AnchoredText",
+            "start_line": 1128,
+            "end_line": 1137
+        },
+        "AnnotationBbox.__init__": {
+            "func_name": "__init__",
+            "class": "AnnotationBbox",
+            "start_line": 1305,
+            "end_line": 1335
+        },
+        "AnnotationBbox.contains": {
+            "func_name": "contains",
+            "class": "AnnotationBbox",
+            "start_line": 1356,
+            "end_line": 1361
+        },
+        "AnnotationBbox.get_window_extent": {
+            "func_name": "get_window_extent",
+            "class": "AnnotationBbox",
+            "start_line": 1394,
+            "end_line": 1396
+        },
+        "AnnotationBbox.update_positions": {
+            "func_name": "update_positions",
+            "class": "AnnotationBbox",
+            "start_line": 1409,
+            "end_line": 1448
+        },
+        "AnnotationBbox.draw": {
+            "func_name": "draw",
+            "class": "AnnotationBbox",
+            "start_line": 1452,
+            "end_line": 1465
+        },
+        "DraggableBase.on_release": {
+            "func_name": "on_release",
+            "class": "DraggableBase",
+            "start_line": 1549,
+            "end_line": 1553
+        },
+        "DraggableBase._check_still_parented": {
+            "func_name": "_check_still_parented",
+            "class": "DraggableBase",
+            "start_line": 1556,
+            "end_line": 1560
+        }
+    },
+    "pytest-dev__pytest-9359": {
+        "Source.__eq__": {
+            "func_name": "__eq__",
+            "class": "Source",
+            "start_line": 41,
+            "end_line": 43
+        },
+        "Source.getstatementrange": {
+            "func_name": "getstatementrange",
+            "class": "Source",
+            "start_line": 99,
+            "end_line": 102
+        },
+        "getstatementrange_ast": {
+            "func_name": "getstatementrange_ast",
+            "class": "",
+            "start_line": 179,
+            "end_line": 217
+        }
+    },
+    "django__django-14155": {
+        "LocaleRegexDescriptor.__get__": {
+            "func_name": "__get__",
+            "class": "LocaleRegexDescriptor",
+            "start_line": 105,
+            "end_line": 117
+        },
+        "CheckURLMixin._check_pattern_startswith_slash": {
+            "func_name": "_check_pattern_startswith_slash",
+            "class": "CheckURLMixin",
+            "start_line": 134,
+            "end_line": 150
+        },
+        "RegexPattern._check_include_trailing_dollar": {
+            "func_name": "_check_include_trailing_dollar",
+            "class": "RegexPattern",
+            "start_line": 183,
+            "end_line": 192
+        },
+        "RegexPattern._compile": {
+            "func_name": "_compile",
+            "class": "RegexPattern",
+            "start_line": 196,
+            "end_line": 199
+        },
+        "_route_to_regex": {
+            "func_name": "_route_to_regex",
+            "class": "",
+            "start_line": 219,
+            "end_line": 255
+        },
+        "URLResolver.check": {
+            "func_name": "check",
+            "class": "URLResolver",
+            "start_line": 418,
+            "end_line": 422
+        },
+        "URLResolver._check_custom_error_handlers": {
+            "func_name": "_check_custom_error_handlers",
+            "class": "URLResolver",
+            "start_line": 425,
+            "end_line": 452
+        },
+        "URLResolver.urlconf_module": {
+            "func_name": "urlconf_module",
+            "class": "URLResolver",
+            "start_line": 597,
+            "end_line": 600
+        },
+        "URLResolver.url_patterns": {
+            "func_name": "url_patterns",
+            "class": "URLResolver",
+            "start_line": 605,
+            "end_line": 615
+        }
+    },
+    "sympy__sympy-22005": {
+        "solve_poly_system": {
+            "func_name": "solve_poly_system",
+            "class": "",
+            "start_line": 49,
+            "end_line": 63
+        },
+        "solve_generic": {
+            "func_name": "solve_generic",
+            "class": "",
+            "start_line": 210,
+            "end_line": 298
+        },
+        "solve_generic._solve_reduced_system": {
+            "func_name": "_solve_reduced_system",
+            "class": "solve_generic",
+            "start_line": 229,
+            "end_line": 288
+        }
+    },
+    "sympy__sympy-18835": {
+        "partitions": {
+            "func_name": "partitions",
+            "class": "",
+            "start_line": 1767,
+            "end_line": 1845
+        },
+        "minlex": {
+            "func_name": "minlex",
+            "class": "",
+            "start_line": 2446,
+            "end_line": 2489
+        },
+        "kbins": {
+            "func_name": "kbins",
+            "class": "",
+            "start_line": 2612,
+            "end_line": 2654
+        }
+    },
+    "pytest-dev__pytest-7432": {
+        "pytest_runtest_makereport": {
+            "func_name": "pytest_runtest_makereport",
+            "class": "",
+            "start_line": 262,
+            "end_line": 306
+        }
+    },
+    "django__django-14608": {
+        "formset_factory": {
+            "func_name": "formset_factory",
+            "class": "",
+            "start_line": 468,
+            "end_line": 493
+        }
+    },
+    "matplotlib__matplotlib-25498": {
+        "Colorbar.update_normal": {
+            "func_name": "update_normal",
+            "class": "Colorbar",
+            "start_line": 501,
+            "end_line": 514
+        },
+        "Colorbar._draw_all": {
+            "func_name": "_draw_all",
+            "class": "Colorbar",
+            "start_line": 529,
+            "end_line": 574
+        },
+        "Colorbar._add_solids": {
+            "func_name": "_add_solids",
+            "class": "Colorbar",
+            "start_line": 579,
+            "end_line": 596
+        },
+        "Colorbar.add_lines": {
+            "func_name": "add_lines",
+            "class": "Colorbar",
+            "start_line": 760,
+            "end_line": 813
+        },
+        "Colorbar._get_ticker_locator_formatter": {
+            "func_name": "_get_ticker_locator_formatter",
+            "class": "Colorbar",
+            "start_line": 835,
+            "end_line": 871
+        },
+        "Colorbar.set_ticks": {
+            "func_name": "set_ticks",
+            "class": "Colorbar",
+            "start_line": 889,
+            "end_line": 896
+        },
+        "Colorbar._process_values": {
+            "func_name": "_process_values",
+            "class": "Colorbar",
+            "start_line": 1066,
+            "end_line": 1114
+        },
+        "Colorbar._reset_locator_formatter_scale": {
+            "func_name": "_reset_locator_formatter_scale",
+            "class": "Colorbar",
+            "start_line": 1171,
+            "end_line": 1197
+        },
+        "Colorbar._locate": {
+            "func_name": "_locate",
+            "class": "Colorbar",
+            "start_line": 1204,
+            "end_line": 1217
+        },
+        "make_axes": {
+            "func_name": "make_axes",
+            "class": "",
+            "start_line": 1407,
+            "end_line": 1486
+        }
+    },
+    "scikit-learn__scikit-learn-25747": {
+        "_wrap_method_output.wrapped": {
+            "func_name": "wrapped",
+            "class": "_wrap_method_output",
+            "start_line": 140,
+            "end_line": 148
+        },
+        "_SetOutputMixin.__init_subclass__": {
+            "func_name": "__init_subclass__",
+            "class": "_SetOutputMixin",
+            "start_line": 177,
+            "end_line": 206
+        }
+    },
+    "sympy__sympy-20639": {
+        "PrettyPrinter._print_Not": {
+            "func_name": "_print_Not",
+            "class": "PrettyPrinter",
+            "start_line": 230,
+            "end_line": 244
+        },
+        "PrettyPrinter.__print_Boolean": {
+            "func_name": "__print_Boolean",
+            "class": "PrettyPrinter",
+            "start_line": 247,
+            "end_line": 265
+        },
+        "PrettyPrinter._print_Permutation": {
+            "func_name": "_print_Permutation",
+            "class": "PrettyPrinter",
+            "start_line": 392,
+            "end_line": 422
+        },
+        "PrettyPrinter._print_Integral": {
+            "func_name": "_print_Integral",
+            "class": "PrettyPrinter",
+            "start_line": 426,
+            "end_line": 499
+        },
+        "PrettyPrinter._print_KroneckerProduct": {
+            "func_name": "_print_KroneckerProduct",
+            "class": "PrettyPrinter",
+            "start_line": 949,
+            "end_line": 954
+        },
+        "PrettyPrinter._print_BasisDependent": {
+            "func_name": "_print_BasisDependent",
+            "class": "PrettyPrinter",
+            "start_line": 1017,
+            "end_line": 1114
+        },
+        "PrettyPrinter._printer_tensor_indices": {
+            "func_name": "_printer_tensor_indices",
+            "class": "PrettyPrinter",
+            "start_line": 1150,
+            "end_line": 1182
+        },
+        "PrettyPrinter._print_DiracDelta": {
+            "func_name": "_print_DiracDelta",
+            "class": "PrettyPrinter",
+            "start_line": 1658,
+            "end_line": 1674
+        },
+        "PrettyPrinter._print_Add": {
+            "func_name": "_print_Add",
+            "class": "PrettyPrinter",
+            "start_line": 1757,
+            "end_line": 1826
+        },
+        "PrettyPrinter._print_Mul": {
+            "func_name": "_print_Mul",
+            "class": "PrettyPrinter",
+            "start_line": 1829,
+            "end_line": 1902
+        },
+        "PrettyPrinter._print_nth_root": {
+            "func_name": "_print_nth_root",
+            "class": "PrettyPrinter",
+            "start_line": 1906,
+            "end_line": 1947
+        },
+        "PrettyPrinter._print_Pow": {
+            "func_name": "_print_Pow",
+            "class": "PrettyPrinter",
+            "start_line": 1950,
+            "end_line": 1965
+        },
+        "PrettyPrinter._print_Interval": {
+            "func_name": "_print_Interval",
+            "class": "PrettyPrinter",
+            "start_line": 2043,
+            "end_line": 2057
+        },
+        "PrettyPrinter._print_ConditionSet": {
+            "func_name": "_print_ConditionSet",
+            "class": "PrettyPrinter",
+            "start_line": 2114,
+            "end_line": 2139
+        },
+        "PrettyPrinter._print_ComplexRegion": {
+            "func_name": "_print_ComplexRegion",
+            "class": "PrettyPrinter",
+            "start_line": 2143,
+            "end_line": 2152
+        },
+        "PrettyPrinter._print_seq": {
+            "func_name": "_print_seq",
+            "class": "PrettyPrinter",
+            "start_line": 2205,
+            "end_line": 2243
+        },
+        "PrettyPrinter._print_RealField": {
+            "func_name": "_print_RealField",
+            "class": "PrettyPrinter",
+            "start_line": 2372,
+            "end_line": 2380
+        },
+        "PrettyPrinter._print_FractionField": {
+            "func_name": "_print_FractionField",
+            "class": "PrettyPrinter",
+            "start_line": 2406,
+            "end_line": 2415
+        },
+        "PrettyPrinter._print_PolynomialRingBase": {
+            "func_name": "_print_PolynomialRingBase",
+            "class": "PrettyPrinter",
+            "start_line": 2418,
+            "end_line": 2424
+        },
+        "PrettyPrinter._print_RandomDomain": {
+            "func_name": "_print_RandomDomain",
+            "class": "PrettyPrinter",
+            "start_line": 2522,
+            "end_line": 2537
+        },
+        "PrettyPrinter._print_DMP": {
+            "func_name": "_print_DMP",
+            "class": "PrettyPrinter",
+            "start_line": 2540,
+            "end_line": 2546
+        },
+        "PrettyPrinter._print_Differential": {
+            "func_name": "_print_Differential",
+            "class": "PrettyPrinter",
+            "start_line": 2664,
+            "end_line": 2671
+        }
+    },
+    "django__django-13933": {
+        "ModelFormMetaclass.__new__": {
+            "func_name": "__new__",
+            "class": "ModelFormMetaclass",
+            "start_line": 216,
+            "end_line": 283
+        }
+    },
+    "django__django-14915": {
+        "construct_instance": {
+            "func_name": "construct_instance",
+            "class": "",
+            "start_line": 35,
+            "end_line": 66
+        },
+        "model_to_dict": {
+            "func_name": "model_to_dict",
+            "class": "",
+            "start_line": 83,
+            "end_line": 93
+        },
+        "apply_limit_choices_to_to_formfield": {
+            "func_name": "apply_limit_choices_to_to_formfield",
+            "class": "",
+            "start_line": 98,
+            "end_line": 107
+        },
+        "fields_for_model": {
+            "func_name": "fields_for_model",
+            "class": "",
+            "start_line": 146,
+            "end_line": 198
+        },
+        "ModelFormMetaclass.__new__": {
+            "func_name": "__new__",
+            "class": "ModelFormMetaclass",
+            "start_line": 216,
+            "end_line": 283
+        },
+        "BaseModelForm.__init__": {
+            "func_name": "__init__",
+            "class": "BaseModelForm",
+            "start_line": 291,
+            "end_line": 314
+        },
+        "BaseModelForm._get_validation_exclusions": {
+            "func_name": "_get_validation_exclusions",
+            "class": "BaseModelForm",
+            "start_line": 321,
+            "end_line": 355
+        },
+        "BaseModelForm._post_clean": {
+            "func_name": "_post_clean",
+            "class": "BaseModelForm",
+            "start_line": 390,
+            "end_line": 417
+        },
+        "BaseModelForm.validate_unique": {
+            "func_name": "validate_unique",
+            "class": "BaseModelForm",
+            "start_line": 424,
+            "end_line": 428
+        },
+        "ModelChoiceIteratorValue.__eq__": {
+            "func_name": "__eq__",
+            "class": "ModelChoiceIteratorValue",
+            "start_line": 1173,
+            "end_line": 1175
+        },
+        "ModelChoiceField.get_limit_choices_to": {
+            "func_name": "get_limit_choices_to",
+            "class": "ModelChoiceField",
+            "start_line": 1246,
+            "end_line": 1248
+        },
+        "ModelChoiceField._get_choices": {
+            "func_name": "_get_choices",
+            "class": "ModelChoiceField",
+            "start_line": 1279,
+            "end_line": 1289
+        },
+        "ModelChoiceField.prepare_value": {
+            "func_name": "prepare_value",
+            "class": "ModelChoiceField",
+            "start_line": 1294,
+            "end_line": 1299
+        },
+        "ModelChoiceField.has_changed": {
+            "func_name": "has_changed",
+            "class": "ModelChoiceField",
+            "start_line": 1321,
+            "end_line": 1325
+        },
+        "ModelMultipleChoiceField.clean": {
+            "func_name": "clean",
+            "class": "ModelMultipleChoiceField",
+            "start_line": 1348,
+            "end_line": 1362
+        },
+        "ModelMultipleChoiceField._check_values": {
+            "func_name": "_check_values",
+            "class": "ModelMultipleChoiceField",
+            "start_line": 1370,
+            "end_line": 1399
+        },
+        "ModelMultipleChoiceField.has_changed": {
+            "func_name": "has_changed",
+            "class": "ModelMultipleChoiceField",
+            "start_line": 1410,
+            "end_line": 1420
+        }
+    },
+    "sympy__sympy-23262": {
+        "_import": {
+            "func_name": "_import",
+            "class": "",
+            "start_line": 128,
+            "end_line": 173
+        },
+        "lambdify": {
+            "func_name": "lambdify",
+            "class": "",
+            "start_line": 759,
+            "end_line": 923
+        },
+        "_module_present": {
+            "func_name": "_module_present",
+            "class": "",
+            "start_line": 926,
+            "end_line": 931
+        },
+        "_get_namespace": {
+            "func_name": "_get_namespace",
+            "class": "",
+            "start_line": 937,
+            "end_line": 945
+        },
+        "_recursive_to_string": {
+            "func_name": "_recursive_to_string",
+            "class": "",
+            "start_line": 952,
+            "end_line": 968
+        },
+        "lambdastr": {
+            "func_name": "lambdastr",
+            "class": "",
+            "start_line": 993,
+            "end_line": 1086
+        },
+        "lambdastr.sub_args": {
+            "func_name": "sub_args",
+            "class": "lambdastr",
+            "start_line": 1012,
+            "end_line": 1026
+        },
+        "lambdastr.sub_expr": {
+            "func_name": "sub_expr",
+            "class": "lambdastr",
+            "start_line": 1029,
+            "end_line": 1036
+        },
+        "_EvaluatorPrinter.__init__": {
+            "func_name": "__init__",
+            "class": "_EvaluatorPrinter",
+            "start_line": 1090,
+            "end_line": 1113
+        },
+        "_EvaluatorPrinter._preprocess": {
+            "func_name": "_preprocess",
+            "class": "_EvaluatorPrinter",
+            "start_line": 1175,
+            "end_line": 1210
+        },
+        "_EvaluatorPrinter._subexpr": {
+            "func_name": "_subexpr",
+            "class": "_EvaluatorPrinter",
+            "start_line": 1213,
+            "end_line": 1231
+        }
+    },
+    "django__django-13710": {
+        "ModelAdmin._get_base_actions": {
+            "func_name": "_get_base_actions",
+            "class": "ModelAdmin",
+            "start_line": 872,
+            "end_line": 886
+        },
+        "InlineModelAdmin.__init__": {
+            "func_name": "__init__",
+            "class": "InlineModelAdmin",
+            "start_line": 2035,
+            "end_line": 2046
+        }
+    },
+    "pytest-dev__pytest-7220": {
+        "Node.__init__": {
+            "func_name": "__init__",
+            "class": "Node",
+            "start_line": 118,
+            "end_line": 166
+        },
+        "Node.warn": {
+            "func_name": "warn",
+            "class": "Node",
+            "start_line": 210,
+            "end_line": 219
+        },
+        "Node.add_marker": {
+            "func_name": "add_marker",
+            "class": "Node",
+            "start_line": 262,
+            "end_line": 274
+        },
+        "Node._repr_failure_py": {
+            "func_name": "_repr_failure_py",
+            "class": "Node",
+            "start_line": 337,
+            "end_line": 376
+        },
+        "FSCollector.__init__": {
+            "func_name": "__init__",
+            "class": "FSCollector",
+            "start_line": 481,
+            "end_line": 501
+        },
+        "FSCollector._collectfile": {
+            "func_name": "_collectfile",
+            "class": "FSCollector",
+            "start_line": 538,
+            "end_line": 557
+        },
+        "Item.location": {
+            "func_name": "location",
+            "class": "Item",
+            "start_line": 606,
+            "end_line": 613
+        }
+    },
+    "django__django-16816": {
+        "_issubclass": {
+            "func_name": "_issubclass",
+            "class": "",
+            "start_line": 23,
+            "end_line": 26
+        },
+        "_contains_subclass": {
+            "func_name": "_contains_subclass",
+            "class": "",
+            "start_line": 34,
+            "end_line": 43
+        },
+        "check_admin_app": {
+            "func_name": "check_admin_app",
+            "class": "",
+            "start_line": 47,
+            "end_line": 52
+        },
+        "check_dependencies": {
+            "func_name": "check_dependencies",
+            "class": "",
+            "start_line": 59,
+            "end_line": 173
+        }
+    },
+    "mwaskom__seaborn-3190": {
+        "Scale.__call__": {
+            "func_name": "__call__",
+            "class": "Scale",
+            "start_line": 116,
+            "end_line": 129
+        },
+        "ContinuousBase._get_transform": {
+            "func_name": "_get_transform",
+            "class": "ContinuousBase",
+            "start_line": 396,
+            "end_line": 425
+        },
+        "Continuous._get_locators": {
+            "func_name": "_get_locators",
+            "class": "Continuous",
+            "start_line": 569,
+            "end_line": 621
+        },
+        "Temporal.tick": {
+            "func_name": "tick",
+            "class": "Temporal",
+            "start_line": 705,
+            "end_line": 714
+        },
+        "PseudoAxis.update_units": {
+            "func_name": "update_units",
+            "class": "PseudoAxis",
+            "start_line": 861,
+            "end_line": 872
+        },
+        "_make_log_transforms": {
+            "func_name": "_make_log_transforms",
+            "class": "",
+            "start_line": 927,
+            "end_line": 946
+        }
+    },
+    "django__django-15781": {
+        "CommandParser.parse_args": {
+            "func_name": "parse_args",
+            "class": "CommandParser",
+            "start_line": 62,
+            "end_line": 66
+        },
+        "OutputWrapper.style_func": {
+            "func_name": "style_func",
+            "class": "OutputWrapper",
+            "start_line": 145,
+            "end_line": 148
+        },
+        "BaseCommand.__init__": {
+            "func_name": "__init__",
+            "class": "BaseCommand",
+            "start_line": 261,
+            "end_line": 274
+        },
+        "BaseCommand.create_parser": {
+            "func_name": "create_parser",
+            "class": "BaseCommand",
+            "start_line": 289,
+            "end_line": 358
+        },
+        "BaseCommand.add_base_argument": {
+            "func_name": "add_base_argument",
+            "class": "BaseCommand",
+            "start_line": 371,
+            "end_line": 375
+        },
+        "BaseCommand.execute": {
+            "func_name": "execute",
+            "class": "BaseCommand",
+            "start_line": 427,
+            "end_line": 458
+        },
+        "BaseCommand.check": {
+            "func_name": "check",
+            "class": "BaseCommand",
+            "start_line": 475,
+            "end_line": 554
+        }
+    },
+    "sympy__sympy-15678": {
+        "closest_points": {
+            "func_name": "closest_points",
+            "class": "",
+            "start_line": 286,
+            "end_line": 328
+        },
+        "closest_points.hypot": {
+            "func_name": "hypot",
+            "class": "closest_points",
+            "start_line": 301,
+            "end_line": 304
+        },
+        "convex_hull": {
+            "func_name": "convex_hull",
+            "class": "",
+            "start_line": 377,
+            "end_line": 440
+        },
+        "farthest_points": {
+            "func_name": "farthest_points",
+            "class": "",
+            "start_line": 476,
+            "end_line": 525
+        },
+        "farthest_points.hypot": {
+            "func_name": "hypot",
+            "class": "farthest_points",
+            "start_line": 507,
+            "end_line": 510
+        },
+        "idiff": {
+            "func_name": "idiff",
+            "class": "",
+            "start_line": 568,
+            "end_line": 594
+        },
+        "intersection": {
+            "func_name": "intersection",
+            "class": "",
+            "start_line": 658,
+            "end_line": 687
+        }
+    },
+    "sphinx-doc__sphinx-7975": {
+        "IndexEntries.create_index": {
+            "func_name": "create_index",
+            "class": "IndexEntries",
+            "start_line": 36,
+            "end_line": 179
+        },
+        "IndexEntries.create_index.add_entry": {
+            "func_name": "add_entry",
+            "class": "IndexEntries",
+            "start_line": 43,
+            "end_line": 55
+        },
+        "IndexEntries.create_index.keyfunc2": {
+            "func_name": "keyfunc2",
+            "class": "IndexEntries",
+            "start_line": 154,
+            "end_line": 159
+        }
+    },
+    "django__django-14787": {
+        "_multi_decorate": {
+            "func_name": "_multi_decorate",
+            "class": "",
+            "start_line": 27,
+            "end_line": 50
+        },
+        "method_decorator._dec": {
+            "func_name": "_dec",
+            "class": "method_decorator",
+            "start_line": 62,
+            "end_line": 77
+        }
+    },
+    "sympy__sympy-15345": {
+        "MCodePrinter.__init__": {
+            "func_name": "__init__",
+            "class": "MCodePrinter",
+            "start_line": 59,
+            "end_line": 65
+        }
+    },
+    "pytest-dev__pytest-6116": {
+        "wrap_session": {
+            "func_name": "wrap_session",
+            "class": "",
+            "start_line": 187,
+            "end_line": 229
+        },
+        "pytest_runtestloop": {
+            "func_name": "pytest_runtestloop",
+            "class": "",
+            "start_line": 253,
+            "end_line": 269
+        },
+        "pytest_ignore_collect": {
+            "func_name": "pytest_ignore_collect",
+            "class": "",
+            "start_line": 290,
+            "end_line": 314
+        },
+        "pytest_collection_modifyitems": {
+            "func_name": "pytest_collection_modifyitems",
+            "class": "",
+            "start_line": 318,
+            "end_line": 332
+        },
+        "Session.pytest_collectstart": {
+            "func_name": "pytest_collectstart",
+            "class": "Session",
+            "start_line": 413,
+            "end_line": 416
+        },
+        "Session._perform_collect": {
+            "func_name": "_perform_collect",
+            "class": "Session",
+            "start_line": 459,
+            "end_line": 487
+        },
+        "Session.collect": {
+            "func_name": "collect",
+            "class": "Session",
+            "start_line": 490,
+            "end_line": 501
+        },
+        "Session._collect": {
+            "func_name": "_collect",
+            "class": "Session",
+            "start_line": 504,
+            "end_line": 583
+        },
+        "Session._parsearg": {
+            "func_name": "_parsearg",
+            "class": "Session",
+            "start_line": 642,
+            "end_line": 654
+        },
+        "Session.matchnodes": {
+            "func_name": "matchnodes",
+            "class": "Session",
+            "start_line": 657,
+            "end_line": 665
+        },
+        "Session._matchnodes": {
+            "func_name": "_matchnodes",
+            "class": "Session",
+            "start_line": 668,
+            "end_line": 702
+        }
+    },
+    "sympy__sympy-21847": {
+        "itermonomials": {
+            "func_name": "itermonomials",
+            "class": "",
+            "start_line": 88,
+            "end_line": 152
+        },
+        "Monomial.__init__": {
+            "func_name": "__init__",
+            "class": "Monomial",
+            "start_line": 518,
+            "end_line": 526
+        }
+    },
+    "sympy__sympy-24152": {
+        "TensorProduct.__new__": {
+            "func_name": "__new__",
+            "class": "TensorProduct",
+            "start_line": 123,
+            "end_line": 133
+        },
+        "tensor_product_simp_Mul": {
+            "func_name": "tensor_product_simp_Mul",
+            "class": "",
+            "start_line": 317,
+            "end_line": 363
+        },
+        "tensor_product_simp_Pow": {
+            "func_name": "tensor_product_simp_Pow",
+            "class": "",
+            "start_line": 367,
+            "end_line": 373
+        },
+        "tensor_product_simp": {
+            "func_name": "tensor_product_simp",
+            "class": "",
+            "start_line": 409,
+            "end_line": 423
+        }
+    },
+    "sympy__sympy-23117": {
+        "NDimArray._parse_index": {
+            "func_name": "_parse_index",
+            "class": "NDimArray",
+            "start_line": 147,
+            "end_line": 167
+        },
+        "NDimArray._check_symbolic_index": {
+            "func_name": "_check_symbolic_index",
+            "class": "NDimArray",
+            "start_line": 179,
+            "end_line": 186
+        },
+        "NDimArray._setter_iterable_check": {
+            "func_name": "_setter_iterable_check",
+            "class": "NDimArray",
+            "start_line": 189,
+            "end_line": 191
+        },
+        "NDimArray._scan_iterable_shape.f": {
+            "func_name": "f",
+            "class": "NDimArray",
+            "start_line": 196,
+            "end_line": 208
+        },
+        "NDimArray._handle_ndarray_creation_inputs": {
+            "func_name": "_handle_ndarray_creation_inputs",
+            "class": "NDimArray",
+            "start_line": 214,
+            "end_line": 257
+        },
+        "NDimArray.applyfunc": {
+            "func_name": "applyfunc",
+            "class": "NDimArray",
+            "start_line": 344,
+            "end_line": 350
+        },
+        "NDimArray.__sub__": {
+            "func_name": "__sub__",
+            "class": "NDimArray",
+            "start_line": 405,
+            "end_line": 414
+        },
+        "NDimArray.__iter__.iterator": {
+            "func_name": "iterator",
+            "class": "NDimArray",
+            "start_line": 480,
+            "end_line": 484
+        },
+        "NDimArray.__eq__": {
+            "func_name": "__eq__",
+            "class": "NDimArray",
+            "start_line": 509,
+            "end_line": 519
+        },
+        "NDimArray._check_special_bounds": {
+            "func_name": "_check_special_bounds",
+            "class": "NDimArray",
+            "start_line": 568,
+            "end_line": 571
+        },
+        "NDimArray._check_index_for_getitem": {
+            "func_name": "_check_index_for_getitem",
+            "class": "NDimArray",
+            "start_line": 574,
+            "end_line": 584
+        }
+    },
+    "sphinx-doc__sphinx-8627": {
+        "restify": {
+            "func_name": "restify",
+            "class": "",
+            "start_line": 92,
+            "end_line": 109
+        },
+        "_restify_py37": {
+            "func_name": "_restify_py37",
+            "class": "",
+            "start_line": 114,
+            "end_line": 164
+        },
+        "stringify": {
+            "func_name": "stringify",
+            "class": "",
+            "start_line": 290,
+            "end_line": 319
+        },
+        "_stringify_py37": {
+            "func_name": "_stringify_py37",
+            "class": "",
+            "start_line": 324,
+            "end_line": 371
+        },
+        "": {
+            "func_name": "",
+            "class": "",
+            "start_line": 1,
+            "end_line": 374
+        }
+    },
+    "sympy__sympy-21171": {
+        "LatexPrinter.__init__": {
+            "func_name": "__init__",
+            "class": "LatexPrinter",
+            "start_line": 167,
+            "end_line": 219
+        },
+        "LatexPrinter._needs_function_brackets": {
+            "func_name": "_needs_function_brackets",
+            "class": "LatexPrinter",
+            "start_line": 284,
+            "end_line": 297
+        },
+        "LatexPrinter._needs_mul_brackets": {
+            "func_name": "_needs_mul_brackets",
+            "class": "LatexPrinter",
+            "start_line": 309,
+            "end_line": 326
+        },
+        "LatexPrinter._needs_add_brackets": {
+            "func_name": "_needs_add_brackets",
+            "class": "LatexPrinter",
+            "start_line": 334,
+            "end_line": 340
+        },
+        "LatexPrinter._mul_is_clean": {
+            "func_name": "_mul_is_clean",
+            "class": "LatexPrinter",
+            "start_line": 343,
+            "end_line": 346
+        },
+        "LatexPrinter._print_Permutation": {
+            "func_name": "_print_Permutation",
+            "class": "LatexPrinter",
+            "start_line": 407,
+            "end_line": 433
+        },
+        "LatexPrinter._print_Float": {
+            "func_name": "_print_Float",
+            "class": "LatexPrinter",
+            "start_line": 442,
+            "end_line": 468
+        },
+        "LatexPrinter._print_Mul": {
+            "func_name": "_print_Mul",
+            "class": "LatexPrinter",
+            "start_line": 499,
+            "end_line": 611
+        },
+        "LatexPrinter._helper_print_standard_power": {
+            "func_name": "_helper_print_standard_power",
+            "class": "LatexPrinter",
+            "start_line": 657,
+            "end_line": 669
+        },
+        "LatexPrinter._print_BasisDependent": {
+            "func_name": "_print_BasisDependent",
+            "class": "LatexPrinter",
+            "start_line": 713,
+            "end_line": 740
+        },
+        "LatexPrinter._print_Limit": {
+            "func_name": "_print_Limit",
+            "class": "LatexPrinter",
+            "start_line": 830,
+            "end_line": 841
+        },
+        "LatexPrinter._print_Function": {
+            "func_name": "_print_Function",
+            "class": "LatexPrinter",
+            "start_line": 872,
+            "end_line": 934
+        },
+        "LatexPrinter._hprint_one_arg_func": {
+            "func_name": "_hprint_one_arg_func",
+            "class": "LatexPrinter",
+            "start_line": 1194,
+            "end_line": 1199
+        },
+        "LatexPrinter._print_hyper": {
+            "func_name": "_print_hyper",
+            "class": "LatexPrinter",
+            "start_line": 1370,
+            "end_line": 1378
+        },
+        "LatexPrinter._print_meijerg": {
+            "func_name": "_print_meijerg",
+            "class": "LatexPrinter",
+            "start_line": 1381,
+            "end_line": 1391
+        },
+        "LatexPrinter._print_Mod": {
+            "func_name": "_print_Mod",
+            "class": "LatexPrinter",
+            "start_line": 1707,
+            "end_line": 1712
+        },
+        "LatexPrinter._print_NDimArray": {
+            "func_name": "_print_NDimArray",
+            "class": "LatexPrinter",
+            "start_line": 1770,
+            "end_line": 1818
+        },
+        "LatexPrinter._print_RandomDomain": {
+            "func_name": "_print_RandomDomain",
+            "class": "LatexPrinter",
+            "start_line": 2007,
+            "end_line": 2015
+        },
+        "LatexPrinter._print_Interval": {
+            "func_name": "_print_Interval",
+            "class": "LatexPrinter",
+            "start_line": 2131,
+            "end_line": 2145
+        },
+        "LatexPrinter._print_Poly": {
+            "func_name": "_print_Poly",
+            "class": "LatexPrinter",
+            "start_line": 2269,
+            "end_line": 2323
+        },
+        "LatexPrinter._print_ComplexRootOf": {
+            "func_name": "_print_ComplexRootOf",
+            "class": "LatexPrinter",
+            "start_line": 2326,
+            "end_line": 2334
+        },
+        "LatexPrinter._print_RootSum": {
+            "func_name": "_print_RootSum",
+            "class": "LatexPrinter",
+            "start_line": 2338,
+            "end_line": 2347
+        },
+        "LatexPrinter._print_DMP": {
+            "func_name": "_print_DMP",
+            "class": "LatexPrinter",
+            "start_line": 2411,
+            "end_line": 2417
+        },
+        "LatexPrinter._print_Feedback": {
+            "func_name": "_print_Feedback",
+            "class": "LatexPrinter",
+            "start_line": 2455,
+            "end_line": 2483
+        },
+        "LatexPrinter._print_Manifold": {
+            "func_name": "_print_Manifold",
+            "class": "LatexPrinter",
+            "start_line": 2586,
+            "end_line": 2602
+        },
+        "multiline_latex": {
+            "func_name": "multiline_latex",
+            "class": "",
+            "start_line": 3028,
+            "end_line": 3087
+        }
+    },
+    "sympy__sympy-21627": {
+        "im._eval_is_complex": {
+            "func_name": "_eval_is_complex",
+            "class": "im",
+            "start_line": 262,
+            "end_line": 263
+        },
+        "sign.eval": {
+            "func_name": "eval",
+            "class": "sign",
+            "start_line": 336,
+            "end_line": 381
+        },
+        "Abs.eval": {
+            "func_name": "eval",
+            "class": "Abs",
+            "start_line": 530,
+            "end_line": 623
+        },
+        "periodic_argument._getunbranched": {
+            "func_name": "_getunbranched",
+            "class": "periodic_argument",
+            "start_line": 1108,
+            "end_line": 1126
+        },
+        "periodic_argument.eval": {
+            "func_name": "eval",
+            "class": "periodic_argument",
+            "start_line": 1134,
+            "end_line": 1154
+        },
+        "principal_branch.eval": {
+            "func_name": "eval",
+            "class": "principal_branch",
+            "start_line": 1235,
+            "end_line": 1283
+        },
+        "principal_branch.eval.mr": {
+            "func_name": "mr",
+            "class": "principal_branch",
+            "start_line": 1247,
+            "end_line": 1249
+        },
+        "unpolarify": {
+            "func_name": "unpolarify",
+            "class": "",
+            "start_line": 1426,
+            "end_line": 1446
+        }
+    },
+    "sympy__sympy-21614": {
+        "_coeff_isneg": {
+            "func_name": "_coeff_isneg",
+            "class": "",
+            "start_line": 89,
+            "end_line": 93
+        },
+        "FunctionClass.__init__": {
+            "func_name": "__init__",
+            "class": "FunctionClass",
+            "start_line": 161,
+            "end_line": 185
+        },
+        "Derivative.__new__": {
+            "func_name": "__new__",
+            "class": "Derivative",
+            "start_line": 1270,
+            "end_line": 1512
+        },
+        "_mexpand": {
+            "func_name": "_mexpand",
+            "class": "",
+            "start_line": 2865,
+            "end_line": 2872
+        }
+    },
+    "sympy__sympy-24066": {
+        "UnitSystem.get_unit_system": {
+            "func_name": "get_unit_system",
+            "class": "UnitSystem",
+            "start_line": 92,
+            "end_line": 103
+        },
+        "UnitSystem._collect_factor_and_dimension": {
+            "func_name": "_collect_factor_and_dimension",
+            "class": "UnitSystem",
+            "start_line": 156,
+            "end_line": 199
+        }
+    },
+    "pytest-dev__pytest-5227": {
+        "ColoredLevelFormatter.__init__": {
+            "func_name": "__init__",
+            "class": "ColoredLevelFormatter",
+            "start_line": 39,
+            "end_line": 61
+        },
+        "ColoredLevelFormatter.format": {
+            "func_name": "format",
+            "class": "ColoredLevelFormatter",
+            "start_line": 66,
+            "end_line": 71
+        },
+        "get_actual_log_level": {
+            "func_name": "get_actual_log_level",
+            "class": "",
+            "start_line": 351,
+            "end_line": 366
+        },
+        "LoggingPlugin._setup_cli_logging": {
+            "func_name": "_setup_cli_logging",
+            "class": "LoggingPlugin",
+            "start_line": 431,
+            "end_line": 459
+        },
+        "LoggingPlugin.set_log_path": {
+            "func_name": "set_log_path",
+            "class": "LoggingPlugin",
+            "start_line": 471,
+            "end_line": 482
+        }
+    },
+    "django__django-16041": {
+        "formset_factory": {
+            "func_name": "formset_factory",
+            "class": "",
+            "start_line": 547,
+            "end_line": 571
+        }
+    },
+    "pytest-dev__pytest-7373": {
+        "MarkEvaluator.invalidraise": {
+            "func_name": "invalidraise",
+            "class": "MarkEvaluator",
+            "start_line": 41,
+            "end_line": 44
+        },
+        "MarkEvaluator.istrue": {
+            "func_name": "istrue",
+            "class": "MarkEvaluator",
+            "start_line": 47,
+            "end_line": 58
+        },
+        "MarkEvaluator._istrue": {
+            "func_name": "_istrue",
+            "class": "MarkEvaluator",
+            "start_line": 72,
+            "end_line": 110
+        },
+        "MarkEvaluator.get": {
+            "func_name": "get",
+            "class": "MarkEvaluator",
+            "start_line": 113,
+            "end_line": 115
+        }
+    },
+    "scikit-learn__scikit-learn-25638": {
+        "unique_labels": {
+            "func_name": "unique_labels",
+            "class": "",
+            "start_line": 76,
+            "end_line": 119
+        },
+        "is_multilabel": {
+            "func_name": "is_multilabel",
+            "class": "",
+            "start_line": 154,
+            "end_line": 193
+        },
+        "type_of_target": {
+            "func_name": "type_of_target",
+            "class": "",
+            "start_line": 293,
+            "end_line": 390
+        },
+        "class_distribution": {
+            "func_name": "class_distribution",
+            "class": "",
+            "start_line": 450,
+            "end_line": 499
+        }
+    },
+    "django__django-14017": {
+        "DeferredAttribute.__get__": {
+            "func_name": "__get__",
+            "class": "DeferredAttribute",
+            "start_line": 113,
+            "end_line": 125
+        },
+        "RegisterLookupMixin.get_lookup": {
+            "func_name": "get_lookup",
+            "class": "RegisterLookupMixin",
+            "start_line": 153,
+            "end_line": 159
+        }
+    },
+    "sympy__sympy-21055": {
+        "refine": {
+            "func_name": "refine",
+            "class": "",
+            "start_line": 46,
+            "end_line": 66
+        },
+        "refine_Pow": {
+            "func_name": "refine_Pow",
+            "class": "",
+            "start_line": 136,
+            "end_line": 206
+        },
+        "refine_atan2": {
+            "func_name": "refine_atan2",
+            "class": "",
+            "start_line": 234,
+            "end_line": 252
+        },
+        "refine_re": {
+            "func_name": "refine_re",
+            "class": "",
+            "start_line": 270,
+            "end_line": 275
+        },
+        "refine_im": {
+            "func_name": "refine_im",
+            "class": "",
+            "start_line": 293,
+            "end_line": 298
+        },
+        "refine_arg": {
+            "func_name": "refine_arg",
+            "class": "",
+            "start_line": 315,
+            "end_line": 320
+        }
+    },
+    "sympy__sympy-20442": {
+        "convert_to": {
+            "func_name": "convert_to",
+            "class": "",
+            "start_line": 86,
+            "end_line": 114
+        },
+        "quantity_simplify": {
+            "func_name": "quantity_simplify",
+            "class": "",
+            "start_line": 134,
+            "end_line": 151
+        }
+    },
+    "django__django-13447": {
+        "AdminSite.check": {
+            "func_name": "check",
+            "class": "AdminSite",
+            "start_line": 85,
+            "end_line": 94
+        },
+        "AdminSite.register": {
+            "func_name": "register",
+            "class": "AdminSite",
+            "start_line": 110,
+            "end_line": 142
+        }
+    },
+    "django__django-14999": {
+        "_check_for_duplicates": {
+            "func_name": "_check_for_duplicates",
+            "class": "",
+            "start_line": 14,
+            "end_line": 20
+        }
+    },
+    "sympy__sympy-17022": {
+        "AbstractPythonCodePrinter._module_format": {
+            "func_name": "_module_format",
+            "class": "AbstractPythonCodePrinter",
+            "start_line": 112,
+            "end_line": 119
+        },
+        "AbstractPythonCodePrinter._print_Piecewise": {
+            "func_name": "_print_Piecewise",
+            "class": "AbstractPythonCodePrinter",
+            "start_line": 230,
+            "end_line": 250
+        },
+        "AbstractPythonCodePrinter._print_Relational": {
+            "func_name": "_print_Relational",
+            "class": "AbstractPythonCodePrinter",
+            "start_line": 254,
+            "end_line": 266
+        },
+        "NumPyPrinter._print_Relational": {
+            "func_name": "_print_Relational",
+            "class": "NumPyPrinter",
+            "start_line": 541,
+            "end_line": 554
+        },
+        "NumPyPrinter._print_Identity": {
+            "func_name": "_print_Identity",
+            "class": "NumPyPrinter",
+            "start_line": 612,
+            "end_line": 616
+        }
+    },
+    "django__django-14997": {
+        "Columns.__str__.col_str": {
+            "func_name": "col_str",
+            "class": "Columns",
+            "start_line": 87,
+            "end_line": 94
+        }
+    },
+    "django__django-15789": {
+        "linebreaks": {
+            "func_name": "linebreaks",
+            "class": "",
+            "start_line": 132,
+            "end_line": 138
+        },
+        "smart_urlquote": {
+            "func_name": "smart_urlquote",
+            "class": "",
+            "start_line": 194,
+            "end_line": 226
+        },
+        "Urlizer.handle_word": {
+            "func_name": "handle_word",
+            "class": "Urlizer",
+            "start_line": 286,
+            "end_line": 327
+        },
+        "Urlizer.trim_url": {
+            "func_name": "trim_url",
+            "class": "Urlizer",
+            "start_line": 330,
+            "end_line": 332
+        },
+        "Urlizer.trim_punctuation": {
+            "func_name": "trim_punctuation",
+            "class": "Urlizer",
+            "start_line": 339,
+            "end_line": 368
+        }
+    },
+    "astropy__astropy-7746": {
+        "_parse_keysel": {
+            "func_name": "_parse_keysel",
+            "class": "",
+            "start_line": 136,
+            "end_line": 152
+        },
+        "WCS.__init__": {
+            "func_name": "__init__",
+            "class": "WCS",
+            "start_line": 361,
+            "end_line": 509
+        },
+        "WCS._fix_scamp": {
+            "func_name": "_fix_scamp",
+            "class": "WCS",
+            "start_line": 576,
+            "end_line": 605
+        },
+        "WCS.calc_footprint": {
+            "func_name": "calc_footprint",
+            "class": "WCS",
+            "start_line": 689,
+            "end_line": 723
+        },
+        "WCS._read_det2im_kw": {
+            "func_name": "_read_det2im_kw",
+            "class": "WCS",
+            "start_line": 730,
+            "end_line": 789
+        },
+        "WCS._read_d2im_old_format": {
+            "func_name": "_read_d2im_old_format",
+            "class": "WCS",
+            "start_line": 792,
+            "end_line": 824
+        },
+        "WCS._read_distortion_kw": {
+            "func_name": "_read_distortion_kw",
+            "class": "WCS",
+            "start_line": 881,
+            "end_line": 944
+        },
+        "WCS._write_distortion_kw": {
+            "func_name": "_write_distortion_kw",
+            "class": "WCS",
+            "start_line": 951,
+            "end_line": 990
+        },
+        "WCS._read_sip_kw": {
+            "func_name": "_read_sip_kw",
+            "class": "WCS",
+            "start_line": 1009,
+            "end_line": 1119
+        },
+        "WCS._write_sip_kw": {
+            "func_name": "_write_sip_kw",
+            "class": "WCS",
+            "start_line": 1126,
+            "end_line": 1147
+        },
+        "WCS._normalize_sky": {
+            "func_name": "_normalize_sky",
+            "class": "WCS",
+            "start_line": 1180,
+            "end_line": 1206
+        },
+        "WCS._array_converter": {
+            "func_name": "_array_converter",
+            "class": "WCS",
+            "start_line": 1214,
+            "end_line": 1276
+        },
+        "WCS._array_converter._return_list_of_arrays": {
+            "func_name": "_return_list_of_arrays",
+            "class": "WCS",
+            "start_line": 1215,
+            "end_line": 1233
+        },
+        "WCS._array_converter._return_single_array": {
+            "func_name": "_return_single_array",
+            "class": "WCS",
+            "start_line": 1237,
+            "end_line": 1248
+        },
+        "WCS.wcs_pix2world": {
+            "func_name": "wcs_pix2world",
+            "class": "WCS",
+            "start_line": 1355,
+            "end_line": 1357
+        },
+        "WCS._all_world2pix": {
+            "func_name": "_all_world2pix",
+            "class": "WCS",
+            "start_line": 1632,
+            "end_line": 1819
+        },
+        "WCS.all_world2pix": {
+            "func_name": "all_world2pix",
+            "class": "WCS",
+            "start_line": 1823,
+            "end_line": 1826
+        },
+        "WCS.wcs_world2pix": {
+            "func_name": "wcs_world2pix",
+            "class": "WCS",
+            "start_line": 2162,
+            "end_line": 2164
+        },
+        "WCS.sip_pix2foc": {
+            "func_name": "sip_pix2foc",
+            "class": "WCS",
+            "start_line": 2313,
+            "end_line": 2320
+        },
+        "WCS.sip_foc2pix": {
+            "func_name": "sip_foc2pix",
+            "class": "WCS",
+            "start_line": 2354,
+            "end_line": 2361
+        },
+        "WCS.to_header": {
+            "func_name": "to_header",
+            "class": "WCS",
+            "start_line": 2508,
+            "end_line": 2568
+        },
+        "WCS._fix_ctype": {
+            "func_name": "_fix_ctype",
+            "class": "WCS",
+            "start_line": 2588,
+            "end_line": 2619
+        },
+        "WCS.pixel_scale_matrix": {
+            "func_name": "pixel_scale_matrix",
+            "class": "WCS",
+            "start_line": 3047,
+            "end_line": 3064
+        },
+        "find_all_wcs": {
+            "func_name": "find_all_wcs",
+            "class": "",
+            "start_line": 3163,
+            "end_line": 3192
+        },
+        "validate": {
+            "func_name": "validate",
+            "class": "",
+            "start_line": 3213,
+            "end_line": 3304
+        },
+        "": {
+            "func_name": "",
+            "class": "",
+            "start_line": 2,
+            "end_line": 3195
+        }
+    },
+    "matplotlib__matplotlib-26020": {
+        "Grid.__init__": {
+            "func_name": "__init__",
+            "class": "Grid",
+            "start_line": 114,
+            "end_line": 170
+        },
+        "ImageGrid._init_locators": {
+            "func_name": "_init_locators",
+            "class": "ImageGrid",
+            "start_line": 420,
+            "end_line": 575
+        }
+    },
+    "django__django-15347": {
+        "MessageEncoder.default": {
+            "func_name": "default",
+            "class": "MessageEncoder",
+            "start_line": 18,
+            "end_line": 25
+        },
+        "CookieStorage._get": {
+            "func_name": "_get",
+            "class": "CookieStorage",
+            "start_line": 85,
+            "end_line": 91
+        },
+        "CookieStorage._store": {
+            "func_name": "_store",
+            "class": "CookieStorage",
+            "start_line": 122,
+            "end_line": 140
+        }
+    },
+    "sympy__sympy-19487": {
+        "sign.eval": {
+            "func_name": "eval",
+            "class": "sign",
+            "start_line": 298,
+            "end_line": 340
+        },
+        "periodic_argument._getunbranched": {
+            "func_name": "_getunbranched",
+            "class": "periodic_argument",
+            "start_line": 922,
+            "end_line": 940
+        },
+        "periodic_argument.eval": {
+            "func_name": "eval",
+            "class": "periodic_argument",
+            "start_line": 948,
+            "end_line": 968
+        },
+        "principal_branch.eval": {
+            "func_name": "eval",
+            "class": "principal_branch",
+            "start_line": 1016,
+            "end_line": 1064
+        },
+        "principal_branch.eval.mr": {
+            "func_name": "mr",
+            "class": "principal_branch",
+            "start_line": 1028,
+            "end_line": 1030
+        },
+        "unpolarify": {
+            "func_name": "unpolarify",
+            "class": "",
+            "start_line": 1199,
+            "end_line": 1219
+        }
+    },
+    "django__django-13925": {
+        "ModelBase.__new__": {
+            "func_name": "__new__",
+            "class": "ModelBase",
+            "start_line": 75,
+            "end_line": 322
+        },
+        "ModelBase._prepare": {
+            "func_name": "_prepare",
+            "class": "ModelBase",
+            "start_line": 332,
+            "end_line": 374
+        },
+        "ModelStateFieldsCacheDescriptor.__get__": {
+            "func_name": "__get__",
+            "class": "ModelStateFieldsCacheDescriptor",
+            "start_line": 387,
+            "end_line": 390
+        },
+        "Model.__init__": {
+            "func_name": "__init__",
+            "class": "Model",
+            "start_line": 408,
+            "end_line": 505
+        },
+        "Model.from_db": {
+            "func_name": "from_db",
+            "class": "Model",
+            "start_line": 509,
+            "end_line": 518
+        },
+        "Model.__hash__": {
+            "func_name": "__hash__",
+            "class": "Model",
+            "start_line": 537,
+            "end_line": 539
+        },
+        "Model._set_pk_val": {
+            "func_name": "_set_pk_val",
+            "class": "Model",
+            "start_line": 578,
+            "end_line": 581
+        },
+        "Model.save": {
+            "func_name": "save",
+            "class": "Model",
+            "start_line": 682,
+            "end_line": 726
+        },
+        "Model.save_base": {
+            "func_name": "save_base",
+            "class": "Model",
+            "start_line": 741,
+            "end_line": 774
+        },
+        "Model._save_parents": {
+            "func_name": "_save_parents",
+            "class": "Model",
+            "start_line": 783,
+            "end_line": 807
+        },
+        "Model._save_table": {
+            "func_name": "_save_table",
+            "class": "Model",
+            "start_line": 815,
+            "end_line": 872
+        },
+        "Model._do_update": {
+            "func_name": "_do_update",
+            "class": "Model",
+            "start_line": 879,
+            "end_line": 899
+        },
+        "Model._prepare_related_fields_for_save": {
+            "func_name": "_prepare_related_fields_for_save",
+            "class": "Model",
+            "start_line": 915,
+            "end_line": 943
+        },
+        "Model._check_default_pk": {
+            "func_name": "_check_default_pk",
+            "class": "Model",
+            "start_line": 1300,
+            "end_line": 1325
+        },
+        "Model._check_swappable": {
+            "func_name": "_check_swappable",
+            "class": "Model",
+            "start_line": 1330,
+            "end_line": 1352
+        },
+        "Model._check_model": {
+            "func_name": "_check_model",
+            "class": "Model",
+            "start_line": 1356,
+            "end_line": 1365
+        },
+        "Model._check_m2m_through_same_relationship": {
+            "func_name": "_check_m2m_through_same_relationship",
+            "class": "Model",
+            "start_line": 1390,
+            "end_line": 1415
+        },
+        "Model._check_id_field": {
+            "func_name": "_check_id_field",
+            "class": "Model",
+            "start_line": 1420,
+            "end_line": 1432
+        },
+        "Model._check_field_name_clashes": {
+            "func_name": "_check_field_name_clashes",
+            "class": "Model",
+            "start_line": 1437,
+            "end_line": 1489
+        },
+        "Model._check_column_name_clashes": {
+            "func_name": "_check_column_name_clashes",
+            "class": "Model",
+            "start_line": 1494,
+            "end_line": 1514
+        },
+        "Model._check_model_name_db_lookup_clashes": {
+            "func_name": "_check_model_name_db_lookup_clashes",
+            "class": "Model",
+            "start_line": 1518,
+            "end_line": 1538
+        },
+        "Model._check_property_name_related_field_accessor_clashes": {
+            "func_name": "_check_property_name_related_field_accessor_clashes",
+            "class": "Model",
+            "start_line": 1542,
+            "end_line": 1558
+        },
+        "Model._check_single_primary_key": {
+            "func_name": "_check_single_primary_key",
+            "class": "Model",
+            "start_line": 1562,
+            "end_line": 1572
+        },
+        "Model._check_index_together": {
+            "func_name": "_check_index_together",
+            "class": "Model",
+            "start_line": 1577,
+            "end_line": 1599
+        },
+        "Model._check_unique_together": {
+            "func_name": "_check_unique_together",
+            "class": "Model",
+            "start_line": 1604,
+            "end_line": 1626
+        },
+        "Model._check_indexes": {
+            "func_name": "_check_indexes",
+            "class": "Model",
+            "start_line": 1631,
+            "end_line": 1715
+        },
+        "Model._check_local_fields": {
+            "func_name": "_check_local_fields",
+            "class": "Model",
+            "start_line": 1719,
+            "end_line": 1765
+        },
+        "Model._check_ordering": {
+            "func_name": "_check_ordering",
+            "class": "Model",
+            "start_line": 1773,
+            "end_line": 1867
+        },
+        "Model._check_long_column_names": {
+            "func_name": "_check_long_column_names",
+            "class": "Model",
+            "start_line": 1875,
+            "end_line": 1942
+        },
+        "Model._check_constraints": {
+            "func_name": "_check_constraints",
+            "class": "Model",
+            "start_line": 1962,
+            "end_line": 2091
+        }
+    },
+    "pydata__xarray-3364": {
+        "concat": {
+            "func_name": "concat",
+            "class": "",
+            "start_line": 108,
+            "end_line": 131
+        },
+        "_calc_concat_over.process_subset_opt": {
+            "func_name": "process_subset_opt",
+            "class": "_calc_concat_over",
+            "start_line": 182,
+            "end_line": 234
+        }
+    }
+}

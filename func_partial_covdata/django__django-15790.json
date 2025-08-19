@@ -1,0 +1,62 @@
+{
+    "check_string_if_invalid_is_string": {
+        "func_name": "check_string_if_invalid_is_string",
+        "class": "",
+        "executed_lines": [
+            38,
+            39,
+            40,
+            41,
+            47
+        ],
+        "missing_lines": [
+            42,
+            43,
+            46
+        ],
+        "all_lines": [
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            46,
+            47
+        ]
+    },
+    "check_for_template_tags_with_the_same_name": {
+        "func_name": "check_for_template_tags_with_the_same_name",
+        "class": "",
+        "executed_lines": [
+            52,
+            53,
+            55,
+            56,
+            57,
+            60,
+            61,
+            63,
+            64,
+            75
+        ],
+        "missing_lines": [
+            58,
+            65
+        ],
+        "all_lines": [
+            52,
+            53,
+            55,
+            56,
+            57,
+            58,
+            60,
+            61,
+            63,
+            64,
+            65,
+            75
+        ]
+    }
+}

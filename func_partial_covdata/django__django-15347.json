@@ -1,0 +1,82 @@
+{
+    "MessageEncoder.default": {
+        "func_name": "default",
+        "class": "MessageEncoder",
+        "executed_lines": [
+            18,
+            20,
+            21,
+            22,
+            23,
+            24
+        ],
+        "missing_lines": [
+            25
+        ],
+        "all_lines": [
+            18,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+        ]
+    },
+    "CookieStorage._get": {
+        "func_name": "_get",
+        "class": "CookieStorage",
+        "executed_lines": [
+            85,
+            86,
+            87,
+            88,
+            91
+        ],
+        "missing_lines": [
+            90
+        ],
+        "all_lines": [
+            85,
+            86,
+            87,
+            88,
+            90,
+            91
+        ]
+    },
+    "CookieStorage._store": {
+        "func_name": "_store",
+        "class": "CookieStorage",
+        "executed_lines": [
+            122,
+            123,
+            124,
+            127,
+            129,
+            132,
+            133,
+            134,
+            137,
+            139,
+            140
+        ],
+        "missing_lines": [
+            136
+        ],
+        "all_lines": [
+            122,
+            123,
+            124,
+            127,
+            129,
+            132,
+            133,
+            134,
+            136,
+            137,
+            139,
+            140
+        ]
+    }
+}

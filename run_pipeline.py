@@ -24,6 +24,10 @@ if __name__ == "__main__":
         type=str,
         help="Model name",
         choices=[
+            "gpt-4o-mini",
+            "gpt-4.1-nano",
+            "gpt-4.1-mini",
+            "gpt-4.1",
             "gpt-4o-2024-05-13",
             "gpt-4-0613",
             "gpt-4-turbo-2024-04-09",
@@ -40,6 +44,12 @@ if __name__ == "__main__":
             "baseline",
         ],
         required=True,
+    )
+    parser.add_argument(  #in consistency with run_api.py
+        "--num_samples",
+        type=int,
+        default=1,
+        help="Number of samples to generate for each prompt.",
     )
     parser.add_argument(
         "--num_samples_full",
@@ -125,19 +135,25 @@ if __name__ == "__main__":
     os.makedirs(pred_dir, exist_ok=True)
 
     pred_output_filename = f"{model_suf}__{data_suf}__{args.temperature}__test.jsonl"
-    print(pred_output_filename)
+    preds_dev_output_filename = f"{model_suf}__{data_suf}__{args.temperature}__dev.jsonl"
     preds_file = os.path.join(pred_dir, pred_output_filename)
+    preds_dev_file = os.path.join(pred_dir, preds_dev_output_filename)
 
     if os.path.exists(preds_file) and args.rerun_preds:
         os.remove(preds_file)
 
     API_MODELS = [
+        "gpt-4o-mini",
+        "gpt-4.1-nano",
+        "gpt-4.1-mini",
+        "gpt-4.1",
         "gpt-4o-2024-05-13",
         "gpt-4-0613",
         "gpt-4-turbo-2024-04-09",
         "gpt-3.5-turbo-0125",
         "Meta-Llama-3.1-405B-Instruct",
     ]
+
     if not os.path.exists(preds_file):
         if args.model in API_MODELS:
             model_extra_cmd = ["--model_args", f"temperature={args.temperature}"]
@@ -153,13 +169,18 @@ if __name__ == "__main__":
                 args.model,
                 "--dataset_name_or_path",
                 dataset_name_or_path,
+                "--split",
+                "dev",
                 "--output_dir",
                 pred_dir,
+                "--num_samples",
+                str(args.num_samples),
                 "--num_samples_full",
                 str(args.num_samples_full),
                 "--num_samples_completion",
                 str(args.num_samples_completion),
             ] + model_extra_cmd
+            print(f'model_cmd: {model_cmd}') #show the command
             subprocess.run(model_cmd)
         elif args.model != "baseline":
             model_extra_cmd = ["--skip_full"] if args.skip_full else []
@@ -185,6 +206,10 @@ if __name__ == "__main__":
             model_cmd += model_extra_cmd
             subprocess.run(model_cmd)
 
+    print('Finish generating tests')
+    preds_file = preds_dev_file  #for evaluation on dev set
+    print(f'preds_file: {preds_file}')
+    quit()
     # Run evaluation
     extra_cmd = ["--skip_existing"] if not args.rerun_eval else []
     extra_cmd += (
@@ -214,6 +239,8 @@ if __name__ == "__main__":
             dataset_name_or_path,
         ]
     else:
+        print(f'found generated tests: {preds_file}')
+        print('Start evaluation')
         eval_cmd = [
             "python",
             "run_evaluation.py",

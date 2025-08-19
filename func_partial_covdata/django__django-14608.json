@@ -1,0 +1,32 @@
+{
+    "formset_factory": {
+        "func_name": "formset_factory",
+        "class": "",
+        "executed_lines": [
+            468,
+            469,
+            470,
+            471,
+            475,
+            476,
+            477,
+            481,
+            493
+        ],
+        "missing_lines": [
+            478
+        ],
+        "all_lines": [
+            468,
+            469,
+            470,
+            471,
+            475,
+            476,
+            477,
+            478,
+            481,
+            493
+        ]
+    }
+}

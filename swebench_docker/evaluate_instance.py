@@ -1,5 +1,6 @@
 # Copyright (c) Meta Platforms, Inc. and affiliates.
 # Adapted from: https://github.com/aorwall/SWE-bench-docker/blob/main/swebench_docker/evaluate_instance.py
+# Symbolic execution version
 
 import base64
 import json
@@ -27,7 +28,8 @@ from swebench_docker.context_manager import TaskEnvContextManager
 from swebench_docker.swebench_utils import get_test_directives
 
 logging.basicConfig(
-    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s",
+    handlers=[logging.StreamHandler()]
 )
 logging.getLogger().setLevel(logging.INFO)
 logger = logging.getLogger("evaluate_instance")
@@ -244,132 +246,72 @@ def postprocess_functions(
         successful_tests.append((None, class_wrapper_start + class_content))
 
 
-def full_processing(prompt_list, tcm, task_instance, skip_mutation):
-    for prompt in prompt_list:
-        preamble, classes, test_functions = extract_preamble_classes_and_functions(
-            prompt, tcm
-        )
-        successful_tests = []
-
-        if classes:
-            for class_name, methods, start in classes:
-                postprocess_tests(
-                    task_instance, preamble, class_name, methods, successful_tests, tcm
-                )
-
-        if test_functions:
-            postprocess_functions(
-                task_instance, preamble, test_functions, successful_tests, tcm
-            )
-
-        tcm.log.write(f"{TESTS_CONFIG}full pred\n")
-        if len(successful_tests) > 0:
-            success_tests = []
-            class_definitions = {}
-            for item in successful_tests:
-                if item[0]:  # It's a class method
-                    class_def, method_name, method_content = item
-                    if class_def not in class_definitions:
-                        class_definitions[class_def] = [method_content]
-                    else:
-                        class_definitions[class_def].append(method_content)
-                else:  # It's a standalone function
-                    success_tests.append(item[1])
-
-            for class_def, methods in class_definitions.items():
-                class_content = f"{class_def}\n" + "\n".join(methods)
-                success_tests.append(class_content)
-
-            success_tests_str = "\n\n".join(success_tests)
-
-            with open(task_instance[KEY_TEST_FILE_PATH], "w") as f:
-                f.write(preamble + "\n" + success_tests_str)
-
-            _, success = tcm.run_tests_task(task_instance, skip_mutation=skip_mutation)
-
-            total_tests = len(test_functions) + sum(
-                len(methods) for _, methods, _ in classes
-            )
-            if success and len(successful_tests) == total_tests:
-                tcm.log.write(UNFILTERED_TESTS_PASSED)
-            else:
-                tcm.log.write(UNFILTERED_TESTS_FAILED)
-        else:
-            tcm.log.write("TestsTime: 0.0")
-            tcm.log.write(TESTS_FAILED)
-            tcm.log.write(UNFILTERED_TESTS_FAILED)
-
 
 def completion_processing(
-    prompt_list, tcm, setting, task_instance, only_baseline, skip_mutation
+    prompt, tcm, setting, task_instance, only_baseline, skip_mutation
 ):
-    i = 0
-    for prompt_ind in range(len(prompt_list)):
-        prompt = prompt_list[prompt_ind]
-        skip_prompt = False
-        tcm.log.write(
-            f"{TESTS_CONFIG}{setting} {'baseline' if only_baseline else 'pred'}\n"
-        )
-        if only_baseline:
+    #'prompt' is the generated test case
+    skip_prompt = False
+    tcm.log.write(
+        f"{TESTS_CONFIG}{setting} {'baseline' if only_baseline else 'pred'}\n"
+    )
+    #print(f'setting: {setting}, prompt: {prompt}')
+    #quit()
+    if only_baseline:
+        with open(task_instance[KEY_TEST_FILE_PATH], "w") as f:
+            f.write(prompt)
+    else:
+        file_content = task_instance["preds_context"]
+
+        full_prompt = file_content + "\n" + prompt  #Is full_prompt the complete test file (existing+generated)?
+
+        if (
+            "assert" not in prompt
+            and ".raises" not in prompt
+            and "Error" not in prompt
+        ) or "def" not in prompt:
+            skip_prompt = True
+        else:
             with open(task_instance[KEY_TEST_FILE_PATH], "w") as f:
-                f.write(prompt)
-        else:
-            file_content = task_instance["preds_context"][SETTING_PROMPT_MAP[setting]]
+                f.write(full_prompt)
 
-            full_prompt = file_content + "\n" + prompt
-
-            if (
-                "assert" not in prompt
-                and ".raises" not in prompt
-                and "Error" not in prompt
-            ) or "def" not in prompt:
-                skip_prompt = True
-            else:
-                with open(task_instance[KEY_TEST_FILE_PATH], "w") as f:
-                    f.write(full_prompt)
-
-        if not skip_prompt:
-            tcm.run_tests_task(task_instance, skip_mutation=True)
-        else:
-            tcm.log.write(TESTS_FAILED)
+    if not skip_prompt:
+        tcm.run_tests_task(task_instance, skip_mutation=True)
+    else:
+        tcm.log.write(TESTS_FAILED)
 
 
 def main(
     task_instance: dict,
     testbed_name: str,
-    setting: str,
     repo_dir: str,
     log_dir: str,
     timeout: Optional[int],
     image_type: str = "conda",
     only_baseline: bool = False,
-    skip_mutation: bool = False,
+    skip_mutation: bool = True,
 ):
+    #print(f'task_instance: {task_instance.keys()}')
     logger.info(
         "Instance ID: "
         + task_instance["instance_id"]
         + "\nID: "
         + task_instance["id"]
+        + "\nFunction name: "
+        + task_instance["test_func_name"]
         + "\nTestbed: "
         + testbed_name
         + "\nLog dir: "
         + log_dir
-        + "\nSetting: "
-        + setting
+        + "\nSkip Mutation: "
+        + str(skip_mutation)
     )
-    logger.info(f"Only Baseline: {only_baseline}")
 
-    if only_baseline:
-        task_instance[KEY_MODEL] = "baseline"
-        test_type = MAP_REPO_TO_TEST_FRAMEWORK[task_instance["repo"]]
-        test_directives = get_test_directives(task_instance)
-        test_cmd = f"{test_type} {' '.join(test_directives)}"
-        task_instance["test_directives"] = test_directives
-        task_instance["test_cmd"] = test_cmd
-
+    func_name = task_instance["test_func_name"]
+    func_name_for_setting = f'-{func_name}-'  #use function name as settting for context manager
     with TaskEnvContextManager(
         task_instance,
-        setting,
+        func_name_for_setting,  #use function name as setting for context manager
         testbed_name,
         repo_dir,
         log_dir,
@@ -387,20 +329,14 @@ def main(
             logger.warning("Evaluation failed")
             sys.exit(1)
 
-        # Make baselines a list so the loop below works
-        prompt_list = (
-            [task_instance[KEY_BASELINES][setting]]
-            if only_baseline
-            else task_instance[KEY_PREDICTIONS][setting]
+        generated_test = task_instance["pred"]
+        completion_processing(
+            generated_test, tcm, func_name_for_setting, task_instance, only_baseline, skip_mutation
         )
-        if setting == "full":
-            full_processing(prompt_list, tcm, task_instance, skip_mutation)
-        else:
-            completion_processing(
-                prompt_list, tcm, setting, task_instance, only_baseline, skip_mutation
-            )
 
         logger.info("Evaluation succeeded")
+
+
 
 
 if __name__ == "__main__":
@@ -408,24 +344,28 @@ if __name__ == "__main__":
     if os.path.exists(TASK_INSTANCE_JSON):
         with open(TASK_INSTANCE_JSON, "r") as f:
             task_instance = json.load(f)
+            #print(f'task_instance: {task_instance.keys()}')
     else:
         instance_encoded = os.getenv("INSTANCE")
         if instance_encoded is None:
             raise ValueError("INSTANCE environment variable is not set")
         task_instance = json.loads(base64.b64decode(instance_encoded).decode("utf-8"))
-    log_dir = os.getenv("LOG_DIR")
+    log_dir = os.getenv("LOG_DIR") #/opt/logs
     if log_dir is None:
         raise ValueError("LOG_DIR environment variable is not set")
 
-    testbed_name = os.getenv("TESTBED_NAME")
+    testbed_name = os.getenv("TESTBED_NAME") #repo + version
+    print(f'testbed_name: {testbed_name}')
     if testbed_name is None:
         raise ValueError("TESTBED_NAME environment variable is not set")
 
-    repo_dir = os.getenv("REPO_DIR") if os.getenv("REPO_DIR") else os.getenv("TESTBED")
+    repo_dir = os.getenv("REPO_DIR") if os.getenv("REPO_DIR") else os.getenv("TESTBED") #/opt/repo
+    print(f'repo_dir: {repo_dir}')
     if repo_dir is None:
         raise ValueError("REPO_DIR environment variable is not set")
 
     timeout = os.getenv("TIMEOUT")
+    print(f'timeout: {timeout}')
     int_timeout: Optional[int] = None
     if timeout is not None:
         try:
@@ -433,9 +373,7 @@ if __name__ == "__main__":
         except ValueError:
             raise ValueError("TIMEOUT environment variable must be an integer or None")
 
-    setting = os.getenv("SETTING")
-    if setting is None:
-        raise ValueError("SETTING environment variable is not set")
+    #setting = 'extra'
 
     main(
         task_instance=task_instance,
@@ -443,7 +381,6 @@ if __name__ == "__main__":
         repo_dir=repo_dir,
         log_dir=log_dir,
         timeout=int_timeout,
-        setting=setting,
         image_type=os.getenv("IMAGE_TYPE", "conda"),
         only_baseline=os.getenv("ONLY_BASELINE") == "True",
         skip_mutation=os.getenv("SKIP_MUTATION") == "True",

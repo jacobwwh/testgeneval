@@ -1,0 +1,58 @@
+{
+    "_multi_decorate": {
+        "func_name": "_multi_decorate",
+        "class": "",
+        "executed_lines": [
+            27,
+            33,
+            35,
+            46,
+            47,
+            49,
+            50
+        ],
+        "missing_lines": [
+            31
+        ],
+        "all_lines": [
+            27,
+            31,
+            33,
+            35,
+            46,
+            47,
+            49,
+            50
+        ]
+    },
+    "method_decorator._dec": {
+        "func_name": "_dec",
+        "class": "method_decorator",
+        "executed_lines": [
+            62,
+            63
+        ],
+        "missing_lines": [
+            64,
+            65,
+            69,
+            70,
+            71,
+            75,
+            76,
+            77
+        ],
+        "all_lines": [
+            62,
+            63,
+            64,
+            65,
+            69,
+            70,
+            71,
+            75,
+            76,
+            77
+        ]
+    }
+}

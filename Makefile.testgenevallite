@@ -6,8 +6,8 @@ all: \
 	docker/django__django/4.1/.Dockerfile.stamp \
 	docker/django__django/5.0/.Dockerfile.stamp \
 	docker/django__django/4.0/.Dockerfile.stamp \
-	docker/django__django/3.0/.Dockerfile.stamp \
 	docker/django__django/4.2/.Dockerfile.stamp \
+	docker/django__django/3.0/.Dockerfile.stamp \
 	docker/django__django/3.1/.Dockerfile.stamp \
 	docker/django__django/3.2/.Dockerfile.stamp \
 	docker/sphinx-doc__sphinx/.Dockerfile.stamp \
@@ -131,13 +131,13 @@ docker/django__django/4.0/.Dockerfile.stamp: docker/django__django/4.0/Dockerfil
 	docker build --network=host -t aorwall/swe-bench-django_django-testbed:4.0 -f docker/django__django/4.0/Dockerfile .
 	touch docker/django__django/4.0/.Dockerfile.stamp
 
-docker/django__django/3.0/.Dockerfile.stamp: docker/django__django/3.0/Dockerfile docker/django__django/.Dockerfile.stamp docker/pyenv/.Dockerfile-pyenvs.stamp docker/.Dockerfile.stamp
-	docker build --network=host -t aorwall/swe-bench-django_django-testbed:3.0 -f docker/django__django/3.0/Dockerfile .
-	touch docker/django__django/3.0/.Dockerfile.stamp
-
 docker/django__django/4.2/.Dockerfile.stamp: docker/django__django/4.2/Dockerfile docker/django__django/.Dockerfile.stamp docker/pyenv/.Dockerfile-pyenvs.stamp docker/.Dockerfile.stamp
 	docker build --network=host -t aorwall/swe-bench-django_django-testbed:4.2 -f docker/django__django/4.2/Dockerfile .
 	touch docker/django__django/4.2/.Dockerfile.stamp
+
+docker/django__django/3.0/.Dockerfile.stamp: docker/django__django/3.0/Dockerfile docker/django__django/.Dockerfile.stamp docker/pyenv/.Dockerfile-pyenvs.stamp docker/.Dockerfile.stamp
+	docker build --network=host -t aorwall/swe-bench-django_django-testbed:3.0 -f docker/django__django/3.0/Dockerfile .
+	touch docker/django__django/3.0/.Dockerfile.stamp
 
 docker/django__django/3.1/.Dockerfile.stamp: docker/django__django/3.1/Dockerfile docker/django__django/.Dockerfile.stamp docker/pyenv/.Dockerfile-pyenvs.stamp docker/.Dockerfile.stamp
 	docker build --network=host -t aorwall/swe-bench-django_django-testbed:3.1 -f docker/django__django/3.1/Dockerfile .

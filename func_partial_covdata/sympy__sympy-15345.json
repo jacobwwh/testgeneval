@@ -1,0 +1,26 @@
+{
+    "MCodePrinter.__init__": {
+        "func_name": "__init__",
+        "class": "MCodePrinter",
+        "executed_lines": [
+            59,
+            60,
+            61,
+            62
+        ],
+        "missing_lines": [
+            63,
+            64,
+            65
+        ],
+        "all_lines": [
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65
+        ]
+    }
+}

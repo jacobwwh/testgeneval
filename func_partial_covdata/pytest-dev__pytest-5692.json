@@ -1,0 +1,176 @@
+{
+    "merge_family": {
+        "func_name": "merge_family",
+        "class": "",
+        "executed_lines": [
+            63,
+            64,
+            65,
+            66,
+            68,
+            69
+        ],
+        "missing_lines": [
+            67
+        ],
+        "all_lines": [
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69
+        ]
+    },
+    "_NodeReporter.write_captured_output": {
+        "func_name": "write_captured_output",
+        "class": "_NodeReporter",
+        "executed_lines": [
+            162,
+            163,
+            165,
+            166,
+            167,
+            169,
+            170,
+            171,
+            175,
+            187,
+            189,
+            190,
+            191,
+            193,
+            194,
+            195,
+            196,
+            208,
+            210,
+            211,
+            212
+        ],
+        "missing_lines": [
+            185,
+            206
+        ],
+        "all_lines": [
+            162,
+            163,
+            165,
+            166,
+            167,
+            169,
+            170,
+            171,
+            175,
+            185,
+            187,
+            189,
+            190,
+            191,
+            193,
+            194,
+            195,
+            196,
+            206,
+            208,
+            210,
+            211,
+            212
+        ]
+    },
+    "_NodeReporter.append_failure": {
+        "func_name": "append_failure",
+        "class": "_NodeReporter",
+        "executed_lines": [
+            219,
+            222,
+            223,
+            224,
+            225,
+            228,
+            229,
+            230,
+            231
+        ],
+        "missing_lines": [
+            220,
+            227
+        ],
+        "all_lines": [
+            219,
+            220,
+            222,
+            223,
+            224,
+            225,
+            227,
+            228,
+            229,
+            230,
+            231
+        ]
+    },
+    "LogXML.__init__": {
+        "func_name": "__init__",
+        "class": "LogXML",
+        "executed_lines": [
+            479,
+            480,
+            481,
+            482,
+            483,
+            484,
+            485,
+            486,
+            487,
+            488,
+            489,
+            490,
+            493,
+            494,
+            497
+        ],
+        "missing_lines": [
+            498
+        ],
+        "all_lines": [
+            479,
+            480,
+            481,
+            482,
+            483,
+            484,
+            485,
+            486,
+            487,
+            488,
+            489,
+            490,
+            493,
+            494,
+            497,
+            498
+        ]
+    },
+    "LogXML.pytest_collectreport": {
+        "func_name": "pytest_collectreport",
+        "class": "LogXML",
+        "executed_lines": [
+            630,
+            631,
+            632,
+            633
+        ],
+        "missing_lines": [
+            635
+        ],
+        "all_lines": [
+            630,
+            631,
+            632,
+            633,
+            635
+        ]
+    }
+}

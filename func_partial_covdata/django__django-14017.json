@@ -1,0 +1,56 @@
+{
+    "DeferredAttribute.__get__": {
+        "func_name": "__get__",
+        "class": "DeferredAttribute",
+        "executed_lines": [
+            113,
+            114,
+            115,
+            116,
+            117,
+            125
+        ],
+        "missing_lines": [
+            120,
+            121,
+            122,
+            124
+        ],
+        "all_lines": [
+            113,
+            114,
+            115,
+            116,
+            117,
+            120,
+            121,
+            122,
+            124,
+            125
+        ]
+    },
+    "RegisterLookupMixin.get_lookup": {
+        "func_name": "get_lookup",
+        "class": "RegisterLookupMixin",
+        "executed_lines": [
+            153,
+            154,
+            155,
+            157,
+            159
+        ],
+        "missing_lines": [
+            156,
+            158
+        ],
+        "all_lines": [
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159
+        ]
+    }
+}

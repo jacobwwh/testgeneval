@@ -1,0 +1,582 @@
+{
+    "_bbox_artist": {
+        "func_name": "_bbox_artist",
+        "class": "",
+        "executed_lines": [
+            72
+        ],
+        "missing_lines": [
+            73
+        ],
+        "all_lines": [
+            72,
+            73
+        ]
+    },
+    "OffsetBox.contains": {
+        "func_name": "contains",
+        "class": "OffsetBox",
+        "executed_lines": [
+            271,
+            272,
+            274,
+            275,
+            276,
+            277
+        ],
+        "missing_lines": [
+            273,
+            278
+        ],
+        "all_lines": [
+            271,
+            272,
+            273,
+            274,
+            275,
+            276,
+            277,
+            278
+        ]
+    },
+    "OffsetBox.get_window_extent": {
+        "func_name": "get_window_extent",
+        "class": "OffsetBox",
+        "executed_lines": [
+            398,
+            400,
+            401,
+            402,
+            403,
+            404,
+            405
+        ],
+        "missing_lines": [
+            399
+        ],
+        "all_lines": [
+            398,
+            399,
+            400,
+            401,
+            402,
+            403,
+            404,
+            405
+        ]
+    },
+    "VPacker._get_bbox_and_child_offsets": {
+        "func_name": "_get_bbox_and_child_offsets",
+        "class": "VPacker",
+        "executed_lines": [
+            476,
+            477,
+            478,
+            480,
+            485,
+            486,
+            488,
+            491,
+            492,
+            493,
+            495
+        ],
+        "missing_lines": [
+            481,
+            482,
+            483
+        ],
+        "all_lines": [
+            476,
+            477,
+            478,
+            480,
+            481,
+            482,
+            483,
+            485,
+            486,
+            488,
+            491,
+            492,
+            493,
+            495
+        ]
+    },
+    "HPacker._get_bbox_and_child_offsets": {
+        "func_name": "_get_bbox_and_child_offsets",
+        "class": "HPacker",
+        "executed_lines": [
+            508,
+            509,
+            510,
+            512,
+            513,
+            516,
+            518,
+            521,
+            522,
+            524
+        ],
+        "missing_lines": [
+            514
+        ],
+        "all_lines": [
+            508,
+            509,
+            510,
+            512,
+            513,
+            514,
+            516,
+            518,
+            521,
+            522,
+            524
+        ]
+    },
+    "PaddedBox.update_frame": {
+        "func_name": "update_frame",
+        "class": "PaddedBox",
+        "executed_lines": [
+            585,
+            586,
+            588
+        ],
+        "missing_lines": [
+            587
+        ],
+        "all_lines": [
+            585,
+            586,
+            587,
+            588
+        ]
+    },
+    "DrawingArea.add_artist": {
+        "func_name": "add_artist",
+        "class": "DrawingArea",
+        "executed_lines": [
+            675,
+            676,
+            677,
+            678,
+            680,
+            681
+        ],
+        "missing_lines": [
+            679,
+            682
+        ],
+        "all_lines": [
+            675,
+            676,
+            677,
+            678,
+            679,
+            680,
+            681,
+            682
+        ]
+    },
+    "TextArea.get_bbox": {
+        "func_name": "get_bbox",
+        "class": "TextArea",
+        "executed_lines": [
+            796,
+            800,
+            801,
+            803,
+            805,
+            810,
+            811,
+            813,
+            814,
+            816
+        ],
+        "missing_lines": [
+            806,
+            807,
+            808
+        ],
+        "all_lines": [
+            796,
+            800,
+            801,
+            803,
+            805,
+            806,
+            807,
+            808,
+            810,
+            811,
+            813,
+            814,
+            816
+        ]
+    },
+    "AnchoredOffsetbox.__init__": {
+        "func_name": "__init__",
+        "class": "AnchoredOffsetbox",
+        "executed_lines": [
+            969,
+            971,
+            972,
+            974,
+            975,
+            977,
+            978,
+            979,
+            981,
+            982,
+            984,
+            985,
+            988
+        ],
+        "missing_lines": [
+            986
+        ],
+        "all_lines": [
+            969,
+            971,
+            972,
+            974,
+            975,
+            977,
+            978,
+            979,
+            981,
+            982,
+            984,
+            985,
+            986,
+            988
+        ]
+    },
+    "AnchoredOffsetbox.get_bbox_to_anchor": {
+        "func_name": "get_bbox_to_anchor",
+        "class": "AnchoredOffsetbox",
+        "executed_lines": [
+            1020,
+            1021,
+            1023,
+            1024,
+            1027
+        ],
+        "missing_lines": [
+            1025
+        ],
+        "all_lines": [
+            1020,
+            1021,
+            1023,
+            1024,
+            1025,
+            1027
+        ]
+    },
+    "AnchoredOffsetbox.set_bbox_to_anchor": {
+        "func_name": "set_bbox_to_anchor",
+        "class": "AnchoredOffsetbox",
+        "executed_lines": [
+            1038,
+            1039,
+            1041,
+            1042,
+            1046,
+            1047,
+            1049,
+            1051,
+            1052
+        ],
+        "missing_lines": [
+            1043,
+            1044
+        ],
+        "all_lines": [
+            1038,
+            1039,
+            1041,
+            1042,
+            1043,
+            1044,
+            1046,
+            1047,
+            1049,
+            1051,
+            1052
+        ]
+    },
+    "AnchoredOffsetbox.draw": {
+        "func_name": "draw",
+        "class": "AnchoredOffsetbox",
+        "executed_lines": [
+            1072,
+            1076,
+            1077,
+            1078,
+            1079,
+            1081,
+            1082,
+            1083,
+            1084
+        ],
+        "missing_lines": [
+            1073
+        ],
+        "all_lines": [
+            1072,
+            1073,
+            1076,
+            1077,
+            1078,
+            1079,
+            1081,
+            1082,
+            1083,
+            1084
+        ]
+    },
+    "AnchoredText.__init__": {
+        "func_name": "__init__",
+        "class": "AnchoredText",
+        "executed_lines": [
+            1128,
+            1129,
+            1130,
+            1131,
+            1135,
+            1136,
+            1137
+        ],
+        "missing_lines": [
+            1132
+        ],
+        "all_lines": [
+            1128,
+            1129,
+            1130,
+            1131,
+            1132,
+            1135,
+            1136,
+            1137
+        ]
+    },
+    "AnnotationBbox.__init__": {
+        "func_name": "__init__",
+        "class": "AnnotationBbox",
+        "executed_lines": [
+            1305,
+            1306,
+            1309,
+            1310,
+            1311,
+            1312,
+            1313,
+            1314,
+            1316,
+            1317,
+            1318,
+            1321,
+            1322,
+            1324,
+            1331,
+            1332,
+            1335
+        ],
+        "missing_lines": [
+            1333
+        ],
+        "all_lines": [
+            1305,
+            1306,
+            1309,
+            1310,
+            1311,
+            1312,
+            1313,
+            1314,
+            1316,
+            1317,
+            1318,
+            1321,
+            1322,
+            1324,
+            1331,
+            1332,
+            1333,
+            1335
+        ]
+    },
+    "AnnotationBbox.contains": {
+        "func_name": "contains",
+        "class": "AnnotationBbox",
+        "executed_lines": [
+            1356,
+            1357,
+            1359,
+            1360,
+            1361
+        ],
+        "missing_lines": [
+            1358
+        ],
+        "all_lines": [
+            1356,
+            1357,
+            1358,
+            1359,
+            1360,
+            1361
+        ]
+    },
+    "AnnotationBbox.get_window_extent": {
+        "func_name": "get_window_extent",
+        "class": "AnnotationBbox",
+        "executed_lines": [
+            1394,
+            1396
+        ],
+        "missing_lines": [
+            1395
+        ],
+        "all_lines": [
+            1394,
+            1395,
+            1396
+        ]
+    },
+    "AnnotationBbox.update_positions": {
+        "func_name": "update_positions",
+        "class": "AnnotationBbox",
+        "executed_lines": [
+            1409,
+            1410,
+            1416,
+            1418,
+            1419,
+            1420,
+            1423,
+            1424,
+            1426,
+            1427,
+            1429,
+            1434,
+            1435,
+            1439,
+            1441,
+            1445,
+            1447,
+            1448
+        ],
+        "missing_lines": [
+            1411,
+            1412,
+            1413,
+            1414,
+            1442
+        ],
+        "all_lines": [
+            1409,
+            1410,
+            1411,
+            1412,
+            1413,
+            1414,
+            1416,
+            1418,
+            1419,
+            1420,
+            1423,
+            1424,
+            1426,
+            1427,
+            1429,
+            1434,
+            1435,
+            1439,
+            1441,
+            1442,
+            1445,
+            1447,
+            1448
+        ]
+    },
+    "AnnotationBbox.draw": {
+        "func_name": "draw",
+        "class": "AnnotationBbox",
+        "executed_lines": [
+            1452,
+            1453,
+            1454,
+            1455,
+            1456,
+            1457,
+            1458,
+            1459,
+            1461,
+            1462,
+            1463,
+            1464,
+            1465
+        ],
+        "missing_lines": [
+            1460
+        ],
+        "all_lines": [
+            1452,
+            1453,
+            1454,
+            1455,
+            1456,
+            1457,
+            1458,
+            1459,
+            1460,
+            1461,
+            1462,
+            1463,
+            1464,
+            1465
+        ]
+    },
+    "DraggableBase.on_release": {
+        "func_name": "on_release",
+        "class": "DraggableBase",
+        "executed_lines": [
+            1549
+        ],
+        "missing_lines": [
+            1550,
+            1551,
+            1552,
+            1553
+        ],
+        "all_lines": [
+            1549,
+            1550,
+            1551,
+            1552,
+            1553
+        ]
+    },
+    "DraggableBase._check_still_parented": {
+        "func_name": "_check_still_parented",
+        "class": "DraggableBase",
+        "executed_lines": [
+            1556,
+            1557,
+            1558
+        ],
+        "missing_lines": [
+            1560
+        ],
+        "all_lines": [
+            1556,
+            1557,
+            1558,
+            1560
+        ]
+    }
+}

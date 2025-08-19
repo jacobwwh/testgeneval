@@ -1,0 +1,26 @@
+{
+    "AlwaysDispatchingPrettyPrinter._format": {
+        "func_name": "_format",
+        "class": "AlwaysDispatchingPrettyPrinter",
+        "executed_lines": [
+            89,
+            91,
+            92,
+            95,
+            96,
+            97
+        ],
+        "missing_lines": [
+            93
+        ],
+        "all_lines": [
+            89,
+            91,
+            92,
+            93,
+            95,
+            96,
+            97
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "_check_for_duplicates": {
+        "func_name": "_check_for_duplicates",
+        "class": "",
+        "executed_lines": [
+            12,
+            13,
+            14,
+            18
+        ],
+        "missing_lines": [
+            15
+        ],
+        "all_lines": [
+            12,
+            13,
+            14,
+            15,
+            18
+        ]
+    }
+}

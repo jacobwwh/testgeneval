@@ -1,0 +1,562 @@
+{
+    "allow_rasterization.draw_wrapper": {
+        "func_name": "draw_wrapper",
+        "class": "allow_rasterization",
+        "executed_lines": [
+            35,
+            36,
+            42,
+            48,
+            51,
+            53,
+            55,
+            57
+        ],
+        "missing_lines": [
+            37,
+            38,
+            39,
+            40,
+            45,
+            46,
+            49,
+            54,
+            56,
+            60,
+            61
+        ],
+        "all_lines": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            42,
+            45,
+            46,
+            48,
+            49,
+            51,
+            53,
+            54,
+            55,
+            56,
+            57,
+            60,
+            61
+        ]
+    },
+    "_finalize_rasterization.draw_wrapper": {
+        "func_name": "draw_wrapper",
+        "class": "_finalize_rasterization",
+        "executed_lines": [
+            74,
+            75,
+            78
+        ],
+        "missing_lines": [
+            76,
+            77
+        ],
+        "all_lines": [
+            74,
+            75,
+            76,
+            77,
+            78
+        ]
+    },
+    "Artist.remove": {
+        "func_name": "remove",
+        "class": "Artist",
+        "executed_lines": [
+            211,
+            212,
+            214,
+            215,
+            216,
+            218,
+            219,
+            220,
+            221,
+            223,
+            224,
+            225
+        ],
+        "missing_lines": [
+            226,
+            229
+        ],
+        "all_lines": [
+            211,
+            212,
+            214,
+            215,
+            216,
+            218,
+            219,
+            220,
+            221,
+            223,
+            224,
+            225,
+            226,
+            229
+        ]
+    },
+    "Artist.axes": {
+        "func_name": "axes",
+        "class": "Artist",
+        "executed_lines": [
+            272,
+            277,
+            278,
+            279
+        ],
+        "missing_lines": [
+            274
+        ],
+        "all_lines": [
+            272,
+            274,
+            277,
+            278,
+            279
+        ]
+    },
+    "Artist.stale": {
+        "func_name": "stale",
+        "class": "Artist",
+        "executed_lines": [
+            291,
+            296,
+            299,
+            300
+        ],
+        "missing_lines": [
+            297
+        ],
+        "all_lines": [
+            291,
+            296,
+            297,
+            299,
+            300
+        ]
+    },
+    "Artist.get_transform": {
+        "func_name": "get_transform",
+        "class": "Artist",
+        "executed_lines": [
+            423,
+            424,
+            425,
+            428
+        ],
+        "missing_lines": [
+            427
+        ],
+        "all_lines": [
+            423,
+            424,
+            425,
+            427,
+            428
+        ]
+    },
+    "Artist.get_snap": {
+        "func_name": "get_snap",
+        "class": "Artist",
+        "executed_lines": [
+            606,
+            607
+        ],
+        "missing_lines": [
+            609
+        ],
+        "all_lines": [
+            606,
+            607,
+            609
+        ]
+    },
+    "Artist.set_figure": {
+        "func_name": "set_figure",
+        "class": "Artist",
+        "executed_lines": [
+            714,
+            721,
+            724,
+            725,
+            726,
+            727
+        ],
+        "missing_lines": [
+            715,
+            722
+        ],
+        "all_lines": [
+            714,
+            715,
+            721,
+            722,
+            724,
+            725,
+            726,
+            727
+        ]
+    },
+    "Artist.set_clip_path": {
+        "func_name": "set_clip_path",
+        "class": "Artist",
+        "executed_lines": [
+            766,
+            768,
+            769,
+            770,
+            771,
+            773,
+            774,
+            775,
+            776,
+            777,
+            778,
+            781,
+            782,
+            783,
+            784,
+            785,
+            786,
+            787,
+            790,
+            794,
+            800,
+            801
+        ],
+        "missing_lines": [
+            779,
+            788,
+            789,
+            791,
+            792,
+            795
+        ],
+        "all_lines": [
+            766,
+            768,
+            769,
+            770,
+            771,
+            773,
+            774,
+            775,
+            776,
+            777,
+            778,
+            779,
+            781,
+            782,
+            783,
+            784,
+            785,
+            786,
+            787,
+            788,
+            789,
+            790,
+            791,
+            792,
+            794,
+            795,
+            800,
+            801
+        ]
+    },
+    "Artist.get_transformed_clip_path_and_affine": {
+        "func_name": "get_transformed_clip_path_and_affine",
+        "class": "Artist",
+        "executed_lines": [
+            871,
+            873
+        ],
+        "missing_lines": [
+            872
+        ],
+        "all_lines": [
+            871,
+            872,
+            873
+        ]
+    },
+    "Artist._set_alpha_for_array": {
+        "func_name": "_set_alpha_for_array",
+        "class": "Artist",
+        "executed_lines": [
+            994,
+            995,
+            996,
+            997,
+            998,
+            999,
+            1000,
+            1001
+        ],
+        "missing_lines": [
+            1003,
+            1004,
+            1005
+        ],
+        "all_lines": [
+            994,
+            995,
+            996,
+            997,
+            998,
+            999,
+            1000,
+            1001,
+            1003,
+            1004,
+            1005
+        ]
+    },
+    "Artist._update_props": {
+        "func_name": "_update_props",
+        "class": "Artist",
+        "executed_lines": [
+            1146,
+            1147,
+            1148,
+            1151,
+            1154,
+            1155,
+            1158,
+            1159,
+            1160,
+            1161,
+            1162
+        ],
+        "missing_lines": [
+            1152,
+            1156
+        ],
+        "all_lines": [
+            1146,
+            1147,
+            1148,
+            1151,
+            1152,
+            1154,
+            1155,
+            1156,
+            1158,
+            1159,
+            1160,
+            1161,
+            1162
+        ]
+    },
+    "Artist.format_cursor_data": {
+        "func_name": "format_cursor_data",
+        "class": "Artist",
+        "executed_lines": [
+            1296,
+            1302,
+            1303,
+            1305,
+            1306,
+            1307,
+            1309,
+            1310,
+            1312,
+            1321,
+            1324
+        ],
+        "missing_lines": [
+            1304,
+            1318,
+            1320,
+            1323,
+            1326,
+            1327,
+            1328,
+            1329,
+            1330,
+            1332
+        ],
+        "all_lines": [
+            1296,
+            1302,
+            1303,
+            1304,
+            1305,
+            1306,
+            1307,
+            1309,
+            1310,
+            1312,
+            1318,
+            1320,
+            1321,
+            1323,
+            1324,
+            1326,
+            1327,
+            1328,
+            1329,
+            1330,
+            1332
+        ]
+    },
+    "ArtistInspector.__init__": {
+        "func_name": "__init__",
+        "class": "ArtistInspector",
+        "executed_lines": [
+            1392,
+            1393,
+            1398,
+            1399,
+            1400,
+            1401,
+            1403
+        ],
+        "missing_lines": [
+            1394,
+            1395,
+            1396
+        ],
+        "all_lines": [
+            1392,
+            1393,
+            1394,
+            1395,
+            1396,
+            1398,
+            1399,
+            1400,
+            1401,
+            1403
+        ]
+    },
+    "ArtistInspector.get_valid_values": {
+        "func_name": "get_valid_values",
+        "class": "ArtistInspector",
+        "executed_lines": [
+            1442,
+            1443,
+            1445,
+            1447,
+            1448,
+            1449,
+            1451,
+            1454,
+            1455,
+            1456,
+            1460,
+            1463,
+            1464,
+            1465,
+            1467
+        ],
+        "missing_lines": [
+            1444,
+            1452
+        ],
+        "all_lines": [
+            1442,
+            1443,
+            1444,
+            1445,
+            1447,
+            1448,
+            1449,
+            1451,
+            1452,
+            1454,
+            1455,
+            1456,
+            1460,
+            1463,
+            1464,
+            1465,
+            1467
+        ]
+    },
+    "ArtistInspector.pprint_setters": {
+        "func_name": "pprint_setters",
+        "class": "ArtistInspector",
+        "executed_lines": [
+            1558,
+            1559,
+            1562,
+            1563,
+            1564,
+            1566,
+            1567,
+            1568,
+            1569,
+            1570,
+            1571
+        ],
+        "missing_lines": [
+            1561
+        ],
+        "all_lines": [
+            1558,
+            1559,
+            1561,
+            1562,
+            1563,
+            1564,
+            1566,
+            1567,
+            1568,
+            1569,
+            1570,
+            1571
+        ]
+    },
+    "setp": {
+        "func_name": "setp",
+        "class": "",
+        "executed_lines": [
+            1763,
+            1766,
+            1768,
+            1769,
+            1771,
+            1773,
+            1774,
+            1775,
+            1778,
+            1780,
+            1783,
+            1784,
+            1785
+        ],
+        "missing_lines": [
+            1764,
+            1777,
+            1781
+        ],
+        "all_lines": [
+            1763,
+            1764,
+            1766,
+            1768,
+            1769,
+            1771,
+            1773,
+            1774,
+            1775,
+            1777,
+            1778,
+            1780,
+            1781,
+            1783,
+            1784,
+            1785
+        ]
+    }
+}

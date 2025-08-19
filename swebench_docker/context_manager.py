@@ -44,6 +44,19 @@ class LogWrapper:
         self.prefix = prefix
 
     def write(self, message: str, mode: str = "a", level: int = INFO):
+        #print('log file exists:', os.path.exists(self.log_file))
+        #print(self.prefix)
+        
+        '''# Check directory permissions
+        log_dir = os.path.dirname(self.log_file)
+        if os.path.exists(log_dir):
+            dir_stat = os.stat(log_dir)
+            dir_perms = oct(dir_stat.st_mode)[-3:]
+            print(f"Directory {log_dir} permissions: {dir_perms}")
+        else:
+            print(f"Directory {log_dir} does not exist")'''
+            
+        #os.chmod(log_dir, 0o777)
         with open(self.log_file, mode) as f:
             log = (
                 f"{self.prefix} {message} \n"
@@ -128,6 +141,8 @@ class TaskEnvContextManager:
         log_file_name = f"{self.id}.{model}.{setting}.eval.log"
 
         self.log_file = os.path.join(log_dir, log_file_name)
+        #add coverage file
+        self.coverage_file = os.path.join(log_dir, f"{self.id}.{model}.{setting}.coverage.json")
         self.log = LogWrapper(
             self.log_file,
             logger=logger_taskenv,
@@ -191,6 +206,7 @@ class TaskEnvContextManager:
         Enter task environment, set up log file
         """
         os.chdir(self.repo_dir)
+
         enter_msg = (
             f"Task Metadata:"
             f"\n\t- Instance ID: {self.instance[KEY_INSTANCE_ID]}"
@@ -558,10 +574,29 @@ class TaskEnvContextManager:
                         coverage_data = json.load(cov_file)
                         if instance["code_file"] in coverage_data["files"].keys():
                             file_data = coverage_data["files"][instance["code_file"]]
+                            
+                            #add: write coverage data (for the file under test) to file
+                            with open(self.coverage_file, "w") as cov_file:
+                                json.dump(file_data, cov_file, indent=4)
+                            
                             cov_success = True
                             self.log.write(
                                 f"\nCoverageLOG: {file_data['summary']['percent_covered']}%\n"
                             )
+                            #print(coverage_data.keys())  #'meta', 'files', 'totals'
+                            #print(file_data.keys())
+                            #print(instance.keys())
+                            #print(f'executed lines: {file_data["executed_lines"]}')
+                            #print(f'missing lines: {file_data["missing_lines"]}')
+                            #print(f'excluded lines: {file_data["excluded_lines"]}')
+                            for func, func_data in file_data["functions"].items():
+                                if func != '': #function name is not empty
+                                    if len(func_data["executed_lines"]) > 0 and len(func_data["missing_lines"]) > 0:
+                                        print('Find function with branch not completely covered!')
+                                        self.log.write(f'Find function with branch not completely covered!\n')
+                                        print(f'function: {func}, executed lines: {func_data["executed_lines"]}, missing lines: {func_data["missing_lines"]}, excluded lines: {func_data["excluded_lines"]}')
+                                        self.log.write(f'function: {func}, executed lines: {func_data["executed_lines"]}, missing lines: {func_data["missing_lines"]}, excluded lines: {func_data["excluded_lines"]}\n')
+                            #quit()
                         else:
                             self.log.write(
                                 f"\nCoverageFAIL:{instance['code_file']} not found in coverage data\n"

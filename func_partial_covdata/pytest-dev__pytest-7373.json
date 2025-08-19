@@ -1,0 +1,136 @@
+{
+    "MarkEvaluator.invalidraise": {
+        "func_name": "invalidraise",
+        "class": "MarkEvaluator",
+        "executed_lines": [
+            41,
+            42,
+            43
+        ],
+        "missing_lines": [
+            44
+        ],
+        "all_lines": [
+            41,
+            42,
+            43,
+            44
+        ]
+    },
+    "MarkEvaluator.istrue": {
+        "func_name": "istrue",
+        "class": "MarkEvaluator",
+        "executed_lines": [
+            47,
+            48
+        ],
+        "missing_lines": [
+            49,
+            50,
+            51,
+            53,
+            54,
+            55,
+            57,
+            58
+        ],
+        "all_lines": [
+            47,
+            48,
+            49,
+            50,
+            51,
+            53,
+            54,
+            55,
+            57,
+            58
+        ]
+    },
+    "MarkEvaluator._istrue": {
+        "func_name": "_istrue",
+        "class": "MarkEvaluator",
+        "executed_lines": [
+            72,
+            73,
+            74,
+            75,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            86,
+            87,
+            88,
+            89,
+            90,
+            92,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            106,
+            107,
+            108,
+            109,
+            110
+        ],
+        "missing_lines": [
+            84,
+            94,
+            98
+        ],
+        "all_lines": [
+            72,
+            73,
+            74,
+            75,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            84,
+            86,
+            87,
+            88,
+            89,
+            90,
+            92,
+            94,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            106,
+            107,
+            108,
+            109,
+            110
+        ]
+    },
+    "MarkEvaluator.get": {
+        "func_name": "get",
+        "class": "MarkEvaluator",
+        "executed_lines": [
+            113,
+            115
+        ],
+        "missing_lines": [
+            114
+        ],
+        "all_lines": [
+            113,
+            114,
+            115
+        ]
+    }
+}

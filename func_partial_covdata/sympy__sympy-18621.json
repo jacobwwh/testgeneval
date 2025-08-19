@@ -1,0 +1,396 @@
+{
+    "BlockMatrix.__new__": {
+        "func_name": "__new__",
+        "class": "BlockMatrix",
+        "executed_lines": [
+            79,
+            80,
+            81,
+            82,
+            88,
+            89,
+            90,
+            94,
+            95,
+            97,
+            98,
+            99,
+            101,
+            103,
+            104,
+            106,
+            108,
+            126,
+            127,
+            128
+        ],
+        "missing_lines": [
+            85,
+            91,
+            100,
+            107,
+            110,
+            112,
+            113,
+            119
+        ],
+        "all_lines": [
+            79,
+            80,
+            81,
+            82,
+            85,
+            88,
+            89,
+            90,
+            91,
+            94,
+            95,
+            97,
+            98,
+            99,
+            100,
+            101,
+            103,
+            104,
+            106,
+            107,
+            108,
+            110,
+            112,
+            113,
+            119,
+            126,
+            127,
+            128
+        ]
+    },
+    "BlockMatrix._eval_trace": {
+        "func_name": "_eval_trace",
+        "class": "BlockMatrix",
+        "executed_lines": [
+            187,
+            188
+        ],
+        "missing_lines": [
+            190
+        ],
+        "all_lines": [
+            187,
+            188,
+            190
+        ]
+    },
+    "BlockMatrix._eval_determinant": {
+        "func_name": "_eval_determinant",
+        "class": "BlockMatrix",
+        "executed_lines": [
+            194,
+            195,
+            197,
+            198,
+            199,
+            201
+        ],
+        "missing_lines": [
+            200
+        ],
+        "all_lines": [
+            194,
+            195,
+            197,
+            198,
+            199,
+            200,
+            201
+        ]
+    },
+    "BlockMatrix.equals": {
+        "func_name": "equals",
+        "class": "BlockMatrix",
+        "executed_lines": [
+            266,
+            267
+        ],
+        "missing_lines": [
+            268,
+            269,
+            270
+        ],
+        "all_lines": [
+            266,
+            267,
+            268,
+            269,
+            270
+        ]
+    },
+    "block_collapse": {
+        "func_name": "block_collapse",
+        "class": "",
+        "executed_lines": [
+            369,
+            371,
+            373,
+            385,
+            392,
+            393,
+            394,
+            395
+        ],
+        "missing_lines": [
+            397
+        ],
+        "all_lines": [
+            369,
+            371,
+            373,
+            385,
+            392,
+            393,
+            394,
+            395,
+            397
+        ]
+    },
+    "bc_matadd": {
+        "func_name": "bc_matadd",
+        "class": "",
+        "executed_lines": [
+            405,
+            406,
+            407,
+            410,
+            411,
+            412,
+            413,
+            414,
+            415,
+            417
+        ],
+        "missing_lines": [
+            408
+        ],
+        "all_lines": [
+            405,
+            406,
+            407,
+            408,
+            410,
+            411,
+            412,
+            413,
+            414,
+            415,
+            417
+        ]
+    },
+    "bc_block_plus_ident": {
+        "func_name": "bc_block_plus_ident",
+        "class": "",
+        "executed_lines": [
+            420,
+            421,
+            424,
+            425,
+            427,
+            429
+        ],
+        "missing_lines": [
+            422,
+            431
+        ],
+        "all_lines": [
+            420,
+            421,
+            422,
+            424,
+            425,
+            427,
+            429,
+            431
+        ]
+    },
+    "bc_dist": {
+        "func_name": "bc_dist",
+        "class": "",
+        "executed_lines": [
+            435,
+            436,
+            439,
+            441,
+            442,
+            443,
+            444,
+            445,
+            446,
+            447,
+            449
+        ],
+        "missing_lines": [
+            437,
+            450
+        ],
+        "all_lines": [
+            435,
+            436,
+            437,
+            439,
+            441,
+            442,
+            443,
+            444,
+            445,
+            446,
+            447,
+            449,
+            450
+        ]
+    },
+    "bc_matmul": {
+        "func_name": "bc_matmul",
+        "class": "",
+        "executed_lines": [
+            454,
+            455,
+            456,
+            460,
+            462,
+            463,
+            464,
+            465,
+            466,
+            467,
+            468,
+            469,
+            470,
+            471,
+            472,
+            473,
+            476
+        ],
+        "missing_lines": [
+            458,
+            475
+        ],
+        "all_lines": [
+            454,
+            455,
+            456,
+            458,
+            460,
+            462,
+            463,
+            464,
+            465,
+            466,
+            467,
+            468,
+            469,
+            470,
+            471,
+            472,
+            473,
+            475,
+            476
+        ]
+    },
+    "bc_inverse": {
+        "func_name": "bc_inverse",
+        "class": "",
+        "executed_lines": [
+            484,
+            485,
+            487,
+            488,
+            490
+        ],
+        "missing_lines": [
+            489
+        ],
+        "all_lines": [
+            484,
+            485,
+            487,
+            488,
+            489,
+            490
+        ]
+    },
+    "blockinverse_1x1": {
+        "func_name": "blockinverse_1x1",
+        "class": "",
+        "executed_lines": [
+            493,
+            496
+        ],
+        "missing_lines": [
+            494,
+            495
+        ],
+        "all_lines": [
+            493,
+            494,
+            495,
+            496
+        ]
+    },
+    "blockinverse_2x2": {
+        "func_name": "blockinverse_2x2",
+        "class": "",
+        "executed_lines": [
+            499,
+            501,
+            504
+        ],
+        "missing_lines": [
+            507
+        ],
+        "all_lines": [
+            499,
+            501,
+            504,
+            507
+        ]
+    },
+    "deblock": {
+        "func_name": "deblock",
+        "class": "",
+        "executed_lines": [
+            511,
+            512,
+            513,
+            514,
+            516,
+            517,
+            518,
+            519,
+            520,
+            521,
+            522,
+            523,
+            525
+        ],
+        "missing_lines": [
+            526,
+            527
+        ],
+        "all_lines": [
+            511,
+            512,
+            513,
+            514,
+            516,
+            517,
+            518,
+            519,
+            520,
+            521,
+            522,
+            523,
+            525,
+            526,
+            527
+        ]
+    }
+}

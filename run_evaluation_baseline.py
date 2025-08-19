@@ -39,6 +39,9 @@ async def main(
     for task_instance in tasks:
         all_settings_exist = True
         for setting in ["first", "last_minus_one", "last"]:
+            #Only evaluate 'last' setting (complete test cases)
+            #if setting != "last": (not working)
+                #continue
             log_file_name = f"{task_instance[KEY_ID]}.baseline.{setting}.eval.log"
             log_file = os.path.join(log_dir, log_file_name)
             if not os.path.exists(log_file):

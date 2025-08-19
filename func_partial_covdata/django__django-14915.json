@@ -1,0 +1,604 @@
+{
+    "construct_instance": {
+        "func_name": "construct_instance",
+        "class": "",
+        "executed_lines": [
+            35,
+            36,
+            38,
+            39,
+            40,
+            41,
+            43,
+            63,
+            66
+        ],
+        "missing_lines": [
+            44,
+            45,
+            46,
+            47,
+            50,
+            55,
+            58,
+            59,
+            61,
+            64
+        ],
+        "all_lines": [
+            35,
+            36,
+            38,
+            39,
+            40,
+            41,
+            43,
+            44,
+            45,
+            46,
+            47,
+            50,
+            55,
+            58,
+            59,
+            61,
+            63,
+            64,
+            66
+        ]
+    },
+    "model_to_dict": {
+        "func_name": "model_to_dict",
+        "class": "",
+        "executed_lines": [
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            92,
+            93
+        ],
+        "missing_lines": [
+            91
+        ],
+        "all_lines": [
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93
+        ]
+    },
+    "apply_limit_choices_to_to_formfield": {
+        "func_name": "apply_limit_choices_to_to_formfield",
+        "class": "",
+        "executed_lines": [
+            98,
+            99,
+            100,
+            101
+        ],
+        "missing_lines": [
+            102,
+            103,
+            104,
+            105,
+            107
+        ],
+        "all_lines": [
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            107
+        ]
+    },
+    "fields_for_model": {
+        "func_name": "fields_for_model",
+        "class": "",
+        "executed_lines": [
+            146,
+            147,
+            148,
+            150,
+            151,
+            152,
+            153,
+            154,
+            161,
+            162,
+            163,
+            166,
+            167,
+            169,
+            171,
+            173,
+            175,
+            177,
+            180,
+            181,
+            187,
+            188,
+            190,
+            193,
+            194,
+            198
+        ],
+        "missing_lines": [
+            156,
+            160,
+            164,
+            168,
+            170,
+            172,
+            174,
+            176,
+            178,
+            182,
+            183,
+            185,
+            189,
+            192
+        ],
+        "all_lines": [
+            146,
+            147,
+            148,
+            150,
+            151,
+            152,
+            153,
+            154,
+            156,
+            160,
+            161,
+            162,
+            163,
+            164,
+            166,
+            167,
+            168,
+            169,
+            170,
+            171,
+            172,
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            180,
+            181,
+            182,
+            183,
+            185,
+            187,
+            188,
+            189,
+            190,
+            192,
+            193,
+            194,
+            198
+        ]
+    },
+    "ModelFormMetaclass.__new__": {
+        "func_name": "__new__",
+        "class": "ModelFormMetaclass",
+        "executed_lines": [
+            216,
+            217,
+            218,
+            222,
+            224,
+            226,
+            227,
+            229,
+            234,
+            235,
+            236,
+            245,
+            247,
+            254,
+            259,
+            268,
+            269,
+            270,
+            277,
+            281,
+            283
+        ],
+        "missing_lines": [
+            219,
+            220,
+            237,
+            243,
+            248,
+            257,
+            271,
+            272,
+            274,
+            279
+        ],
+        "all_lines": [
+            216,
+            217,
+            218,
+            219,
+            220,
+            222,
+            224,
+            226,
+            227,
+            229,
+            234,
+            235,
+            236,
+            237,
+            243,
+            245,
+            247,
+            248,
+            254,
+            257,
+            259,
+            268,
+            269,
+            270,
+            271,
+            272,
+            274,
+            277,
+            279,
+            281,
+            283
+        ]
+    },
+    "BaseModelForm.__init__": {
+        "func_name": "__init__",
+        "class": "BaseModelForm",
+        "executed_lines": [
+            291,
+            292,
+            294,
+            299,
+            300,
+            302,
+            307,
+            308,
+            313,
+            314
+        ],
+        "missing_lines": [
+            293,
+            296,
+            297,
+            303
+        ],
+        "all_lines": [
+            291,
+            292,
+            293,
+            294,
+            296,
+            297,
+            299,
+            300,
+            302,
+            303,
+            307,
+            308,
+            313,
+            314
+        ]
+    },
+    "BaseModelForm._get_validation_exclusions": {
+        "func_name": "_get_validation_exclusions",
+        "class": "BaseModelForm",
+        "executed_lines": [
+            321,
+            324,
+            325,
+            328,
+            329,
+            334,
+            336,
+            341,
+            342,
+            355
+        ],
+        "missing_lines": [
+            335,
+            337,
+            351,
+            352,
+            353,
+            354
+        ],
+        "all_lines": [
+            321,
+            324,
+            325,
+            328,
+            329,
+            334,
+            335,
+            336,
+            337,
+            341,
+            342,
+            351,
+            352,
+            353,
+            354,
+            355
+        ]
+    },
+    "BaseModelForm._post_clean": {
+        "func_name": "_post_clean",
+        "class": "BaseModelForm",
+        "executed_lines": [
+            390,
+            392,
+            401,
+            402,
+            405,
+            406,
+            410,
+            411,
+            416,
+            417
+        ],
+        "missing_lines": [
+            403,
+            407,
+            408,
+            412,
+            413
+        ],
+        "all_lines": [
+            390,
+            392,
+            401,
+            402,
+            403,
+            405,
+            406,
+            407,
+            408,
+            410,
+            411,
+            412,
+            413,
+            416,
+            417
+        ]
+    },
+    "BaseModelForm.validate_unique": {
+        "func_name": "validate_unique",
+        "class": "BaseModelForm",
+        "executed_lines": [
+            424,
+            425,
+            426
+        ],
+        "missing_lines": [
+            427,
+            428
+        ],
+        "all_lines": [
+            424,
+            425,
+            426,
+            427,
+            428
+        ]
+    },
+    "ModelChoiceIteratorValue.__eq__": {
+        "func_name": "__eq__",
+        "class": "ModelChoiceIteratorValue",
+        "executed_lines": [
+            1173,
+            1175
+        ],
+        "missing_lines": [
+            1174
+        ],
+        "all_lines": [
+            1173,
+            1174,
+            1175
+        ]
+    },
+    "ModelChoiceField.get_limit_choices_to": {
+        "func_name": "get_limit_choices_to",
+        "class": "ModelChoiceField",
+        "executed_lines": [
+            1246,
+            1248
+        ],
+        "missing_lines": [
+            1247
+        ],
+        "all_lines": [
+            1246,
+            1247,
+            1248
+        ]
+    },
+    "ModelChoiceField._get_choices": {
+        "func_name": "_get_choices",
+        "class": "ModelChoiceField",
+        "executed_lines": [
+            1279,
+            1289
+        ],
+        "missing_lines": [
+            1280
+        ],
+        "all_lines": [
+            1279,
+            1280,
+            1289
+        ]
+    },
+    "ModelChoiceField.prepare_value": {
+        "func_name": "prepare_value",
+        "class": "ModelChoiceField",
+        "executed_lines": [
+            1294,
+            1295,
+            1298,
+            1299
+        ],
+        "missing_lines": [
+            1296
+        ],
+        "all_lines": [
+            1294,
+            1295,
+            1296,
+            1298,
+            1299
+        ]
+    },
+    "ModelChoiceField.has_changed": {
+        "func_name": "has_changed",
+        "class": "ModelChoiceField",
+        "executed_lines": [
+            1321,
+            1322
+        ],
+        "missing_lines": [
+            1323,
+            1324,
+            1325
+        ],
+        "all_lines": [
+            1321,
+            1322,
+            1323,
+            1324,
+            1325
+        ]
+    },
+    "ModelMultipleChoiceField.clean": {
+        "func_name": "clean",
+        "class": "ModelMultipleChoiceField",
+        "executed_lines": [
+            1348,
+            1349,
+            1351,
+            1353,
+            1358,
+            1361,
+            1362
+        ],
+        "missing_lines": [
+            1350,
+            1352,
+            1354
+        ],
+        "all_lines": [
+            1348,
+            1349,
+            1350,
+            1351,
+            1352,
+            1353,
+            1354,
+            1358,
+            1361,
+            1362
+        ]
+    },
+    "ModelMultipleChoiceField._check_values": {
+        "func_name": "_check_values",
+        "class": "ModelMultipleChoiceField",
+        "executed_lines": [
+            1370,
+            1373,
+            1374,
+            1381,
+            1382,
+            1383,
+            1390,
+            1391,
+            1392,
+            1393,
+            1399
+        ],
+        "missing_lines": [
+            1375,
+            1377,
+            1384,
+            1385,
+            1394
+        ],
+        "all_lines": [
+            1370,
+            1373,
+            1374,
+            1375,
+            1377,
+            1381,
+            1382,
+            1383,
+            1384,
+            1385,
+            1390,
+            1391,
+            1392,
+            1393,
+            1394,
+            1399
+        ]
+    },
+    "ModelMultipleChoiceField.has_changed": {
+        "func_name": "has_changed",
+        "class": "ModelMultipleChoiceField",
+        "executed_lines": [
+            1410,
+            1411
+        ],
+        "missing_lines": [
+            1412,
+            1413,
+            1414,
+            1415,
+            1416,
+            1417,
+            1418,
+            1419,
+            1420
+        ],
+        "all_lines": [
+            1410,
+            1411,
+            1412,
+            1413,
+            1414,
+            1415,
+            1416,
+            1417,
+            1418,
+            1419,
+            1420
+        ]
+    }
+}

@@ -95,12 +95,15 @@ async def main(
     validate_predictions(predictions_path, [t[KEY_ID] for t in tasks])
 
     predictions = get_instances(predictions_path)
+    predictions = predictions[:1]
+    print(f'number of predictions: {len(predictions)}')
 
     if len(predictions) == 0:
         logger.info("No predictions to evaluate")
         return
 
     # Remove predictions that have already been evaluated
+    skip_existing = False  #do not skip evaluation
     if skip_existing:
         # Skip logs that already exist
         predictions_filtered = []
@@ -135,7 +138,7 @@ async def main(
         task = tasks_map[prediction[KEY_ID]]
 
         test_type = MAP_REPO_TO_TEST_FRAMEWORK[task["repo"]]
-        test_directives = get_test_directives(task)
+        test_directives = get_test_directives(task)  #path of the test files
         test_cmd = f"{test_type} {' '.join(test_directives)}"
 
         task_instances.append(

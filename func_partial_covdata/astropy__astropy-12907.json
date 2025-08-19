@@ -1,0 +1,28 @@
+{
+    "_separable": {
+        "func_name": "_separable",
+        "class": "",
+        "executed_lines": [
+            304,
+            306,
+            307,
+            308,
+            309,
+            310,
+            311
+        ],
+        "missing_lines": [
+            305
+        ],
+        "all_lines": [
+            304,
+            305,
+            306,
+            307,
+            308,
+            309,
+            310,
+            311
+        ]
+    }
+}

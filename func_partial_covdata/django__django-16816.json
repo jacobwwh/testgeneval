@@ -1,0 +1,136 @@
+{
+    "_issubclass": {
+        "func_name": "_issubclass",
+        "class": "",
+        "executed_lines": [
+            23,
+            24
+        ],
+        "missing_lines": [
+            25,
+            26
+        ],
+        "all_lines": [
+            23,
+            24,
+            25,
+            26
+        ]
+    },
+    "_contains_subclass": {
+        "func_name": "_contains_subclass",
+        "class": "",
+        "executed_lines": [
+            34,
+            35,
+            36,
+            37,
+            41,
+            42
+        ],
+        "missing_lines": [
+            38,
+            40,
+            43
+        ],
+        "all_lines": [
+            34,
+            35,
+            36,
+            37,
+            38,
+            40,
+            41,
+            42,
+            43
+        ]
+    },
+    "check_admin_app": {
+        "func_name": "check_admin_app",
+        "class": "",
+        "executed_lines": [
+            47,
+            49,
+            50,
+            52
+        ],
+        "missing_lines": [
+            51
+        ],
+        "all_lines": [
+            47,
+            49,
+            50,
+            51,
+            52
+        ]
+    },
+    "check_dependencies": {
+        "func_name": "check_dependencies",
+        "class": "",
+        "executed_lines": [
+            59,
+            61,
+            63,
+            64,
+            69,
+            70,
+            78,
+            79,
+            80,
+            81,
+            84,
+            94,
+            110,
+            122,
+            123,
+            137,
+            147,
+            157,
+            173
+        ],
+        "missing_lines": [
+            62,
+            71,
+            83,
+            85,
+            102,
+            114,
+            128,
+            140,
+            150,
+            160
+        ],
+        "all_lines": [
+            59,
+            61,
+            62,
+            63,
+            64,
+            69,
+            70,
+            71,
+            78,
+            79,
+            80,
+            81,
+            83,
+            84,
+            85,
+            94,
+            102,
+            110,
+            114,
+            122,
+            123,
+            128,
+            137,
+            140,
+            147,
+            150,
+            157,
+            160,
+            173
+        ]
+    }
+}

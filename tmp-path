@@ -1,0 +1,13 @@
+{'id': 1, 'src': 'n = int(input())\ncount = 0\n', 'start_line': 1, 'end_line': 2, 'branch_type': '', 'branch_condition': ''}
+{'id': 2, 'src': 'for i in range(n):\n', 'start_line': 3, 'end_line': 3, 'branch_type': 'for', 'branch_condition': 'range(n)', 'forloop_iter': 1}
+{'id': 3, 'src': 'x = int(input())\n', 'start_line': 4, 'end_line': 4, 'branch_type': '', 'branch_condition': ''}
+{'id': 5, 'src': 'for j in range(x):\n', 'start_line': 5, 'end_line': 5, 'branch_type': 'for', 'branch_condition': 'range(x)', 'forloop_iter': 1}
+{'id': 6, 'src': 'if x == 2:\n', 'start_line': 6, 'end_line': 6, 'branch_type': 'if', 'branch_condition': 'x == 2'}
+{'id': 8, 'src': 'count += 1\n', 'start_line': 7, 'end_line': 7, 'branch_type': '', 'branch_condition': ''}
+{'id': 5, 'src': 'for j in range(x):\n', 'start_line': 5, 'end_line': 5, 'branch_type': 'for', 'branch_condition': '', 'forloop_iter': 0}
+{'id': 2, 'src': 'for i in range(n):\n', 'start_line': 3, 'end_line': 3, 'branch_type': 'for', 'branch_condition': 'range(n)', 'forloop_iter': 2}
+{'id': 3, 'src': 'x = int(input())\n', 'start_line': 4, 'end_line': 4, 'branch_type': '', 'branch_condition': ''}
+{'id': 5, 'src': 'for j in range(x):\n', 'start_line': 5, 'end_line': 5, 'branch_type': 'for', 'branch_condition': 'range(x)', 'forloop_iter': 1}
+{'id': 6, 'src': 'if x == 2:\n', 'start_line': 6, 'end_line': 6, 'branch_type': 'if', 'branch_condition': '(x != 2)'}
+{'id': 10, 'src': 'if x % 2 == 0:\n', 'start_line': 8, 'end_line': 8, 'branch_type': 'if', 'branch_condition': 'x % 2 == 0'}
+{'id': 5, 'src': 'for j in range(x):\n', 'start_line': 5, 'end_line': 5, 'branch_type': 'for', 'branch_condition': '', 'forloop_iter': 0}

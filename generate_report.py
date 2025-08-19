@@ -89,6 +89,11 @@ def get_preds_report(preds_path, instances):
 def generate_report(
     swe_bench_tasks: str, predictions_path: str, log_dir: str, output_dir: str
 ):
+    #print(f'swe_bench_tasks: {swe_bench_tasks}')  #kjain14/testgenevallite
+    print(f'predictions_path: {predictions_path}')
+    print(f'log_dir: {log_dir}')  #xxx/results/testgenevallite/data_logs/model..
+    print(f'output_dir: {output_dir}')  #xxx/results/testgenevallite
+
     instances = get_eval_refs(swe_bench_tasks)
 
     predictions = get_instances(predictions_path)

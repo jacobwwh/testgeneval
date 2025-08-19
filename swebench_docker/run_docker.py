@@ -26,17 +26,22 @@ async def run_docker_evaluation(
     setting: str,
     ind: int,
     timeout: int = 60,
-    verbose: bool = False,
+    verbose: bool = False,  #TODO: default to True
     base64_instance: bool = True,
     only_baseline: bool = False,
     skip_mutation: bool = False,
 ):
+    print(f'setting: {setting}')
+    print(f'ind: {ind}')
+    quit()
     repo_name = task_instance["repo"].replace("/", "_")
 
     specifications = MAP_VERSION_TO_INSTALL[task_instance["repo"]][
         task_instance["version"]
     ]
     image_prefix = "swe-bench"
+    print(f'repo name: {repo_name}')
+    #print(f'specifications: {specifications}')
 
     # TODO: Change this when deciding
     if "packages" in specifications and specifications["packages"] == "environment.yml":
@@ -52,6 +57,9 @@ async def run_docker_evaluation(
         )
 
     swebench_docker_fork_dir = os.environ.get("SWEBENCH_DOCKER_FORK_DIR")
+    swebench_docker_fork_dir = "/home/wwh/testgeneval/"
+    #print(f'swebench_docker_fork_dir: {swebench_docker_fork_dir}')
+    # quit()
 
     if swebench_docker_fork_dir:
         # Create a temporary file to store the task_instance JSON
@@ -128,7 +136,7 @@ async def run_docker_evaluation(
     cmd_string = " ".join(docker_command)
 
     if verbose:
-        logger.info(cmd_string)
+        logger.info(f"Running docker command: {cmd_string}")
 
     start_time = time.time()
 

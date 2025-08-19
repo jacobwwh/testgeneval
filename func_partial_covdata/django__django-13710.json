@@ -1,0 +1,66 @@
+{
+    "ModelAdmin._get_base_actions": {
+        "func_name": "_get_base_actions",
+        "class": "ModelAdmin",
+        "executed_lines": [
+            872,
+            873,
+            875,
+            876,
+            879,
+            880,
+            882,
+            883,
+            885,
+            886
+        ],
+        "missing_lines": [
+            881
+        ],
+        "all_lines": [
+            872,
+            873,
+            875,
+            876,
+            879,
+            880,
+            881,
+            882,
+            883,
+            885,
+            886
+        ]
+    },
+    "InlineModelAdmin.__init__": {
+        "func_name": "__init__",
+        "class": "InlineModelAdmin",
+        "executed_lines": [
+            2035,
+            2036,
+            2037,
+            2038,
+            2039,
+            2040,
+            2041,
+            2042,
+            2045,
+            2046
+        ],
+        "missing_lines": [
+            2044
+        ],
+        "all_lines": [
+            2035,
+            2036,
+            2037,
+            2038,
+            2039,
+            2040,
+            2041,
+            2042,
+            2044,
+            2045,
+            2046
+        ]
+    }
+}

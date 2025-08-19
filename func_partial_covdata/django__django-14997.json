@@ -1,0 +1,28 @@
+{
+    "Columns.__str__.col_str": {
+        "func_name": "col_str",
+        "class": "Columns",
+        "executed_lines": [
+            87,
+            88,
+            89,
+            92,
+            93,
+            94
+        ],
+        "missing_lines": [
+            90,
+            91
+        ],
+        "all_lines": [
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94
+        ]
+    }
+}

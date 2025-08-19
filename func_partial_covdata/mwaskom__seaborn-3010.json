@@ -1,0 +1,28 @@
+{
+    "PolyFit._fit_predict": {
+        "func_name": "_fit_predict",
+        "class": "PolyFit",
+        "executed_lines": [
+            24,
+            25,
+            26,
+            30,
+            31,
+            32,
+            34
+        ],
+        "missing_lines": [
+            28
+        ],
+        "all_lines": [
+            24,
+            25,
+            26,
+            28,
+            30,
+            31,
+            32,
+            34
+        ]
+    }
+}

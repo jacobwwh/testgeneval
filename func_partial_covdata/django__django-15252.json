@@ -1,0 +1,270 @@
+{
+    "MigrationExecutor.migration_plan": {
+        "func_name": "migration_plan",
+        "class": "MigrationExecutor",
+        "executed_lines": [
+            26,
+            27,
+            28,
+            30,
+            31,
+            33,
+            42,
+            67,
+            68,
+            69,
+            70,
+            71
+        ],
+        "missing_lines": [
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            45,
+            49,
+            50,
+            51,
+            56,
+            61,
+            62,
+            63,
+            64,
+            65
+        ],
+        "all_lines": [
+            26,
+            27,
+            28,
+            30,
+            31,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            42,
+            45,
+            49,
+            50,
+            51,
+            56,
+            61,
+            62,
+            63,
+            64,
+            65,
+            67,
+            68,
+            69,
+            70,
+            71
+        ]
+    },
+    "MigrationExecutor._create_project_state": {
+        "func_name": "_create_project_state",
+        "class": "MigrationExecutor",
+        "executed_lines": [
+            78,
+            79,
+            81,
+            82,
+            86,
+            87,
+            89
+        ],
+        "missing_lines": [
+            88
+        ],
+        "all_lines": [
+            78,
+            79,
+            81,
+            82,
+            86,
+            87,
+            88,
+            89
+        ]
+    },
+    "MigrationExecutor.migrate": {
+        "func_name": "migrate",
+        "class": "MigrationExecutor",
+        "executed_lines": [
+            100,
+            104,
+            106,
+            109,
+            111,
+            112,
+            114,
+            118,
+            126,
+            127,
+            130,
+            136,
+            138
+        ],
+        "missing_lines": [
+            101,
+            102,
+            107,
+            115,
+            117,
+            120,
+            129,
+            134
+        ],
+        "all_lines": [
+            100,
+            101,
+            102,
+            104,
+            106,
+            107,
+            109,
+            111,
+            112,
+            114,
+            115,
+            117,
+            118,
+            120,
+            126,
+            127,
+            129,
+            130,
+            134,
+            136,
+            138
+        ]
+    },
+    "MigrationExecutor._migrate_all_forwards": {
+        "func_name": "_migrate_all_forwards",
+        "class": "MigrationExecutor",
+        "executed_lines": [
+            145,
+            146,
+            147,
+            153,
+            154,
+            160,
+            161,
+            163
+        ],
+        "missing_lines": [
+            152,
+            155,
+            156,
+            157,
+            158,
+            159
+        ],
+        "all_lines": [
+            145,
+            146,
+            147,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159,
+            160,
+            161,
+            163
+        ]
+    },
+    "MigrationExecutor.apply_migration": {
+        "func_name": "apply_migration",
+        "class": "MigrationExecutor",
+        "executed_lines": [
+            228,
+            229,
+            230,
+            231,
+            232,
+            237,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            247,
+            248,
+            249
+        ],
+        "missing_lines": [
+            234,
+            235,
+            236
+        ],
+        "all_lines": [
+            228,
+            229,
+            230,
+            231,
+            232,
+            234,
+            235,
+            236,
+            237,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            247,
+            248,
+            249
+        ]
+    },
+    "MigrationExecutor.record_migration": {
+        "func_name": "record_migration",
+        "class": "MigrationExecutor",
+        "executed_lines": [
+            253,
+            257
+        ],
+        "missing_lines": [
+            254,
+            255
+        ],
+        "all_lines": [
+            253,
+            254,
+            255,
+            257
+        ]
+    },
+    "MigrationExecutor.check_replacements": {
+        "func_name": "check_replacements",
+        "class": "MigrationExecutor",
+        "executed_lines": [
+            287,
+            288
+        ],
+        "missing_lines": [
+            289,
+            290,
+            291
+        ],
+        "all_lines": [
+            287,
+            288,
+            289,
+            290,
+            291
+        ]
+    }
+}
