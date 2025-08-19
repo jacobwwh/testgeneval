@@ -36,8 +36,8 @@ preds_dir = 'results/testgenevallite/preds'
 
 if __name__ == '__main__':
     for i,data in enumerate(tqdm(dataset_with_paths)):
-        #if i<17:
-            #continue
+        if i<7:
+            continue
         generated_results = OrderedDict()
         instance_id = data['instance_id']
         instance_data = data['data']

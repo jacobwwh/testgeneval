@@ -93,6 +93,10 @@ def analyze_preds(reports_dir, baseline_coverage_data):
     total_missing_lines = 0
     all_func_line_coverage = []  #line coverages for each function
     num_tests_passed = 0
+
+    passed_funcs_covered_lines_base = 0
+    passed_funcs_covered_lines_pred = 0
+    passed_funcs_total_lines = 0
     for line in baseline_coverage_data:
         instance_id = line['instance_id']
         test_id = line['id']
@@ -123,6 +127,10 @@ def analyze_preds(reports_dir, baseline_coverage_data):
                 total_covered_lines += num_covered_lines_pred
                 total_missing_lines += num_missing_lines_pred
                 all_func_line_coverage.append(percent_covered_pred)
+
+                passed_funcs_covered_lines_base += baseline_num_covered_lines
+                passed_funcs_covered_lines_pred += num_covered_lines_pred
+                passed_funcs_total_lines += num_total_lines
             else: #no coverage report found (generated test case failed)
                 total_covered_lines += baseline_num_covered_lines
                 total_missing_lines += baseline_num_missing_lines
@@ -132,6 +140,9 @@ def analyze_preds(reports_dir, baseline_coverage_data):
     print(f'total covered lines: {total_covered_lines}, total missing lines: {total_missing_lines}')
     print(f'total line coverage: {total_covered_lines / (total_covered_lines + total_missing_lines)}')
     print(f'average line coverage: {sum(all_func_line_coverage) / len(all_func_line_coverage)}%')
+
+    print(f'Generated test cases covered {passed_funcs_covered_lines_pred} lines, {passed_funcs_covered_lines_pred / passed_funcs_total_lines * 100}% of total lines, in {passed_funcs_total_lines} lines')
+    print(f'Previously covered {passed_funcs_covered_lines_base} lines, {passed_funcs_covered_lines_base / passed_funcs_total_lines * 100}% of total lines, in {passed_funcs_total_lines} lines')
         
         
 
