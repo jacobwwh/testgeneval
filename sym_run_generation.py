@@ -2,6 +2,7 @@
 import json
 import os
 import argparse
+import time
 from tqdm import tqdm
 from collections import OrderedDict
 
@@ -39,6 +40,25 @@ preds_dir = 'results/testgenevallite/preds'
 def get_safe_filename(model_name):
     """Convert model name to a safe filename by replacing '/' with '_'"""
     return model_name.replace('/', '_')
+
+
+def get_response_with_retry(prompt, system_message, args, model_name, platform=None, max_retries=3):
+    """Get response with retry mechanism"""
+    for attempt in range(max_retries):
+        try:
+            print(f"🔄 Attempt {attempt + 1}/{max_retries}...")
+            response = get_response(prompt, system_message, args, model_name, platform)
+            print(f"✅ Success on attempt {attempt + 1}")
+            return response
+        except Exception as e:
+            print(f"❌ Attempt {attempt + 1} failed: {type(e).__name__}: {str(e)}")
+            if attempt < max_retries - 1:
+                wait_time = attempt  # Exponential backoff: 1, 2, 4 seconds
+                print(f"⏳ Waiting {wait_time} seconds before retry...")
+                time.sleep(wait_time)
+            else:
+                print(f"💥 All {max_retries} attempts failed. Returning 'FAILED'")
+                return "FAILED"
 
 
 def load_existing_predictions(output_file_path):
@@ -114,11 +134,29 @@ if __name__ == '__main__':
             elif args.setting == 'baseline': #baseline: do not use execution paths
                 prompt = prompt_template.create_prompt(code_src, test_src, func_name, with_paths=False)
 
-            print(prompt)
+            print(f"Prompt length: {len(prompt)} characters")
+            print(f"Prompt preview: {prompt[:200]}{'...' if len(prompt) > 200 else ''}")
             
             generated_test_for_func = get_response(prompt, system_message=prompt_template.SYSTEM_MESSAGE, args=args, model_name=args.model, platform=args.platform)
 
-            print(generated_test_for_func)
+            generated_test_for_func = get_response_with_retry(prompt, system_message=prompt_template.SYSTEM_MESSAGE, args=args, model_name=args.model, platform=args.platform)
+
+            if generated_test_for_func == "FAILED":
+                print(f"❌ Failed to generate test for function: {func_name}")
+            else:
+                # Handle case where get_response returns a tuple (output, reasoning_content)
+                if isinstance(generated_test_for_func, tuple):
+                    output_content = generated_test_for_func[0]
+                    reasoning_content = generated_test_for_func[1]
+                    print(f"Generated test length: {len(output_content)} characters")
+                    print(f"Generated test preview: {output_content[:200]}{'...' if len(output_content) > 200 else ''}")
+                    if reasoning_content:
+                        print(f"Reasoning content length: {len(reasoning_content)} characters")
+                    else:
+                        print("No reasoning content")
+                else:
+                    print(f"Generated test length: {len(generated_test_for_func)} characters")
+                    print(f"Generated test preview: {generated_test_for_func[:200]}{'...' if len(generated_test_for_func) > 200 else ''}")
 
             generated_results[func_name] = generated_test_for_func
 
