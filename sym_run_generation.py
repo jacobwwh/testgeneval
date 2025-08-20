@@ -63,7 +63,7 @@ def get_response_with_retry(prompt, system_message, args, model_name, platform=N
 
 def load_existing_predictions(output_file_path):
     """Load existing predictions from jsonl file to enable checkpoint/resume functionality"""
-    existing_predictions = {}
+    existing_predictions = set()  # Now we track (instance_id, func_name) tuples
     if os.path.exists(output_file_path):
         print(f"Loading existing predictions from {output_file_path}")
         with open(output_file_path, 'r') as f:
@@ -71,14 +71,15 @@ def load_existing_predictions(output_file_path):
                 try:
                     data = json.loads(line.strip())
                     instance_id = data.get('instance_id')
-                    preds = data.get('preds', {})
-                    # Check if preds is non-empty (has at least one function with non-empty predictions)
-                    if instance_id and preds and any(preds.values()):
-                        existing_predictions[instance_id] = preds
+                    func_name = data.get('func_name')
+                    pred = data.get('pred')
+                    # Check if this function has a non-empty prediction
+                    if instance_id and func_name and pred:
+                        existing_predictions.add((instance_id, func_name))
                 except json.JSONDecodeError:
                     print(f"Warning: Skipping malformed JSON line in {output_file_path}")
                     continue
-        print(f"Found {len(existing_predictions)} existing predictions")
+        print(f"Found {len(existing_predictions)} existing function predictions")
     return existing_predictions
 
 
@@ -93,26 +94,15 @@ if __name__ == '__main__':
     # Load existing predictions for checkpoint/resume functionality
     existing_predictions = load_existing_predictions(output_file_path)
     
-    # Count skipped and processed instances
-    skipped_count = 0
-    processed_count = 0
+    # Track functions processed in this session
+    functions_processed_this_session = 0
+    functions_skipped_this_session = 0
     
     for i, data in enumerate(tqdm(dataset_with_paths)):
         if i < 7:
             continue
             
         instance_id = data['instance_id']
-        
-        # Check if this instance already has predictions
-        if instance_id in existing_predictions:
-            print(f'⏭️  Skipping {instance_id} (already processed)')
-            skipped_count += 1
-            continue
-            
-        print(f'🔄 Processing instance_id: {instance_id}')
-        processed_count += 1
-        
-        generated_results = OrderedDict()
         instance_data = data['data']
         
         # get test set sample by instance_id
@@ -123,8 +113,16 @@ if __name__ == '__main__':
         code_src = test_set_sample['code_src']
         test_src = test_set_sample['preds_context']['last'] #follow the 'extra' setting in testgeneval
         
+        print(f'🔄 Processing instance_id: {instance_id}')
+        
         # start processing each function under test separately
         for func_name, func_data in instance_data.items():
+            # Check if this function already has predictions
+            if (instance_id, func_name) in existing_predictions:
+                print(f'⏭️  Skipping {instance_id}/{func_name} (already processed)')
+                functions_skipped_this_session += 1
+                continue
+                
             print(f'Generating test case for function: {func_name}')
             func_shortname = func_data['func']
             all_paths_txt = func_data['paths_txt'] #execution paths in text form
@@ -137,8 +135,6 @@ if __name__ == '__main__':
             print(f"Prompt length: {len(prompt)} characters")
             print(f"Prompt preview: {prompt[:200]}{'...' if len(prompt) > 200 else ''}")
             
-            generated_test_for_func = get_response(prompt, system_message=prompt_template.SYSTEM_MESSAGE, args=args, model_name=args.model, platform=args.platform)
-
             generated_test_for_func = get_response_with_retry(prompt, system_message=prompt_template.SYSTEM_MESSAGE, args=args, model_name=args.model, platform=args.platform)
 
             if generated_test_for_func == "FAILED":
@@ -158,21 +154,24 @@ if __name__ == '__main__':
                     print(f"Generated test length: {len(generated_test_for_func)} characters")
                     print(f"Generated test preview: {generated_test_for_func[:200]}{'...' if len(generated_test_for_func) > 200 else ''}")
 
-            generated_results[func_name] = generated_test_for_func
-
-        # save generated results
-        generated_results_for_file = {'instance_id': instance_id, 'preds': generated_results}
-        
-        # Append to the output file
-        with open(output_file_path, 'a') as f:
-            f.write(json.dumps(generated_results_for_file) + '\n')
-        
-        print(f'✅ Saved results for {instance_id}')
+            # Save each function result as a separate line
+            func_result = {
+                'instance_id': instance_id,
+                'func_name': func_name,
+                'pred': generated_test_for_func
+            }
+            
+            # Append to the output file
+            with open(output_file_path, 'a') as f:
+                f.write(json.dumps(func_result) + '\n')
+            
+            print(f'✅ Saved result for {instance_id}/{func_name}')
+            functions_processed_this_session += 1
     
     print(f'\n📊 Summary:')
-    print(f'   Skipped: {skipped_count} instances (already processed)')
-    print(f'   Processed: {processed_count} instances')
-    print(f'   Total: {skipped_count + processed_count} instances')
+    print(f'   Skipped: {functions_skipped_this_session} functions (already processed)')
+    print(f'   Processed: {functions_processed_this_session} functions')
+    print(f'   Total: {functions_skipped_this_session + functions_processed_this_session} functions')
     print(f'   Results saved to: {output_file_path}')
 
 
