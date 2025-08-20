@@ -57,16 +57,22 @@ if __name__ == '__main__':
     )
 
     
+    def get_safe_filename(model_name):
+        """Convert model name to a safe filename by replacing '/' with '_'"""
+        return model_name.replace('/', '_')
+
+    safe_model_name = get_safe_filename(args.model)
+    
     if args.setting == 'path':
-        preds_path = f'results/testgenevallite/preds/{args.model}.jsonl'
+        preds_path = f'results/testgenevallite/preds/{safe_model_name}.jsonl'
     elif args.setting == 'baseline':
-        preds_path = f'results/testgenevallite/preds/{args.model}_baseline.jsonl'
+        preds_path = f'results/testgenevallite/preds/{safe_model_name}_baseline.jsonl'
 
     namespace = "aorwall"
     if args.setting == 'path':
-        log_dir = os.path.join(os.path.dirname(__file__), f'results/testgenevallite/data_logs/{args.model}')
+        log_dir = os.path.join(os.path.dirname(__file__), f'results/testgenevallite/data_logs/{safe_model_name}')
     elif args.setting == 'baseline':
-        log_dir = os.path.join(os.path.dirname(__file__), f'results/testgenevallite/data_logs/{args.model}_baseline')
+        log_dir = os.path.join(os.path.dirname(__file__), f'results/testgenevallite/data_logs/{safe_model_name}_baseline')
     print(f'log_dir: {log_dir}')
     os.makedirs(log_dir, exist_ok=True)
     os.chmod(log_dir, 0o777)  #set the permission so that the logs can be written
