@@ -43,6 +43,10 @@ def count_paths(paths):
 
 
 if __name__ == '__main__':
+    def get_safe_filename(model_name):
+        """Convert model name to a safe filename by replacing '/' with '_'"""
+        return model_name.replace('/', '_')
+
     dataset_path = 'bugdetect-data/bug_paths_dataset.jsonl'
     #load labels
     labels = []
@@ -56,7 +60,8 @@ if __name__ == '__main__':
     count_paths(paths)
 
     res_dir = 'bugdetect-data/res'
-    res_file = os.path.join(res_dir, f'{args.model}.jsonl')
+    safe_model_name = get_safe_filename(args.model)
+    res_file = os.path.join(res_dir, f'{safe_model_name}.jsonl')
     predicted_labels = []
     with open(res_file, 'r') as f:
         for line in f.readlines():
