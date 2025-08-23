@@ -163,6 +163,4 @@ dataset
 
 tmp_path
 
-results/*
-func_partial_covdata/*
 .env*
