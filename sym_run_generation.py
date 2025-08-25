@@ -99,8 +99,6 @@ if __name__ == '__main__':
     functions_skipped_this_session = 0
     
     for i, data in enumerate(tqdm(dataset_with_paths)):
-        if i < 7:
-            continue
             
         instance_id = data['instance_id']
         instance_data = data['data']
