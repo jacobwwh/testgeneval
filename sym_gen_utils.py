@@ -26,7 +26,7 @@ def get_response(prompt, system_message, args, model_name='gpt-4.1-nano', platfo
         actual_model = model_name.replace('openrouter/', '') if model_name.startswith('openrouter/') else model_name
         
         # Check if this is a reasoning model (like Qwen thinking model)
-        reasoning_models = ['qwen/qwen3-235b-a22b-thinking-2507']
+        reasoning_models = ['qwen/qwen3-235b-a22b-thinking-2507','openai/gpt-oss-120b']
         is_reasoning_model = any(reasoning_model in actual_model for reasoning_model in reasoning_models)
         
         # Prepare API parameters
