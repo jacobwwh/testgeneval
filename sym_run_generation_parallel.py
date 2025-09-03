@@ -24,7 +24,7 @@ argparser.add_argument('--platform', type=str, choices=['openai', 'openrouter', 
 argparser.add_argument('--temperature', type=float, default=0.0)
 argparser.add_argument('--top_p', type=float, default=1.0)
 argparser.add_argument('--reasoning_effort', type=str, choices=['minimal', 'low', 'medium', 'high'], default='medium')
-argparser.add_argument('--num_workers', type=int, default=4, help='Number of parallel workers for processing')
+argparser.add_argument('--num_workers', type=int, default=10, help='Number of parallel workers for processing')
 args = argparser.parse_args()
 
 dataset_path = 'sym_data/paths_data.jsonl'
